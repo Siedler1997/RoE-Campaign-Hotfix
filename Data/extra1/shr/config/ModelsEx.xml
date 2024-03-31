@@ -2531,6 +2531,28 @@
 			<Effect>SimpleObjectMultiply</Effect>
 		</Model>
 
+		<Model id="Doodads\D_X_Battlefield_Hotcoal_1">
+			<CastShadow>True</CastShadow>
+			<ShareShadowRaster>True</ShareShadowRaster>
+			<UseAlphaBlending>False</UseAlphaBlending>
+			<UseSurfaceHeight>True</UseSurfaceHeight>
+			<Effect>SimpleObjectMultiply</Effect>
+		</Model>
+		<Model id="Doodads\D_X_Battlefield_Hotcoal_2">
+			<CastShadow>True</CastShadow>
+			<ShareShadowRaster>True</ShareShadowRaster>
+			<UseAlphaBlending>False</UseAlphaBlending>
+			<UseSurfaceHeight>True</UseSurfaceHeight>
+			<Effect>SimpleObjectMultiply</Effect>
+		</Model>
+		<Model id="Doodads\D_X_Battlefield_Hotcoal_3">
+			<CastShadow>True</CastShadow>
+			<ShareShadowRaster>True</ShareShadowRaster>
+			<UseAlphaBlending>False</UseAlphaBlending>
+			<UseSurfaceHeight>True</UseSurfaceHeight>
+			<Effect>SimpleObjectMultiply</Effect>
+		</Model>
+
 		<Model id="Buildings\B_Plaza_ME">
 			<Effect>SimpleObjectMultiply</Effect>
 			<SelectionTexture>Selection_Building</SelectionTexture>

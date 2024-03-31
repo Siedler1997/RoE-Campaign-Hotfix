@@ -143,10 +143,16 @@
 	<string id="B_Beautification_Knight_Praphat" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Ritter-Statue]]></string>
 	<string id="B_Beautification_Knight_Khana" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Ritter-Statue]]></string>
 	<string id="B_Beautification_Knight_Generic" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Ritter-Statue]]></string>
-	<string id="B_Beautification_Cathedral" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Kathedrale]]></string>
 	<string id="B_Beautification_Plaza_ME" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Zierplatz]]></string>
 	<string id="B_Beautification_Plaza_NE" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Zierplatz]]></string>
 	<string id="B_Beautification_Plaza_SE" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Zierplatz]]></string>
 	<string id="B_Beautification_Plaza_NA" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Zierplatz]]></string>
 	<string id="B_Beautification_Plaza_AS" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Zierplatz]]></string>
+	<string id="B_Beautification_Brazier1" MD5Hash="C3FC86D902646EB9859FFFD3C5F40ADD" mod="20080225150737" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Kohlenbecken]]></string>
+	<string id="B_Beautification_Brazier2" MD5Hash="C3FC86D902646EB9859FFFD3C5F40ADD" mod="20080225150737" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Kohlenbecken]]></string>
+	<string id="B_Beautification_Brazier3" MD5Hash="C3FC86D902646EB9859FFFD3C5F40ADD" mod="20080225150737" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Kohlenbecken]]></string>
+	<string id="B_Beautification_Signpost1" MD5Hash="C3FC86D902646EB9859FFFD3C5F40ADD" mod="20080225150737" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Wegweiser]]></string>
+	<string id="B_Beautification_Signpost2" MD5Hash="C3FC86D902646EB9859FFFD3C5F40ADD" mod="20080225150737" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Wegweiser]]></string>
+	<string id="B_Beautification_Signpost3" MD5Hash="C3FC86D902646EB9859FFFD3C5F40ADD" mod="20080225150737" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Wegweiser]]></string>
+	<string id="B_Beautification_Cathedral" MD5Hash="52E4B41AB71876A5FC752D9F7624AD5D" mod="20080212130525" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Kathedrale]]></string>
 </root>

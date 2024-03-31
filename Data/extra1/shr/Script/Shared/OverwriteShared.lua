@@ -71,7 +71,7 @@ function InitSharedOverwrite()
                 Technologies.R_Beautification_Flowerpot_Round)
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Baron][TechnologiesTableIndex],
-                Technologies.R_Beautification_Flowerpot_Square)
+                Technologies.R_Beautification_Signpost1)
             
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Earl][TechnologiesTableIndex],

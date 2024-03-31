@@ -100,9 +100,9 @@
 		</Display>
 	</Behavior>
 	<MapEditor>
-		<TreePosition>SpecialEdition</TreePosition>
-		<ShowInTree>false</ShowInTree>
-		<Clime>Generic</Clime>
+		<TreePosition>Buildings/Beautyfication</TreePosition>
+		<ShowInTree>true</ShowInTree>
+		<Clime>NorthAfrica</Clime>
 		<Scalable>false</Scalable>
 		<TemplateResistant>true</TemplateResistant>
 	</MapEditor>

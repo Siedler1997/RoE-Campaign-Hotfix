@@ -18,6 +18,17 @@ GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_BrothersInA
     UpgradeCategories.Beautification_BrothersInArms,
     UpgradeCategories.Beautification_StatueHorseman
 }
+GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Signpost1] = {
+    UpgradeCategories.Beautification_Signpost1,
+    UpgradeCategories.Beautification_Signpost2,
+    UpgradeCategories.Beautification_Signpost3
+}
+GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Brazier] = {
+    UpgradeCategories.Beautification_Brazier,
+    UpgradeCategories.Beautification_Brazier1,
+    --UpgradeCategories.Beautification_Brazier2,
+    UpgradeCategories.Beautification_Brazier3
+}
 
 --[[ Type_Road = 1,
 Type_Building = 2,

@@ -19280,7 +19280,7 @@
 													 <LuaCommand></LuaCommand>
 												 </UpdateFunction>
 												 <UpdateFunctionTurnBased>
-													 <LuaCommand>GUI_Construction.BuildUpdate(Technologies.R_Beautification_Flowerpot_Square)</LuaCommand>
+													 <LuaCommand>GUI_Construction.BuildUpdate(Technologies.R_Beautification_Signpost1)</LuaCommand>
 												 </UpdateFunctionTurnBased>
 												 <UpdateFunctionSecondBased>
 													 <LuaCommand></LuaCommand>
@@ -19289,7 +19289,7 @@
 													 <ToolTipEnabledFlag>true</ToolTipEnabledFlag>
 													 <ControlTargetVisibility>true</ControlTargetVisibility>
 													 <ToolTipUpdateFunction>
-														 <LuaCommand>GUI_Tooltip.TooltipBuild(false,true,Technologies.R_Beautification_Flowerpot_Square)</LuaCommand>
+														 <LuaCommand>GUI_Tooltip.TooltipBuild(false,true,Technologies.R_Beautification_Signpost1)</LuaCommand>
 													 </ToolTipUpdateFunction>
 													 <RawString></RawString>
 													 <StringTableKey></StringTableKey>
@@ -19301,7 +19301,7 @@
 												 </ToolTipHelper>
 												 <Group>Construction</Group>
 												 <MotherID>/InGame/Root/Normal/AlignBottomRight/BuildMenu/SubMenus/SpecialEdition/ButtonsAddon</MotherID>
-												 <Name>B_Beautification_Flowerpot_Square</Name>
+												 <Name>B_Beautification_Signpost1</Name>
 												 <FullScreenBackground>false</FullScreenBackground>
 												 <AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
 												 <BackgroundMaterial>
@@ -19320,7 +19320,7 @@
 													 </Color>
 												 </BackgroundMaterial>
 												 <ActionFunction>
-													 <LuaCommand>GUI_Construction.BuildClicked(UpgradeCategories.Beautification_Flowerpot_Square)</LuaCommand>
+													 <LuaCommand>GUI_Construction.BuildClicked(UpgradeCategories.Beautification_Signpost1)</LuaCommand>
 												 </ActionFunction>
 												 <GenerateMaterialsFromNormal>false</GenerateMaterialsFromNormal>
 												 <ShortCutKey></ShortCutKey>
