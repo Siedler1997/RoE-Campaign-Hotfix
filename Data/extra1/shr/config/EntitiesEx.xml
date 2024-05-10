@@ -419,6 +419,7 @@
 	<Entity>U_Lion_Male</Entity>
 	<Entity>U_Lion_Female</Entity>
 	<Entity>U_MagicOx</Entity>
+	<Entity>U_Firemage</Entity>
 
 	<Entity>B_BuildingPlot_2x2</Entity>
 	<Entity>U_MilitaryTrebuchet</Entity>

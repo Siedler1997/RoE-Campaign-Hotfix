@@ -124,5 +124,40 @@
 				<Model>Effects\XD_Hero2Bomb</Model>
 			</Display>
 		</Effect>
+		
+		<Effect id="E_Mage_Fire">
+			<Logic classname="EGL::CArrowEffectProps">
+				<Class>EGL::CArrowEffect</Class>
+				<Global>false</Global>
+				<Duration>0</Duration>
+				<Speed>3000.0</Speed>
+				<GravityFactor>1800.0f</GravityFactor>
+				<HeightOffsetStart>60.0</HeightOffsetStart>
+				<HeightOffsetTarget>60.0</HeightOffsetTarget>
+				<SoundProjectileType>Catapult</SoundProjectileType>
+				<ImpactEffectID>FXDragonImpact</ImpactEffectID>
+			</Logic>
+			<Display classname="ED::CFlyingEffectProps">
+				<Class>ED::CFlyingEffect</Class>
+				<Model>Effects\E_Firebreath</Model>
+			</Display>
+		</Effect>
+		<Effect id="E_Mage_Fire_Fly">
+			<Logic classname="EGL::CArrowEffectProps">
+				<Class>EGL::CArrowEffect</Class>
+				<Global>false</Global>
+				<Duration>0</Duration>
+				<Speed>3000.0</Speed>
+				<GravityFactor>1800.0f</GravityFactor>
+				<HeightOffsetStart>60.0</HeightOffsetStart>
+				<HeightOffsetTarget>1300.0</HeightOffsetTarget>
+				<SoundProjectileType>Catapult</SoundProjectileType>
+				<ImpactEffectID>FXDragonImpact</ImpactEffectID>
+			</Logic>
+			<Display classname="ED::CFlyingEffectProps">
+				<Class>ED::CFlyingEffect</Class>
+				<Model>Effects\E_Firebreath</Model>
+			</Display>
+		</Effect>
     </Effects>
 </root>

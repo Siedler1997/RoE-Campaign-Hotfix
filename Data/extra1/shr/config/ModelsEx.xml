@@ -2488,6 +2488,14 @@
 			<OcclusionReceiver>True</OcclusionReceiver>
 			<DefaultAnimID>U_Helbardier_Run</DefaultAnimID>
 		</Model>
+		
+		<Model id="Units\Military\U_Firemage">
+			<SelectionRadius>100</SelectionRadius>
+			<!--<Effect>SettlerRimPlayerColorSpecular</Effect>-->
+			<SelectionTexture>Selection_Soldier</SelectionTexture>
+			<OcclusionReceiver>True</OcclusionReceiver>
+			<DefaultAnimID>Military\U_Firemage_Run</DefaultAnimID>
+		</Model>
 
 		<Model id="Buildings\D_X_Beautification_Dragon">
 			<CastShadow>True</CastShadow>
