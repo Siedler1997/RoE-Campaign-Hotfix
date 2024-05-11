@@ -190,8 +190,8 @@ function InitLocalOverwrite()
 
             g_TexturePositions.Entities[Entities.U_TrebuchetCart] = {9, 4}
             g_TexturePositions.Entities[Entities.U_MilitaryTrebuchet] = {9, 1}
-            g_TexturePositions.Entities[Entities.U_MilitarySword_RedPrince] = {9, 1, 1}
-            g_TexturePositions.Entities[Entities.U_MilitaryBow_RedPrince] = {9, 2, 1}
+            g_TexturePositions.Entities[Entities.U_MilitarySword_RedPrince] = {1, 1, 2}
+            g_TexturePositions.Entities[Entities.U_MilitaryBow_RedPrince] = {1, 2, 2}
             g_TexturePositions.Entities[Entities.U_Bear]    = {13, 8}
             g_TexturePositions.Entities[Entities.U_BlackBear]    = {13, 8}
             g_TexturePositions.Entities[Entities.U_PolarBear]    = {13, 8}
@@ -212,8 +212,8 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_WatchTower_SE]    = {7, 6}
             g_TexturePositions.Entities[Entities.B_WatchTower_NA]    = {7, 6}
             g_TexturePositions.Entities[Entities.B_WatchTower_AS]    = {7, 6}
-            g_TexturePositions.Entities[Entities.U_MilitarySpear] = {9, 1, 1}
-            g_TexturePositions.Entities[Entities.U_Helbardier] = {9, 1, 1}
+            g_TexturePositions.Entities[Entities.U_MilitarySpear] = {0, 0, 2}
+            g_TexturePositions.Entities[Entities.U_Helbardier] = {0, 0, 2}
             g_TexturePositions.Entities[Entities.U_MagicOx] = {7, 3}
             g_TexturePositions.Entities[Entities.U_Dragon] = {7, 3}
             
@@ -649,75 +649,83 @@ function SetIcon(_Widget, _Coordinates, _OptionalIconSize )
     else
         XGUIEng.SetMaterialAlpha(_Widget, WidgetState, 255)
         
-        if _Coordinates[3] == nil
-        or _Coordinates[3] == 0 then
-		        if _OptionalIconSize == nil
-		        or _OptionalIconSize == 64 then
-		            IconSize = 64
-		            XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig.png")
-		        elseif _OptionalIconSize == 44 then
-		            IconSize = 44
-		            XGUIEng.SetMaterialTexture(_Widget, WidgetState, "Icons.png")
-		        elseif _OptionalIconSize == 128 then
-		            IconSize = 128
+        if _Coordinates[3] == nil or _Coordinates[3] == 0 then
+		    if _OptionalIconSize == nil or _OptionalIconSize == 64 then
+		        IconSize = 64
+		        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig.png")
+		    elseif _OptionalIconSize == 44 then
+		        IconSize = 44
+		        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "Icons.png")
+		    elseif _OptionalIconSize == 128 then
+		        IconSize = 128
 		            
-                    -- For salt & dye we need a bit of a hack...
-                    if  _Coordinates[1] == 5 and _Coordinates[2] == 10 then -- salt
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
-                        UVOverride = true
-                        u0 = 128
-                        v0 = 256 
-                        u1 = u0 + IconSize
-                        v1 = v0 + IconSize
-                    elseif _Coordinates[1] == 5 and _Coordinates[2] == 11 then -- dye
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
-                        UVOverride = true
-                        u0 = 256
-                        v0 = 256 
-                        u1 = u0 + IconSize
-                        v1 = v0 + IconSize                                                 
-                    else 
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsVeryBig.png")
-                    end
-		        end
-		    else
-		        if _OptionalIconSize == nil
-		        or _OptionalIconSize == 64 then
-		            IconSize = 64
-		            XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
-		        elseif _OptionalIconSize == 44 then
-		            IconSize = 44
-		            XGUIEng.SetMaterialTexture(_Widget, WidgetState, "Icons2.png")
-		        elseif _OptionalIconSize == 128 then
-                    IconSize = 128
-                    
-                    -- For muscical instruments, gems & olibanum we need a bit of a hack...
-                    if  _Coordinates[1] == 1 and _Coordinates[2] == 1 then -- gems
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
-                        UVOverride = true
-                        u0 = 128
-                        v0 = 384 
-                        u1 = u0 + IconSize
-                        v1 = v0 + IconSize
-                    elseif  _Coordinates[1] == 1 and _Coordinates[2] == 2 then -- olibanum
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
-                        UVOverride = true
-                        u0 = 256
-                        v0 = 384 
-                        u1 = u0 + IconSize
-                        v1 = v0 + IconSize
-                    elseif  _Coordinates[1] == 1 and _Coordinates[2] == 3 then -- musicalinst
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
-                        UVOverride = true
-                        u0 = 384
-                        v0 = 384 
-                        u1 = u0 + IconSize
-                        v1 = v0 + IconSize
-                    else 
-                        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsVeryBig.png")
-                    end
-		        end
+                -- For salt & dye we need a bit of a hack...
+                if  _Coordinates[1] == 5 and _Coordinates[2] == 10 then -- salt
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
+                    UVOverride = true
+                    u0 = 128
+                    v0 = 256 
+                    u1 = u0 + IconSize
+                    v1 = v0 + IconSize
+                elseif _Coordinates[1] == 5 and _Coordinates[2] == 11 then -- dye
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
+                    UVOverride = true
+                    u0 = 256
+                    v0 = 256 
+                    u1 = u0 + IconSize
+                    v1 = v0 + IconSize                                                 
+                else 
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsVeryBig.png")
+                end
 		    end
+		elseif _Coordinates[3] == 1 then
+		    if _OptionalIconSize == nil or _OptionalIconSize == 64 then
+		        IconSize = 64
+		        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
+		    elseif _OptionalIconSize == 44 then
+		        IconSize = 44
+		        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "Icons2.png")
+		    elseif _OptionalIconSize == 128 then
+                IconSize = 128
+                    
+                -- For muscical instruments, gems & olibanum we need a bit of a hack...
+                if  _Coordinates[1] == 1 and _Coordinates[2] == 1 then -- gems
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
+                    UVOverride = true
+                    u0 = 128
+                    v0 = 384 
+                    u1 = u0 + IconSize
+                    v1 = v0 + IconSize
+                elseif  _Coordinates[1] == 1 and _Coordinates[2] == 2 then -- olibanum
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
+                    UVOverride = true
+                    u0 = 256
+                    v0 = 384 
+                    u1 = u0 + IconSize
+                    v1 = v0 + IconSize
+                elseif  _Coordinates[1] == 1 and _Coordinates[2] == 3 then -- musicalinst
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig2.png")
+                    UVOverride = true
+                    u0 = 384
+                    v0 = 384 
+                    u1 = u0 + IconSize
+                    v1 = v0 + IconSize
+                else 
+                    XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsVeryBig.png")
+                end
+		    end
+        else
+		    if _OptionalIconSize == nil or _OptionalIconSize == 64 then
+		        IconSize = 64
+		        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsBig3.png")
+		    elseif _OptionalIconSize == 44 then
+		        IconSize = 44
+		        XGUIEng.SetMaterialTexture(_Widget, WidgetState, "Icons3.png")
+		    elseif _OptionalIconSize == 128 then
+                IconSize = 128
+                XGUIEng.SetMaterialTexture(_Widget, WidgetState, "IconsVeryBig2.png")
+            end
+		end
             
             
         if not UVOverride then

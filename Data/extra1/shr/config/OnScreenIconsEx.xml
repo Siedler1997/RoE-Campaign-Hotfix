@@ -89,40 +89,40 @@
 	<Icon classname="GGUI::COnScreenIconProps">
 		<IconName>MinimapDragon</IconName>
 		<!-- reserved, do not delete -->
-		<TextureName>IconsTiny.png</TextureName>
-		<U>0</U>
-		<V>0</V>
-		<U2>1</U2>
-		<V2>1</V2>
-		<Size>32</Size>
-		<Row>14</Row>
-		<Col>1</Col>
-	</Icon>
-
-	<Icon classname="GGUI::COnScreenIconProps">
-		<IconName>MinimapTradePost</IconName>
-		<!-- reserved, do not delete -->
-		<TextureName>IconsTiny.png</TextureName>
+		<TextureName>IconsTiny2.png</TextureName>
 		<U>0</U>
 		<V>0</V>
 		<U2>1</U2>
 		<V2>1</V2>
 		<Size>32</Size>
 		<Row>0</Row>
-		<Col>2</Col>
+		<Col>0</Col>
 	</Icon>
 
 	<Icon classname="GGUI::COnScreenIconProps">
-		<IconName>MinimapKhanaTemple</IconName>
+		<IconName>MinimapTradePost</IconName>
 		<!-- reserved, do not delete -->
-		<TextureName>IconsTiny.png</TextureName>
+		<TextureName>IconsTiny2.png</TextureName>
 		<U>0</U>
 		<V>0</V>
 		<U2>1</U2>
 		<V2>1</V2>
 		<Size>32</Size>
 		<Row>1</Row>
-		<Col>2</Col>
+		<Col>0</Col>
+	</Icon>
+
+	<Icon classname="GGUI::COnScreenIconProps">
+		<IconName>MinimapKhanaTemple</IconName>
+		<!-- reserved, do not delete -->
+		<TextureName>IconsTiny2.png</TextureName>
+		<U>0</U>
+		<V>0</V>
+		<U2>1</U2>
+		<V2>1</V2>
+		<Size>32</Size>
+		<Row>2</Row>
+		<Col>0</Col>
 	</Icon>
 	
 </OnScreenIcons>
