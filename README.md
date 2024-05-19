@@ -105,10 +105,12 @@ Folgende Änderungen wurden vorgenommen:
 		- Lanzenträger
 			- Inspiriert von den Streitlanzenträgern in DEdK
 			- Statuswerte (im Vergleich zu Schwertkämpfern)
-				- Höhere Lebenspunkte (180 > 120)
-				- Weniger Schaden (15 < 20)
-				- Etwas höhere Reichweite (2sm > 1,5sm)
 				- Langsamere Bewegungsgeschwindigkeit (420 < 480)
+				- Weniger Lebenspunkte (90 < 120)
+				- Weniger Schaden (15 < 20)
+					- Ausnahme: Doppelter Schaden gegen Ritter (30)
+				- Weniger Angriffscooldown (2,5sec < 3sec)
+				- Höhere Reichweite (2,5sm > 1,5sm)
 		- Hellebardiere
 			- Basieren auf den Hellebardieren in DEdK
 			- Haben noch etwas bessere Stats als Streitlanzenträger
