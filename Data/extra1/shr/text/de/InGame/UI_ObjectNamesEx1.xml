@@ -159,4 +159,9 @@
 	<string id="U_NPC_Resource_Monk_AS" MD5Hash="12D78470B56D9FBE63BC7E03EE459F71" mod="20080125122256" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Mönch]]></string>
 	<string id="U_NPC_SmokeHouseWorker_AS" MD5Hash="12D78470B56D9FBE63BC7E03EE459F71" mod="20080125122256" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Fisch-Räucherer]]></string>
 	<string id="U_NPC_Villager01_AS" MD5Hash="12D78470B56D9FBE63BC7E03EE459F71" mod="20080125122256" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Dorfbewohner]]></string>
+	<string id="B_BarracksSpearmen" MD5Hash="7C09F0F8DAA84544A8386542D391651E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lanzenträgerkaserne]]></string>
+	<string id="B_SpearMaker" MD5Hash="09D2F576D7D11F2C00F4018D9F89EA2E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lanzenmacher]]></string>
+	<string id="U_SpearMaker" MD5Hash="09D2F576D7D11F2C00F4018D9F89EA2E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lanzenmacher]]></string>
+	<string id="G_PoorSpear" MD5Hash="09D2F576D7D11F2C00F4018D9F89EA2E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lanze]]></string>
+	<string id="G_Spear" MD5Hash="09D2F576D7D11F2C00F4018D9F89EA2E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lanzenträgerausrüstung]]></string>
 </root>

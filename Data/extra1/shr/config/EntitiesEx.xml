@@ -406,7 +406,9 @@
 	<Entity>B_WatchTower_NA</Entity>
 	<Entity>B_WatchTower_AS</Entity>
 	<Entity>B_SpearMaker</Entity>
+	<Entity>B_BarracksSpearmen</Entity>
 	<Entity>U_SpearMaker</Entity>
+	<Entity>U_SpearArmourer</Entity>
 	<Entity>U_TournamentWorker_AS</Entity>
 	
 	<Entity>U_Bear</Entity>

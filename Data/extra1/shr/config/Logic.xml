@@ -1021,6 +1021,15 @@
 			<Category>WatchTower_NorthAfrica</Category>
 			<FirstBuilding>B_WatchTower_NA</FirstBuilding>
 		</BuildingUpgrade>
+
+		<BuildingUpgrade>
+			<Category>BarracksSpearmen</Category>
+			<FirstBuilding>B_BarracksSpearmen</FirstBuilding>
+		</BuildingUpgrade>
+		<BuildingUpgrade>
+			<Category>SpearMaker</Category>
+			<FirstBuilding>B_SpearMaker</FirstBuilding>
+		</BuildingUpgrade>
         
     </BuildingUpgrades>
 

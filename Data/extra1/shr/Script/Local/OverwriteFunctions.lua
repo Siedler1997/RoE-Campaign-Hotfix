@@ -146,8 +146,8 @@ function InitLocalOverwrite()
             
             -- Goods
             g_TexturePositions.Goods[Goods.G_Regalia] =  {16, 4}
-            g_TexturePositions.Goods[Goods.G_PoorSpear] =  {16, 12}
-            g_TexturePositions.Goods[Goods.G_Spear] =  {1, 16}
+            g_TexturePositions.Goods[Goods.G_PoorSpear] =  {2, 1, 2}
+            g_TexturePositions.Goods[Goods.G_Spear] =  {2, 2, 2}
             g_TexturePositions.Goods[Goods.G_Gems] =  {1, 1, 1}
             g_TexturePositions.Goods[Goods.G_Olibanum] =  {1, 2, 1}
             g_TexturePositions.Goods[Goods.G_MusicalInstrument] =  {1, 3, 1}
@@ -212,8 +212,8 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_WatchTower_SE]    = {7, 6}
             g_TexturePositions.Entities[Entities.B_WatchTower_NA]    = {7, 6}
             g_TexturePositions.Entities[Entities.B_WatchTower_AS]    = {7, 6}
-            g_TexturePositions.Entities[Entities.U_MilitarySpear] = {0, 0, 2}
-            g_TexturePositions.Entities[Entities.U_Helbardier] = {0, 0, 2}
+            g_TexturePositions.Entities[Entities.U_MilitarySpear] = {2, 2, 2}
+            g_TexturePositions.Entities[Entities.U_Helbardier] = {2, 2, 2}
             g_TexturePositions.Entities[Entities.U_MagicOx] = {7, 3}
             g_TexturePositions.Entities[Entities.U_Dragon] = {7, 3}
             

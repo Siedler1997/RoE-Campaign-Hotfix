@@ -36,6 +36,14 @@ function InitSharedOverwrite()
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Mayor][TechnologiesTableIndex],
                 Technologies.R_Cistern)
+
+            -- Spearmen
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Mayor][TechnologiesTableIndex],
+                Technologies.R_SpearMaker)
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Mayor][TechnologiesTableIndex],
+                Technologies.R_BarracksSpearmen)
                 
             -- Embellishments Marquees
             table.insert(
