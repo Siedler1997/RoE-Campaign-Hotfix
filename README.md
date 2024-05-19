@@ -145,6 +145,7 @@ Folgende Änderungen wurden vorgenommen:
 	- Diebe
 		- Sind auf maximal 6 Stück gleichzeitig pro Spieler limitiert
 - Gebäude
+	- Arbeiter in Kasernen holen ihre Waffen nun einzeln
 	- Kirche
 		- Mehr Siedler pro Predigt möglich
 		- Einwohnerlimit pro Ausbaustufe erhöht

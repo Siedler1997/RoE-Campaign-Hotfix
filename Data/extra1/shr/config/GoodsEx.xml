@@ -71,7 +71,7 @@
 				  <Resource>
 					  <GoodAmount>
 						  <GoodType>G_PoorSpear</GoodType>
-						  <Amount>3</Amount>
+						  <Amount>1</Amount>
 					  </GoodAmount>
 					  <ProviderCategory>G_Spear_Supplier</ProviderCategory>
 				  </Resource>
