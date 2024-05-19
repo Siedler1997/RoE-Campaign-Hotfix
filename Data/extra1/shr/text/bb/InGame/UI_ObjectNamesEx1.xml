@@ -76,7 +76,7 @@
 	<string id="U_NPC_Castellan_SE" MD5Hash="0055D815AC3E445508C9F42176AAD579" mod="20080206075412" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Castellan]]></string>
 	<string id="B_GuardTower" MD5Hash="01AC712A939250264015BD7386896BB1" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Guard Tower]]></string>
 	<string id="B_WatchTower" MD5Hash="01AC712A939250264015BD7386896BB1" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lookout Tower]]></string>
-	<string id="BuySpearfighters" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lancer]]></string>
+	<string id="BuySpearmen" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lancer]]></string>
 	<string id="U_MilitarySpear" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lancer]]></string>
 	<string id="Abilities_U_MilitarySpear" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lancer]]></string>
 	<string id="U_Helbardier" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Halberdier]]></string>
@@ -159,5 +159,6 @@
 	<string id="U_NPC_SmokeHouseWorker_AS" MD5Hash="12D78470B56D9FBE63BC7E03EE459F71" mod="20080125122256" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Smokehouse Worker]]></string>
 	<string id="U_NPC_Villager01_AS" MD5Hash="12D78470B56D9FBE63BC7E03EE459F71" mod="20080125122256" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Villager]]></string>
 	<string id="Abilities_U_MagicOx" MD5Hash="01AC712A939250264015BD7386896BB1" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Ox Ghost]]></string>
-	<string id="B_SpearMaker" MD5Hash="" mod="20060111155519" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Bow Maker]]></string>
+	<string id="B_SpearMaker" MD5Hash="" mod="20060111155519" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lance Maker]]></string>
+	<string id="U_SpearArmourer" MD5Hash="09D2F576D7D11F2C00F4018D9F89EA2E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Lance Armourer]]></string>
 </root>
