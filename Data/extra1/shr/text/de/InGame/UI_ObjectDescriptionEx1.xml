@@ -74,6 +74,6 @@
 	<string id="AbilityPraphat" MD5Hash="80CB1EC4FAF3367CECE66805C00059EF" mod="20071205123556" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Siedler in der Nähe mit Kleidung versorgen{cr}- Besserer Ruf der Stadt durch Vielfalt verfügbarer Kleidung]]></string>
 	<string id="Abilities_U_MagicOx" MD5Hash="C0A52A33D6B81F633578A61329DCA10F" mod="20070819135241" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Besitzt Kräfte jenseits menschlicher Vorstellungskraft {cr}- Stark gegen Alles]]></string>
 	<string id="B_BarracksSpearmen" MD5Hash="4F526CB59AAD0B8FEA3EF2AEFC87E232" mod="20070819145739" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Versorgt Soldaten mit Fackeln]]></string>
-	<string id="G_PoorSpear" MD5Hash="7C71ABA0A195A650B574D65BD3DBC598" mod="20070809154645" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Erforderlich in Lanzenträgerkaserne]]></string>
+	<string id="G_PoorSpear" MD5Hash="7C71ABA0A195A650B574D65BD3DBC598" mod="20070809154645" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Erforderlich in Lanzenträgerkasernen]]></string>
 	<string id="G_Spear" MD5Hash="F80659AE674735BA796977E78DD32351" mod="20070820081516" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Erforderlich um Lanzenträger zu rekrutieren]]></string>
 </root>
