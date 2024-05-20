@@ -207,6 +207,12 @@ Folgende Änderungen wurden vorgenommen:
 		- Maximale Anzahl an Steuereintreibern erhöht (6 -> 8)
 	- Bei Minimap-Benachrichtigung wird der auslösende Spieler erst entfernt, um Verwirrung zu vermeiden
 	- Neun "neue" Spielerfarben
+	- Produktionsmenü gefixt/erweitert
+		- Asiatische Burgen/Außenposten
+			- Haben die richtigen Icons
+			- Können nicht mehr stillgelegt werden bzw. Waren reservieren
+		- Springen zur Kirche funktioniert nun
+		- Handelsposten werden ebenfalls hier angezeigt
 	- Profil-Menü
 		- Buttons haben nun alle einen Hover-Effekt
 		- Speichern der Profileinstellungen funktioniert nun zuverlässig

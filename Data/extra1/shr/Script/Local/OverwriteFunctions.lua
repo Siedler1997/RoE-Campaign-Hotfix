@@ -158,6 +158,7 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_Cistern] = {1, 16}
             g_TexturePositions.Entities[Entities.B_KhanaTemple] = {1, 7, 1}
             g_TexturePositions.Entities[Entities.B_NPC_StoreHouse_AS] = {3, 13}
+            g_TexturePositions.Entities[Entities.B_Outpost_AS] = {12, 3}
             g_TexturePositions.Entities[Entities.B_SpearMaker] =  g_TexturePositions.Goods[Goods.G_PoorSpear]
             g_TexturePositions.Entities[Entities.B_BarracksSpearmen] =  g_TexturePositions.Goods[Goods.G_Spear]
             
