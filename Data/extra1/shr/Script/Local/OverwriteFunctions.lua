@@ -158,6 +158,8 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_Cistern] = {1, 16}
             g_TexturePositions.Entities[Entities.B_KhanaTemple] = {1, 7, 1}
             g_TexturePositions.Entities[Entities.B_NPC_StoreHouse_AS] = {3, 13}
+            g_TexturePositions.Entities[Entities.B_SpearMaker] =  g_TexturePositions.Goods[Goods.G_PoorSpear]
+            g_TexturePositions.Entities[Entities.B_BarracksSpearmen] =  g_TexturePositions.Goods[Goods.G_Spear]
             
             g_TexturePositions.Entities[Entities.U_Geologist] = {8, 1, 1}
             g_TexturePositions.Entities[Entities.U_KnightSaraya] = {5, 4, 1}
@@ -235,6 +237,8 @@ function InitLocalOverwrite()
             g_TexturePositions.Technologies[Technologies.R_Beautification_Vase]             = {5, 2, 1}
             g_TexturePositions.Technologies[Technologies.R_Beautification_Waystone]         = {1, 16}
             g_TexturePositions.Technologies[Technologies.R_Beautification_VictoryColumn]    = {1, 6, 1}
+            g_TexturePositions.Technologies[Technologies.R_SpearMaker]    = {2, 1, 2}
+            g_TexturePositions.Technologies[Technologies.R_BarracksSpearmen]    = {2, 2, 2}
             
             
             
