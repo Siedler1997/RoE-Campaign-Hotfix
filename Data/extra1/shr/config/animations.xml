@@ -11252,4 +11252,11 @@
 		<FileLength>53248</FileLength>
 		<AnimationDuration>1.175</AnimationDuration>
 	</Animation>
+	
+	<Animation>
+		<FileName>military\u_militarycavalry_die</FileName>
+		<Timestamp>128306301210000000</Timestamp>
+		<FileLength>53164</FileLength>
+		<AnimationDuration>1.8</AnimationDuration>
+	</Animation>
 </Root>

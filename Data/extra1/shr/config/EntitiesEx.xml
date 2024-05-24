@@ -426,6 +426,7 @@
 	<Entity>U_TrebuchetCart</Entity>
 	<Entity>U_TrebuchetCart_Collapse</Entity>
 	<Entity>U_MilitarySpear</Entity>
+	<Entity>U_MilitaryCavalry</Entity>
 	<Entity>U_Helbardier</Entity>
 	<Entity>B_Beautification_Dragon</Entity>
 	<Entity>U_Dragon</Entity>
