@@ -220,6 +220,7 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.U_MilitarySpear] = {9, 1, 1}
             g_TexturePositions.Entities[Entities.U_Helbardier] = {9, 1, 1}
             g_TexturePositions.Entities[Entities.U_MilitaryCavalry] = {9, 7}
+            g_TexturePositions.Entities[Entities.U_MagicOx] = {7, 3}
             g_TexturePositions.Entities[Entities.U_Dragon] = {7, 3}
             
             -- Quest Types

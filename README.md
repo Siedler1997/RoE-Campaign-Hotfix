@@ -27,6 +27,13 @@ Mit folgenden Schritten lässt sich der Patch deinstallieren:
 4. Vanilla zocken
 
 
+## Deinstallation
+Mit folgenden Schritten l�sst sich der Patch deinstallieren:
+1. L�sche `Settlers - Rise of an Empire - History Edition\Data\extra1`.
+2. Benenne die Sicherheitskopie von `extra1_orig` in `extra1` um.
+3. Entferne `-EXTRA1` aus den Startoptionen von Steam bzw. Uplay.
+4. Vanilla zocken
+
 
 ## Features
 Folgende Änderungen wurden vorgenommen:
@@ -76,7 +83,7 @@ Folgende Änderungen wurden vorgenommen:
 		- Kastellane 
 			- Können theoretisch als Ritter genutzt werden
 			- Haben keine besonderen Fähigkeiten
-		- Varianz an Ladebildschirm-Bildern
+		- Alle "neuen" Ritte haben (provisorische) Ladebildschirm-Bilder
 - Militär
 	- Einheiten können mittels Entlassen-Button ... entlassen werden
 	- Bogenschützen allgemein
@@ -134,6 +141,7 @@ Folgende Änderungen wurden vorgenommen:
 			- Kann sich in aufgebauter Form nicht fortbewegen
 			- Muss nicht von Soldaten bedient werden
 			- Zurzeit noch nicht baubar, vllt. mit Titel "Erzherzog"?
+		- Geister-Ochse in Anlehnung an Ubis Raketen Ochsen ;)
 	- "Alte" Trebuchets
 		- Richtiges Selektionsmenü
 		- Eigener Tooltip-String
@@ -172,6 +180,7 @@ Folgende Änderungen wurden vorgenommen:
 			- Kostet 12 Steine
 			- Besitzt eine hohe Sichtweite
 			- Sieht einfach schick aus :)
+        - AS-Zelte mit entsprechenden Workern
 	- NPC-Gebäude
 		- RP-/Khana-Kasernen
 			- Funktionieren unter Spieler-Kontrolle wie normale Kasernen auch
@@ -209,25 +218,26 @@ Folgende Änderungen wurden vorgenommen:
 		- Maximale Anzahl an Steuereintreibern erhöht (6 -> 8)
 	- Bei Minimap-Benachrichtigung wird der auslösende Spieler erst entfernt, um Verwirrung zu vermeiden
 	- Neun "neue" Spielerfarben
-	- Wappen
-		- Textur ist im Beförderungs-Fenster nun richtig zentriert
-		- Neue, von Stronghold 2 und Legends inspirierte Wappen
-	- Alternative Spielerfarbe: Gelb
-		- Ist in den Optionen (de-)aktivierbar
-		- Wirkt sich auch auf das gewählte Wappen aus
-		- Hat keinen Einfluss auf den Multiplayer
 	- Profil-Menü
 		- Buttons haben nun alle einen Hover-Effekt
 		- Speichern der Profileinstellungen funktioniert nun zuverlässig
+		- Neue Wappen hinzugefügt
+			- Textur ist im Beförderungs-Fenster nun richtig zentriert
+			- Neue, von Stronghold 2 und Legends inspirierte Wappen
+		- Option für alternative Spielerfarbe: Gelb
+			- Wirkt sich auf das gewählte Wappen und ALLE Maps aus
+			- Hat keinen Einfluss auf den Multiplayer
 	- Kampfmusik nach Klimazonen getrennt (als verschiedene Playlists)
 	- Baumenü: BeautificationMenu verschönert
 	- Unterschiedliche Festival-Musik, je nachdem, ob der Anlass eine Heldenbeförderung oder ein normales Fest ist
 	- Niederlagen-Kamerarotation deutlich verlangsamt
 	- Sieg und Niederlage haben jeweils eine Art "Jingle"
-	- Spielerfarben auf der Minimap sind nun (meistens) korrekt
+	- Krankheiten treten nun schon ab 101 Siedlern auf, nicht erst ab 151
+	- Minimap
+		- Spielerfarben auf der Minimap sind nun (meistens) korrekt
+		- Alle Icons um 25% verkleinert
+		- Außenposten, Handelsposten und Khanas Tempel werden ebenfalls angezeigt
     - NPC Charaktere können nicht mehr Spieler 0 angehören
-    - Arbeiter von Kasernen holen nur eine Ware per Zyklus
-      (Soll nicht vollständig gefüllte Kasernen verhindern)
 - Kampagnen
 	- Hauptspiel-Kampagne auch im AddOn spielbar
 	- Bugs gefixt
@@ -244,113 +254,3 @@ Folgende Änderungen wurden vorgenommen:
 	- Diverses
 		- M09: Husran: KI aggressiver und mit eigener Eisenmine
 		- AM05: Idukun: durch etwas mehr Startkapital etwas einfacher
-
-
-
-## (Mögliche) ToDos
-- c00-m3: Falsche Nachricht am Anfang
-- Lanzenträger/Hellebardiere
-	- Icon
-	- Audio-Feedback
-	- Rekrutierung
-		- Eigener Warenkreislauf?
-			- Gebäude
-			- Waren
-		- ODER: Der Nahkämpferkaserne hinzufügen
-			- Neuer Button für die Kaserne
-			- "Schwertkämpfer***"-Strings zu "Nahkämpfer***" abändern
-- Außenposten/Aussichtsturm/Wachturm
-	- ME-Aussichtsturm: Schwarze Seite
-	- Wachtürme: Mit Schützen bemannbar statt mit Katapulten ausrüstbar?
-	- Eigene Button-Texturen für Aussichtsturm und Wachturm
-- Hidun-Turnier: Neue Zelte und andere Siedler
-	- Texturen für DEdK-Zelte gibt es schon
-- Default custom maps
-	- MP-Maps als Freibau-SP-Maps anpassen
-		- Städte als KI-Städte neu erstellen
-		- Diplomatie
-			- Standard: Handelsverträge zum Spieler
-			- Ggf. Option zur Kriegserklärung
-		- ggf. Mapbeschreibungen anpassen
-- Wikinger: Kontrollierter Ehefrauen-Raub ("Heist")
-- RPG-Sicht zum rumlaufen
-- Nutzbare (Tier-)Seuche, inkl. Musik
-	- Ruhige, aber bedrohliche Playlist
-	- Erst ab x% Betroffene, da sonst zu oft getriggert
-- TTS
-	- Ggf. Platzhalter
-	- Notizen
-		- Um +8db verstärken
-		- ggf. Anfang und Ende kürzen
-		- ggf. Geschwindigkeit -25%
-		- Zu mp3 konvertieren
-	- Stimmen
-		- RedPrince-Units: Klaus Bauer
-	- Ko-fi für GameTTS (als Schankedön)
-- Nachrichten-Stau
-- MP-Koop-Fixes
-- Loadscreens
-	- Format ändern, um das ganze Bild sehen zu können
-		- Beispiel: siehe "chapter3_Test.png"
-		- Ränder sollten noch etwas dekoriert werden
-- Baubares Trebuchet
-	- Eigenes Karren-Modell
-	- Eigene Icon-Texturen
-	- Es dreht sich nicht richtig
-	- Begleitende Sodaten bewegen sich nach einem Move nicht mehr korrekt
-	- Ggf. nur NPC-Einheit, dafür Fokus auf Kanone
-- Sturm
-	- soll mal funktionieren
-	- Abwandlung: Schneesturm
-	- Eigene Playlist
-- Verbesserte/Glaubwürdigere KI (in der Kampagne)
-	- Ungenutzte Territorien nutzbar machen (zumindest für die KI)
-	- Allgemein: Konsequentere Nutzung von RP-/Khana-Einheiten sowie ggf. Söldner
-	- Narfang: Sabatta aggressiv, wenn ein Außenposten erobert/zerstört wird
-	- M15: Vestholm: Sturm
-	- Idukun: Blizzard
-	- Speziell in den "Last-Stand"-Missionen
-	- Aktive KI-Ritter mit Fähigkeiten
-	- Exploits beseitigen sowie andere Optimierungen
-- Entlassen-Button im MP möglich machen (GUI.SendScriptCommand erforderlich)
-- Söldner-Trupps: Korrekte Fackelanzeige
-- Max. Zoom leicht erhöhen
-	- Winkel muss nach 0.5 anders kalkuliert werden
-- "Neue" Ritter 
-	- Khana und Praphat
-		- Sprüche als Strings weiter anpassen
-		- Audio-Feedback (TTS)
-	- Kastellane: 
-		- Sprüche als Strings
-		- Audio-Feedback (TTS)
-	- Bei Basegame-Rittern AddOn-Comments ergänzen (TTS)
-	- RP: Seuchen-Fähigkeit umsetzen, falls GUI.SendScriptCommand irgendwann wieder laufen sollte
-- Audio-Feedback für Ochsen
-- Rebalancing
-	- Neue (sinnvollere) Aufstiegsbedingungen
-		- ggf. mit Indikator, um nur für neue Maps und angepasste zu gelten
-		- wegen zu hohem Aufwand (Kompatibiliät mit alten Maps) erstmal Low Priority
-	- Maximale Anzahl Steuereintreiber erhöhen (ggf. nur, wenn neue Einheiten verfügbar)
-	- Soldatenlimit anheben (ggf. nur, wenn neue Einheiten verfügbar)
-	- Rebalancing insb. für MP
-- Spielbare Dörfer
-	- Dorfkasernen und Banditenzelte mit Rektutierungsoptionen
-		- Neue Entities, da vorhandene zu sehr gescripted
-	- Einnahmen?
-	- Burg-Ersatz?
-- Ungenutzte Gebäude
-	- Juwelier
-	- SpiceTrader
-- Fremder Content
-	- DEdK-Soundtrack
-	- S4 Soundtrack
-	- Stronghold Soundtrack
-- Auf 4k-Auflösung kann nicht mehr per BorderScroll nach rechts gecrolled werden
-- Biom-spezifisches Retexturing für Kerngebäude
-	- Das oder neue Modelle
-	- ggf. auch für andere Gebäude
-- Kritische Cheats am Ende weitgehend deaktivieren
-	- "Hintertür" für Mapper offen lassen
-	- Andere zu regulären KeyBindings
-- ReadMe auf Englisch
-- Als bba gepackte Version für das Original
