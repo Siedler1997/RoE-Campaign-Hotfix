@@ -2,9 +2,9 @@
 
     <Display classname="ED::CEntityProps">
         <Class>ED::CDisplaySettler</Class>
-        <Model>Units\Military\U_MilitaryBandit_Melee_NA</Model>
-        <DrawPlayerColor>True</DrawPlayerColor>
-      <LodDistance>3000</LodDistance>
+        <Model>Units\Military\U_MilitarySword</Model>
+        <DrawPlayerColor>true</DrawPlayerColor>
+        <LodDistance>3000</LodDistance>
     </Display>
 
     <Logic classname="EGL::CSettlerProps">
@@ -12,9 +12,10 @@
         <AccessCategory>AccessCategorySoldier</AccessCategory>
         <PlayerSectorType>PlayerSectorTypeMilitary</PlayerSectorType>
         <MilMetaFormationMemberType>MilMetaFormationMemberTypeMelee</MilMetaFormationMemberType>
-        <MaxHealth>115</MaxHealth>
+        <CostsCanBeModified>true</CostsCanBeModified>
+        <MaxHealth>120</MaxHealth>
         <HealingSeconds>10</HealingSeconds>
-        <HealingPoints>19</HealingPoints>
+        <HealingPoints>20</HealingPoints>
 
         <NeedsPlayer>true</NeedsPlayer>
         <ForceNoPlayer>false</ForceNoPlayer>
@@ -22,16 +23,20 @@
         <IdleTaskList>TL_MILITARY_DEFEND</IdleTaskList>
         <CanDrown>false</CanDrown>
         <IsSelectable>true</IsSelectable>
+        <BlockRadius>60</BlockRadius>
 
-        <!-- one bandit battalion has only 3 soldiers, so it has to be around 1/3 the normal battalions cost -->
-		<Cost>
-			<GoodAmount>
-				<!-- if the gold costs are changed, the refill costs have to be adjusted as well in "B_Barracks.xml"
+        <Cost>
+            <GoodAmount>
+        <!-- if the gold costs are changed, the refill costs have to be adjusted as well in "B_Barracks.xml"
                Refilling should cost the same per unit than buying batallions!  -->
-				<GoodType>G_Gold</GoodType>
-				<Amount>15</Amount>
-			</GoodAmount>
-		</Cost>
+                <GoodType>G_Gold</GoodType>
+                <Amount>15</Amount>
+            </GoodAmount>
+            <GoodAmount>
+                <GoodType>G_Sword</GoodType>
+                <Amount>1</Amount>
+            </GoodAmount>
+        </Cost>
 
         <EntityCategories>
             <EntityCategory>Military</EntityCategory>
@@ -42,11 +47,10 @@
             <With>SheepPasture</With>
             <With>CattlePasture</With>
         </Familiar>
-
-        <SoundImpactType>Leather</SoundImpactType>
+        <SoundImpactType>Metal</SoundImpactType>
         <SoundProjectileType>Sword</SoundProjectileType>
 
-<!--        <OnScreenIcon>MinimapBandit</OnScreenIcon>
+<!--        <OnScreenIcon>MinimapSword</OnScreenIcon>
 -->
     </Logic>
 
@@ -56,10 +60,10 @@
         <Behavior>
             <Logic classname="EGL::CAnimationBehaviorExProps">
                 <Class>EGL::CBehaviorAnimationEx</Class>
-
-                <DefaultAnimation>Military\U_MilitaryBandit_Melee_NA_Stand</DefaultAnimation>
-                <AnimSet>SET_MILITARYBANDIT_MELEE_NA</AnimSet>
+                <DefaultAnimation>Military\U_MilitarySword_Stand</DefaultAnimation>
+                <AnimSet>SET_MILITARYMELEESOLDIER</AnimSet>
             </Logic>
+
             <Display classname="ED::CBehaviorProps">
                 <Class>ED::CDisplayBehaviorAnimation</Class>
             </Display>
@@ -71,10 +75,10 @@
                 <Class>EGL::CMilitarySoldierMovementBehavior</Class>
                 <StraightenPath>true</StraightenPath>
                 <EvasionPriority>140</EvasionPriority>
-                <Speed>500</Speed>
+                <Speed>480</Speed>
                 <RotationSpeed>500</RotationSpeed>
                 <MoveTaskList>TL_MILITARY_WALK</MoveTaskList>
-                <MoveIdleAnim>Military\U_MilitaryBandit_Melee_NA_Stand</MoveIdleAnim>
+                <MoveIdleAnim>Military\U_MilitarySword_Stand</MoveIdleAnim>
             </Logic>
             <Display classname="ED::CBehaviorProps">
                 <Class>ED::CDisplayBehaviorMovement</Class>
@@ -88,6 +92,8 @@
                 <DefendRange>2700</DefendRange>
                 <AttackMoveRange>2700</AttackMoveRange>
                 <BattleFreedomRange>300</BattleFreedomRange>
+
+                <!-- NewHealth = CurrentHealth - (Damage * RaiseShieldFactor / 100) -->
                 <RaiseShieldFactor>60</RaiseShieldFactor>
 
                 <DefendTL>TL_MILITARY_DEFEND</DefendTL>
@@ -106,7 +112,7 @@
                 <AttackFormation>DoubleRow</AttackFormation>
 
                 <AmmunitionType>G_TorchAmmunition</AmmunitionType>
-                <AmmunitionLimit>2</AmmunitionLimit>
+                <AmmunitionLimit>1</AmmunitionLimit>
 
                 <TargetCategoryList>
 					<!-- Slightly less damage against cavalry to make spear units more useful -->
@@ -162,9 +168,9 @@
 						</AttackModeList>
 					</TargetCategory>
 
-					<!-- Plain attack -->
+                    <!-- Plain attack -->
                     <TargetCategory>
-                     <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
+                        <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
                         <EntityCategoryList>
                             <EntityCategory>Hero</EntityCategory>
                             <EntityCategory>Leader</EntityCategory>
@@ -192,7 +198,7 @@
                                 </Damage>
                             </AttackMode>
 
-<!-- ranged combat  (those empty tags are needed to show all unit xmls correctly in the XML balancer -->
+<!-- ranged combat  (those empty tags are needed to show all unit xmls correctly in the XML balancer  -->
                             <AttackMode>
                                 <BattleTL/>
                                 <ApplyDamageModifiers>true</ApplyDamageModifiers>
@@ -219,7 +225,7 @@
                     <TargetCategory>
                         <DisableAutoAttack>true</DisableAutoAttack>
 
-                     <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
+                        <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
                         <EntityCategoryList>
                             <EntityCategory/>
                             <EntityCategory/>
@@ -229,7 +235,7 @@
                             <EntityCategory>SpecialBuilding</EntityCategory>
                         </EntityCategoryList>
 
-                       <AttackModeList>
+                        <AttackModeList>
                             <AttackMode>
                                 <BattleTL>TL_BATTLE_MELEE</BattleTL>
                                 <!-- if ApplyDamageModifiers is false, the damage isn't modified by City Reputation and TerritoryBonus -->
@@ -244,10 +250,9 @@
                                 <Damage>
                                     <DiceCount>0</DiceCount>
                                     <FaceCount>0</FaceCount>
-                                    <BaseValue>10</BaseValue>
+                                    <BaseValue>5</BaseValue>
                                 </Damage>
                                 <BuildingFireSize>10</BuildingFireSize>
-
                                 <ConsumeAmmunition>true</ConsumeAmmunition>
                             </AttackMode>
                         </AttackModeList>
@@ -256,7 +261,7 @@
                     <!-- Capturing / attacking  merchants and siege engines -->
                     <TargetCategory>
                         <DisableAutoAttack>true</DisableAutoAttack>
-                     <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
+                        <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
                         <EntityCategoryList>
                             <EntityCategory/>
                             <EntityCategory/>
@@ -289,7 +294,7 @@
                     <!-- This category is only used to disable auto-attack for carnivores  -->
                     <TargetCategory>
                         <DisableAutoAttack>true</DisableAutoAttack>
-                     <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
+                        <!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
                         <EntityCategoryList>
                             <EntityCategory/>
                             <EntityCategory/>
@@ -338,8 +343,8 @@
 
                         </AttackModeList>
                     </TargetCategory>
-
                 </TargetCategoryList>
+
             </Logic>
         </Behavior>
 
@@ -351,7 +356,7 @@
             </Logic>
         </Behavior>
 
-        <!-- PARTICLES -->
+        <!-- PARTICULES -->
         <Behavior>
             <Logic classname="EGL::CBehaviorProps">
                 <Class>EGL::CParticleEffectAttachmentBehavior</Class>
@@ -368,16 +373,15 @@
                 <Attachments>
                     <Attachment>
                         <Type>ATTACHMENT_LEADER_SOLDIER</Type>
-                        <Limit>3</Limit>
+                        <Limit>6</Limit>
                     </Attachment>
                 </Attachments>
             </Logic>
         </Behavior>
-
     </Behaviors>
 
     <MapEditor>
-        <TreePosition>Units\Military\Bandits</TreePosition>
+        <TreePosition>Units\Military\Melee Weapons</TreePosition>
         <ShowInTree>false</ShowInTree>
         <Clime>Generic</Clime>
         <Scalable>false</Scalable>
