@@ -13,7 +13,7 @@
 		<PlayerSectorType>PlayerSectorTypeMilitary</PlayerSectorType>
 		<MilMetaFormationMemberType>MilMetaFormationMemberTypeMelee</MilMetaFormationMemberType>
 		<CostsCanBeModified>true</CostsCanBeModified>
-		<MaxHealth>120</MaxHealth>
+		<MaxHealth>90</MaxHealth>
 		<HealingSeconds>10</HealingSeconds>
 		<HealingPoints>15</HealingPoints>
 
@@ -119,7 +119,7 @@
 					<TargetCategory>
 						<!-- don't remove  the empty tags, otherwise the data isn't shown correctly in the XML balancer! -->
 						<EntityCategoryList>
-							<EntityCategory>Hero</EntityCategory>
+							<EntityCategory>Cavalry</EntityCategory>
 							<EntityCategory/>
 							<EntityCategory/>
 							<EntityCategory/>
@@ -141,7 +141,7 @@
 								<Damage>
 									<DiceCount>0</DiceCount>
 									<FaceCount>0</FaceCount>
-									<BaseValue>30</BaseValue>
+									<BaseValue>45</BaseValue>
 								</Damage>
 							</AttackMode>
 

@@ -108,7 +108,7 @@ Folgende Änderungen wurden vorgenommen:
 				- Langsamere Bewegungsgeschwindigkeit (420 < 480)
 				- Weniger Lebenspunkte (90 < 120)
 				- Weniger Schaden (15 < 20)
-					- Ausnahme: Doppelter Schaden gegen Ritter (30)
+					- Ausnahme: Dreifacher Schaden gegen Ritter (45)
 				- Weniger Angriffscooldown (2,5sec < 3sec)
 				- Höhere Reichweite (2,5sm > 1,5sm)
 		- Hellebardiere
@@ -160,6 +160,10 @@ Folgende Änderungen wurden vorgenommen:
 	- Lagerhaus
 		- Lagerkapazität der 3. und 4. Ausbaustufe erhöht
 		- Eigenes Icon auf der Minimap
+		- Menü etwas umsortiert
+			- Militärische Güter (z.B. Schwerter) liegen nun unter dem 3. Tab "Burg und Militär"
+				- Belagerungsmaschinenbauteile sind hier nun ebenfalls verkaufbar
+			- Luxusgüter unter dem 3. Tab sind nun korrekt angeordnet
 	- Marktplatz: Generische Ritter-Statue bei Khana, Praphat und Kastellanen
 	- "Neue" Gebäude
 		- Wachturm
