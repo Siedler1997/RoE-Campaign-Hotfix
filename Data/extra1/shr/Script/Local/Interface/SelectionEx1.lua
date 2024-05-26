@@ -182,7 +182,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/Info",0)
             end
 
-        elseif Logic.IsKnight(EntityID) == true then
+        elseif Logic.IsKnight(EntityID) == true or EntityType == Entities.U_MilitaryCavalry then
 
             --SoundToPlay = "ui\\knight_select"
 
@@ -196,8 +196,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
 
             --show ClaimTerritory only for the first knight, not for the additional ones in map 15
             if Logic.GetKnightID(PlayerID) == EntityID then
-                if Tutorial == nil
-                or Tutorial ~= nil and Tutorial.IsClaimButtonShown ~= false then
+                if Tutorial == nil or Tutorial ~= nil and Tutorial.IsClaimButtonShown ~= false then
                     XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Knight/ClaimTerritory",1)
                 end
             else
@@ -206,7 +205,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
 
             if EntityType == Entities.U_NPC_Castellan_ME or EntityType == Entities.U_NPC_Castellan_NE
                 or EntityType == Entities.U_NPC_Castellan_NA or EntityType == Entities.U_NPC_Castellan_SE
-                or EntityType == Entities.U_NPC_Castellan_AS then
+                or EntityType == Entities.U_NPC_Castellan_AS or EntityType == Entities.U_MilitaryCavalry then
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Knight/StartAbility",0)
             else
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Knight/StartAbility",1)
@@ -231,10 +230,10 @@ function GameCallback_GUI_SelectionChanged(_Source)
 
             GUI_MultiSelection.CreateMultiSelection(_Source)
             
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
-            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
+            --XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
+            --XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
             
-        elseif EntityType == Entities.U_Bear or EntityType == Entities.U_BlackBear or EntityType == Entities.U_PolarBear
+        elseif EntityType == Entities.U_Helbardier or EntityType == Entities.U_Bear or EntityType == Entities.U_BlackBear or EntityType == Entities.U_PolarBear
             or EntityType == Entities.U_Wolf_Grey or EntityType == Entities.U_Wolf_White or EntityType == Entities.U_Wolf_Black or EntityType == Entities.U_Wolf_Brown
             or EntityType == Entities.U_Lion_Male or EntityType == Entities.U_Lion_Female or EntityType == Entities.U_Tiger 
             or EntityType == Entities.U_MagicOx or EntityType == Entities.U_Dragon then
@@ -249,26 +248,6 @@ function GameCallback_GUI_SelectionChanged(_Source)
             XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military/StandGround",1)
             XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military/Attack",1)
             
-            GUI_MultiSelection.CreateMultiSelection(_Source)
-            
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
-            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
-            
-        elseif EntityType == Entities.U_Helbardier then
-
-            --SoundToPlay = "ui\\military_select"
-
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection",1)
-            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/Selection",0)
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/BGMilitary",1)
-
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons",1)
-            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons",0)
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military",1)
-            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military",0)
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military/StandGround",1)
-            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military/Attack",1)
-
             GUI_MultiSelection.CreateMultiSelection(_Source)
             
             XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)

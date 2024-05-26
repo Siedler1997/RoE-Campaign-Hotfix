@@ -72,6 +72,8 @@ Folgende Änderungen wurden vorgenommen:
 		- Alle "neuen" Ritte haben (provisorische) Ladebildschirm-Bilder
 - Militär
 	- Einheiten können mittels Entlassen-Button ... entlassen werden
+	- Schwertkämpfer allgemein
+		- Verursachen etwas weniger Schaden an berittenen Einheiten (Ritter und Reiter)
 	- Bogenschützen allgemein
 		- Fernkampf-Schaden deutlich reduziert (30 -> 20)
 		- Maximale Fernkampf-Reichweite leicht erhöht (24sm -> 25sm)
@@ -91,19 +93,14 @@ Folgende Änderungen wurden vorgenommen:
 		- Können in Kasernen wieder aufgefüllt werden
 		- Haben ein anderes Audio-Feedback 
 			- Zurzeit noch das von Banditen...
-		- Haben etwas andere Statuswerte ggü. konventionellen Einheiten
-			- RP
-				- Weniger Lebenspunkte (-5)
-				- Höhere Bewegungsgeschwindigkeit (480 < 490)
-			- Khana
-				- Weniger Lebenspunkte (-10)
-				- Höhere Bewegungsgeschwindigkeit (480 < 500)
-				- Höherer Schaden gegen anderen Einheiten (20 < 22)
 		- RP-Einheiten haben eine eigene Button-Textur
 		- Khana-Einheiten haben keine Overhead-Namen mehr
 	- "Neue" Einheiten
 		- Lanzenträger
 			- Inspiriert von den Streitlanzenträgern in DEdK
+			- Rekrutierung
+				- In Lanzenträgerkasernen
+				- Benötigt 15 Gold + 1 Lanze pro Soldat
 			- Statuswerte (im Vergleich zu Schwertkämpfern)
 				- Langsamere Bewegungsgeschwindigkeit (420 < 480)
 				- Weniger Lebenspunkte (90 < 120)
@@ -111,6 +108,19 @@ Folgende Änderungen wurden vorgenommen:
 					- Ausnahme: Dreifacher Schaden gegen Ritter (45)
 				- Weniger Angriffscooldown (2,5sec < 3sec)
 				- Höhere Reichweite (2,5sm > 1,5sm)
+		- Reiter
+			- Inspiriert von den berittenen Schwertkämpfern in DEdK
+			- Rekrutierung 
+				- In Schwertkämpferkasernen
+				- Benötigt 90 Gold + 1 Schwert pro Soldat
+			- Nur einzeln unterwegs
+				- Für Mapper: Ist technisch gesehen KEIN Battalion, sondern eine einzelne Entity
+			- Haben keine besonderen Fähigkeiten
+			- Statuswerte ähnlich, aber idR. etwas schlechter als bei Rittern
+				- Weniger Lebenspunkte (900 < 1.000)
+				- Schwächere Lebensregeneration pro 10sec (40 < 50)
+				- Weniger Fackeln/Bomben (1 < 3)
+				- Höherer Angriffscooldown (2sec < 2,5sec)
 		- Hellebardiere
 			- Basieren auf den Hellebardieren in DEdK
 			- Haben noch etwas bessere Stats als Streitlanzenträger

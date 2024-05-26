@@ -8,20 +8,20 @@
 	</Display>
 
 	<Logic classname="EGL::CSettlerProps">
-		<Class>EGL::CMilitarySoldier</Class>
-		<AccessCategory>AccessCategorySoldier</AccessCategory>
+		<Class>EGL::CSettler</Class>
+		<AccessCategory>AccessCategoryAttackableSettler</AccessCategory>
 		<PlayerSectorType>PlayerSectorTypeMilitary</PlayerSectorType>
 		<MilMetaFormationMemberType>MilMetaFormationMemberTypeMelee</MilMetaFormationMemberType>
 		<CostsCanBeModified>true</CostsCanBeModified>
-		<MaxHealth>210</MaxHealth>
+		<MaxHealth>900</MaxHealth>
 		<HealingSeconds>10</HealingSeconds>
-		<HealingPoints>35</HealingPoints>
+		<HealingPoints>40</HealingPoints>
 
 		<NeedsPlayer>true</NeedsPlayer>
 		<ForceNoPlayer>false</ForceNoPlayer>
-		<Exploration>40</Exploration>
+		<Exploration>30</Exploration>
 		<IdleTaskList>TL_MILITARY_DEFEND</IdleTaskList>
-		<CanDrown>false</CanDrown>
+		<CanDrown>true</CanDrown>
 		<IsSelectable>true</IsSelectable>
 		<BlockRadius>250</BlockRadius>
 
@@ -30,7 +30,7 @@
 				<!-- if the gold costs are changed, the refill costs have to be adjusted as well in "B_Barracks.xml"
                Refilling should cost the same per unit than buying batallions!  -->
 				<GoodType>G_Gold</GoodType>
-				<Amount>20</Amount>
+				<Amount>90</Amount>
 			</GoodAmount>
 			<GoodAmount>
 				<GoodType>G_Sword</GoodType>
@@ -40,7 +40,7 @@
 
 		<EntityCategories>
 			<EntityCategory>Military</EntityCategory>
-			<EntityCategory>Soldier</EntityCategory>
+			<EntityCategory>AttackableSettler</EntityCategory>
 			<EntityCategory>Melee</EntityCategory>
 			<EntityCategory>Cavalry</EntityCategory>
 		</EntityCategories>
@@ -50,8 +50,6 @@
 		</Familiar>
 		<SoundImpactType>Metal</SoundImpactType>
 		<SoundProjectileType>Sword</SoundProjectileType>
-
-		<ShowInMiniMap>0.01</ShowInMiniMap>
 	</Logic>
 
 	<Behaviors>
@@ -72,7 +70,7 @@
 		<!-- MOVEMENT -->
 		<Behavior>
 			<Logic classname="EGL::CMilitaryMovementBehaviorProps">
-				<Class>EGL::CMilitarySoldierMovementBehavior</Class>
+				<Class>EGL::CMilitaryMovementBehavior</Class>
 				<StraightenPath>true</StraightenPath>
 				<EvasionPriority>140</EvasionPriority>
 				<Speed>800</Speed>
@@ -86,10 +84,21 @@
 			</Display>
 		</Behavior>
 
+		<Behavior>
+			<Logic classname="EGL::CGuardableBehaviorProps">
+				<Class>EGL::CGuardableBehavior</Class>
+				<GuardRadius>300</GuardRadius>
+				<GuardApproachPos>
+					<X>-300</X>
+					<Y>0</Y>
+				</GuardApproachPos>
+			</Logic>
+		</Behavior>
+		
 		<!-- SOLDIER -->
 		<Behavior>
-			<Logic classname="EGL::CSoldierFightBehaviorProps">
-				<Class>EGL::CSoldierFightBehavior</Class>
+			<Logic classname="EGL::CFightBehaviorProps">
+				<Class>EGL::CFightBehavior</Class>
 				<DefendRange>2700</DefendRange>
 				<AttackMoveRange>2700</AttackMoveRange>
 				<BattleFreedomRange>300</BattleFreedomRange>
@@ -191,14 +200,14 @@
 
 								<MinRange>0</MinRange>
 								<MaxRange>800</MaxRange>
-								<ProjectileEffect>FXTorch</ProjectileEffect>
+								<ProjectileEffect>FXBomb</ProjectileEffect>
 								<MaxHeightDeltaToTarget>2000</MaxHeightDeltaToTarget>
 								<CanAttackOverWalls>false</CanAttackOverWalls>
-								<CooldownThousandths>2000</CooldownThousandths>
+								<CooldownThousandths>5000</CooldownThousandths>
 								<Damage>
 									<DiceCount>0</DiceCount>
 									<FaceCount>0</FaceCount>
-									<BaseValue>5</BaseValue>
+									<BaseValue>15</BaseValue>
 								</Damage>
 								<BuildingFireSize>10</BuildingFireSize>
 								<ConsumeAmmunition>true</ConsumeAmmunition>
