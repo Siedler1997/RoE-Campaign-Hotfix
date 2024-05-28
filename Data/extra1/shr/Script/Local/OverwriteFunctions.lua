@@ -64,6 +64,7 @@ function InitLocalOverwrite()
         g_MilitaryFeedback.Soldiers[Entities.U_MilitarySword_RedPrince]		= "H_NPC_Mercenary_SE"
         g_MilitaryFeedback.Soldiers[Entities.U_MilitarySpear]				= "H_NPC_Mercenary_NE"
         g_MilitaryFeedback.Soldiers[Entities.U_Helbardier]				    = "H_NPC_Mercenary_NE"
+        g_MilitaryFeedback.Soldiers[Entities.U_MilitaryCavalry]				= "Military_Bow"
         g_MilitaryFeedback.Soldiers[Entities.U_MilitaryBandit_Melee_AS]		= "H_NPC_Mercenary_NA"
         g_MilitaryFeedback.Soldiers[Entities.U_MilitaryBandit_Ranged_AS]	= "H_NPC_Mercenary_NA"
         g_MilitaryFeedback.Soldiers[Entities.U_MilitarySword_Khana]		= "H_NPC_Mercenary_ME"
@@ -215,8 +216,9 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_WatchTower_SE]    = {7, 6}
             g_TexturePositions.Entities[Entities.B_WatchTower_NA]    = {7, 6}
             g_TexturePositions.Entities[Entities.B_WatchTower_AS]    = {7, 6}
-            g_TexturePositions.Entities[Entities.U_MilitarySpear] = {2, 2, 2}
+            g_TexturePositions.Entities[Entities.U_MilitarySpear] = {1, 4, 2}
             g_TexturePositions.Entities[Entities.U_Helbardier] = {2, 2, 2}
+            g_TexturePositions.Entities[Entities.U_MilitaryCavalry] = {1, 5, 2}
             g_TexturePositions.Entities[Entities.U_MagicOx] = {7, 3}
             g_TexturePositions.Entities[Entities.U_Dragon] = {7, 3}
             
@@ -315,7 +317,7 @@ function MilitaryFeedback_GetSpeaker(_EntityID)
 	
 		return g_MilitaryFeedback.Knights[type]
 
-	elseif type == Entities.U_Helbardier then
+	elseif type == Entities.U_Helbardier or type == Entities.U_MilitaryCavalry  then
 	
 		return g_MilitaryFeedback.Soldiers[type]
 
