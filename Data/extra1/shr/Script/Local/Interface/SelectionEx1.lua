@@ -182,7 +182,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/Info",0)
             end
 
-        elseif Logic.IsKnight(EntityID) == true or EntityType == Entities.U_MilitaryCavalry then
+        elseif Logic.IsKnight(EntityID) == true then
 
             --SoundToPlay = "ui\\knight_select"
 
@@ -216,6 +216,26 @@ function GameCallback_GUI_SelectionChanged(_Source)
             GUI_Military.StrengthUpdate()
 
             GUI_MultiSelection.CreateMultiSelection(_Source)
+            
+        elseif EntityType == Entities.U_MilitaryCavalry then
+
+            --SoundToPlay = "ui\\military_select"
+
+            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection",1)
+            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/Selection",0)
+            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/BGMilitary",1)
+
+            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons",1)
+            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons",0)
+            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military",1)
+            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military",1)
+            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/Military/Refill",0)
+            GUI_Military.StrengthUpdate()
+
+            GUI_MultiSelection.CreateMultiSelection(_Source)
+            
+            XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
+            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SuspendUnit",1)
 
         elseif EntityType == Entities.U_Thief then
 
