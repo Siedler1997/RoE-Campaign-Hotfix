@@ -237,7 +237,9 @@ Folgende Änderungen wurden vorgenommen:
 			- Wirkt sich auf das gewählte Wappen und ALLE Maps aus
 			- Hat keinen Einfluss auf den Multiplayer
 	- Kampfmusik nach Klimazonen getrennt (als verschiedene Playlists)
-	- Baumenü: BeautificationMenu verschönert
+	- Baumenü
+		- BeautificationMenu verschönert
+		- Tooltips leicht verbreitert
 	- Unterschiedliche Festival-Musik, je nachdem, ob der Anlass eine Heldenbeförderung oder ein normales Fest ist
 	- Niederlagen-Kamerarotation deutlich verlangsamt
 	- Sieg und Niederlage haben jeweils eine Art "Jingle"
