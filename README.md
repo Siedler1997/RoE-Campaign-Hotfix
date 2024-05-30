@@ -194,6 +194,7 @@ Folgende Änderungen wurden vorgenommen:
 		- Hauptspiel-Marktplätze haben ein Mouseover
 	- Bienenstöcke haben weniger Lebenspunkte (10 -> 5)
 	- Handelsposten-Baubutton hat einen etwas verständlicheren Tooltip
+	- Kasernen und Belagerungswaffenschmieden werden nicht mehr als potentielle reiche Stadtgebäude aufgelistet
 - Hauptmenü
 	- AddOn nutzt weitgehend Hauptspiel-Hintergrund und Soundtrack
 	- Hintergrund ist tageszeitabhängig
