@@ -194,7 +194,7 @@ function GUI_BuildingButtons.BuyBattalionClicked2(_unitType)
     local CurrentSoldierLimit = Logic.GetCurrentSoldierLimit(PlayerID)
 
     local SoldierSize
-    if _unitType == Entities.U_Thief then
+    if _unitType == Entities.U_Thief or _unitType == Entities.U_MilitaryCavalry then
         SoldierSize = 1
     else
         SoldierSize = Logic.GetBattalionSize(BarrackID)
@@ -223,8 +223,8 @@ function GUI_BuildingButtons.BuyBattalionMouseOver2(_unitType, _technologyType)
     local CurrentWidgetName = XGUIEng.GetWidgetNameByID(CurrentWidgetID)
     local BarrackID = GUI.GetSelectedEntity()
     local EntityLimitString = GUI_BuildingButtons.GetLimitString(_unitType)
-    local Costs = {Logic.GetUnitCost(BarrackID, _unitType)}
     local TechnologyType = _technologyType
+    local Costs = {Logic.GetUnitCost(BarrackID, _unitType)}   
 
     local TooltipStringDisabled
     
@@ -238,15 +238,25 @@ function GUI_BuildingButtons.BuyBattalionMouseOver2(_unitType, _technologyType)
             TooltipStringDisabled = CurrentWidgetName
         end
     end
-
+    
+    --Workaround for cavalry because costs are multiplied by BattalionSize in barracks entity definition
+    --[[
+    if _unitType == Entities.U_MilitaryCavalry then
+        for i = 2, #Costs, 2 do
+            Costs[i] = Costs[i] / 6
+        end
+    end
+    --]]
     GUI_Tooltip.TooltipBuy(Costs, CurrentWidgetName, TooltipStringDisabled, TechnologyType, nil, nil, EntityLimitString)
 end
 
 
-function GUI_BuildingButtons.BuyBattalionUpdate2(_barrackType, _unitType)
+function GUI_BuildingButtons.BuyBattalionUpdate2(_unitType, _barrackType, _technologyType)
+    local PlayerID = GUI.GetPlayerID()
     local CurrentWidgetID = XGUIEng.GetCurrentWidgetID()
     local BarrackID = GUI.GetSelectedEntity()
     local BarrackEntityType = Logic.GetEntityType(BarrackID)
+    local TechnologyState = Logic.TechnologyGetState(PlayerID, _technologyType)
 
     if Logic.IsConstructionComplete(BarrackID) == 0 then
         XGUIEng.ShowWidget(CurrentWidgetID,0)
@@ -263,32 +273,26 @@ function GUI_BuildingButtons.BuyBattalionUpdate2(_barrackType, _unitType)
             end
         end
         
-        -- technology check necessary only for thief
-        if Logic.IsEntityInCategory(BarrackID, EntityCategories.Headquarters) == 1 then
-            local PlayerID = GUI.GetPlayerID()
-            local TechnologyState = Logic.TechnologyGetState(PlayerID, Technologies.R_Thieves)
-
-            if GUI_BuildingButtons.GetLimitReached(Entities.U_Thief) then
-                XGUIEng.DisableButton(CurrentWidgetID, 1)
-                return
-            end        
-
-            if EnableRights == nil or EnableRights == false then
-                XGUIEng.DisableButton(CurrentWidgetID,0)
-                return
-            end
-
-            if TechnologyState == TechnologyStates.Locked then
-                XGUIEng.ShowWidget(CurrentWidgetID,0)
-            end
-
-            if TechnologyState == TechnologyStates.Researched then
-                XGUIEng.DisableButton(CurrentWidgetID,0)
-            else
-                XGUIEng.DisableButton(CurrentWidgetID,1)
-            end
-        else
+        --Check entity limit (especially thieves)
+        if GUI_BuildingButtons.GetLimitReached(_unitType) then
+            XGUIEng.DisableButton(CurrentWidgetID, 1)
+            return
+        end        
+        
+        --Don't check tech when ignoring rights (per cheat)
+        if EnableRights == nil or EnableRights == false then
             XGUIEng.DisableButton(CurrentWidgetID,0)
+            return
+        end
+
+        if TechnologyState == TechnologyStates.Locked then
+            XGUIEng.ShowWidget(CurrentWidgetID,0)
+        end
+
+        if TechnologyState == TechnologyStates.Researched then
+            XGUIEng.DisableButton(CurrentWidgetID,0)
+        else
+            XGUIEng.DisableButton(CurrentWidgetID,1)
         end
     end
 end

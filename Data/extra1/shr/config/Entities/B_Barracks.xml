@@ -181,6 +181,7 @@
             <ProducedUnitType>U_MilitarySword</ProducedUnitType>
 			<ProducedUnitType>U_MilitarySword_RedPrince</ProducedUnitType>
 			<ProducedUnitType>U_MilitarySword_Khana</ProducedUnitType>
+			<ProducedUnitType>U_MilitaryCavalry</ProducedUnitType>
 			<ProducedUnitType>U_MilitaryBandit_Melee_ME</ProducedUnitType>
 			<ProducedUnitType>U_MilitaryBandit_Melee_NE</ProducedUnitType>
 			<ProducedUnitType>U_MilitaryBandit_Melee_NA</ProducedUnitType>

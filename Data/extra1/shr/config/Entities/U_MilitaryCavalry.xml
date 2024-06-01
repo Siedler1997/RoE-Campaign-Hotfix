@@ -12,7 +12,7 @@
 		<AccessCategory>AccessCategoryAttackableSettler</AccessCategory>
 		<PlayerSectorType>PlayerSectorTypeMilitary</PlayerSectorType>
 		<MilMetaFormationMemberType>MilMetaFormationMemberTypeMelee</MilMetaFormationMemberType>
-		<CostsCanBeModified>true</CostsCanBeModified>
+		<CostsCanBeModified>false</CostsCanBeModified>
 		<MaxHealth>900</MaxHealth>
 		<HealingSeconds>10</HealingSeconds>
 		<HealingPoints>40</HealingPoints>
@@ -321,19 +321,6 @@
 			<Display classname="ED::CBehaviorProps">
 				<Class>ED::CParticleEffectAttachmentBehavior</Class>
 			</Display>
-		</Behavior>
-
-		<!-- BATTALION ATTACHMENTS -->
-		<Behavior>
-			<Logic classname="EGL::CLimitedAttachmentBehaviorProperties">
-				<Class>EGL::CLimitedAttachmentBehavior</Class>
-				<Attachments>
-					<Attachment>
-						<Type>ATTACHMENT_LEADER_SOLDIER</Type>
-						<Limit>3</Limit>
-					</Attachment>
-				</Attachments>
-			</Logic>
 		</Behavior>
 	</Behaviors>
 

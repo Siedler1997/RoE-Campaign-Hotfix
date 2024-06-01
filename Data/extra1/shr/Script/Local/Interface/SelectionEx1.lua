@@ -134,6 +134,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
                         elseif EntityType == Entities.B_Barracks or EntityType == Entities.B_Barracks_RedPrince or EntityType == Entities.B_Barracks_Khana then
                             XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSword", 1)
                             XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSword",1)
+                            XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSword/BuyCavalry", 0)
                         elseif EntityType == Entities.B_BarracksArchers or EntityType == Entities.B_BarracksArchers_Redprince or EntityType == Entities.B_BarracksArchers_Khana then
                             XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksBow", 1)
                             XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksBow",1)
