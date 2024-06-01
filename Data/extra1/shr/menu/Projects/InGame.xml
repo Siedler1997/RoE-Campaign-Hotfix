@@ -46068,8 +46068,8 @@
              <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
              <TabIndex>1</TabIndex>
              <Rectangle>
-              <X>228.</X>
-              <Y>232.</Y>
+              <X>356.</X>
+              <Y>168.</Y>
               <W>64.</W>
               <H>64.</H>
               <KeepAspectRatio>true</KeepAspectRatio>
