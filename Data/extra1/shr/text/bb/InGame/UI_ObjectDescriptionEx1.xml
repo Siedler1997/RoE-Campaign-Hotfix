@@ -76,4 +76,5 @@
 	<string id="Abilities_U_MagicOx" MD5Hash="C0A52A33D6B81F633578A61329DCA10F" mod="20070819135241" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Possesses powers beyond human imagination {cr}- strong against everything]]></string>
 	<string id="B_BarracksSpearmen" MD5Hash="" mod="20070801130820" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- refills Soldiers' Torches supply]]></string>
 	<string id="Abilities_U_MilitaryCavalry" MD5Hash="377AE3ADBBD33D16DDFCC04584058269" mod="20070819134229" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- uses Torches against buildings, which are resupplied at military buildings{cr}- fast and strong]]></string>
+	<string id="BuyCavalry" MD5Hash="95CFABAA4D1C78A808F217A2DF1C6BE4" mod="20070809143407" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- can set fire to buildings{cr}- fast and strong]]></string>
 </root>

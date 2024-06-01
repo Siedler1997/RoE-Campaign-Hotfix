@@ -77,4 +77,5 @@
 	<string id="G_PoorSpear" MD5Hash="7C71ABA0A195A650B574D65BD3DBC598" mod="20070809154645" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Erforderlich in Lanzenträgerkasernen]]></string>
 	<string id="G_Spear" MD5Hash="F80659AE674735BA796977E78DD32351" mod="20070820081516" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Erforderlich um Lanzenträger zu rekrutieren]]></string>
 	<string id="Abilities_U_MilitaryCavalry" MD5Hash="377AE3ADBBD33D16DDFCC04584058269" mod="20070819134229" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Setzt Fackeln gegen Gebäude ein, die in Kasernen und Außenposten aufgefüllt werden können{cr}- Schnell und kampfstark]]></string>
+	<string id="BuyCavalry" MD5Hash="95CFABAA4D1C78A808F217A2DF1C6BE4" mod="20070809143407" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- Kann Gebäude in Brand setzen{cr}- Schnell und kampfstark]]></string>
 </root>

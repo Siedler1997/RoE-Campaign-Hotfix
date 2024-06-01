@@ -43447,11 +43447,11 @@
 											   </Color>
 										   </MaterialPressed>
 										   <IconMaterial>
-											   <Texture>iconsbig.png</Texture>
-											   <TextureCoordinatesMinU>512.</TextureCoordinatesMinU>
-											   <TextureCoordinatesMinV>384.</TextureCoordinatesMinV>
-											   <TextureCoordinatesMxU>576.</TextureCoordinatesMxU>
-											   <TextureCoordinatesMxV>448.</TextureCoordinatesMxV>
+											   <Texture>iconsbig3.png</Texture>
+											   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+											   <TextureCoordinatesMinV>256.</TextureCoordinatesMinV>
+											   <TextureCoordinatesMxU>64.</TextureCoordinatesMxU>
+											   <TextureCoordinatesMxV>320.</TextureCoordinatesMxV>
 											   <TextureFixedSizeX>0.</TextureFixedSizeX>
 											   <TextureFixedSizeY>0.</TextureFixedSizeY>
 											   <Color>
