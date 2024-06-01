@@ -59,6 +59,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
 
             XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons",1)
             XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons",1)
+            XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/BuyBattallion",0)
             XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/BuildingButtonsPositionUpdater",1)
 
             if g_OnGameStartPresentationMode == true then return end -- RETURN BECAUSE WE DO NOT WANT TO SHOW DETAILS IN PRESENTATION
@@ -125,6 +126,20 @@ function GameCallback_GUI_SelectionChanged(_Source)
                     or EntityType == Entities.B_NPC_Barracks_AS--]] then
                         XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/Business/City/Money", 0)
                         XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/Needs/Prosperity", 0)
+                        XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks", 1)
+                        XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks",0)
+                        if EntityType == Entities.B_BarracksSpearmen then
+                            XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSpear", 1)
+                            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSpear",1)
+                        elseif EntityType == Entities.B_Barracks or EntityType == Entities.B_Barracks_RedPrince or EntityType == Entities.B_Barracks_Khana then
+                            XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSword", 1)
+                            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksSword",1)
+                        elseif EntityType == Entities.B_BarracksArchers or EntityType == Entities.B_BarracksArchers_Redprince or EntityType == Entities.B_BarracksArchers_Khana then
+                            XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksBow", 1)
+                            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksBow",1)
+                        end
+                    else
+                        XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks", 0)
                     end
 
                     local AnchorNeedsForBigX, AnchorNeedsForBigY = XGUIEng.GetWidgetLocalPosition("/InGame/Root/Normal/AlignBottomRight/Selection/AnchorNeedsForBig")
@@ -153,6 +168,12 @@ function GameCallback_GUI_SelectionChanged(_Source)
 
                 local AnchorInfoForSmallX, AnchorInfoForSmallY = XGUIEng.GetWidgetLocalPosition("/InGame/Root/Normal/AlignBottomRight/Selection/AnchorInfoForSmall")
                 XGUIEng.SetWidgetLocalPosition("/InGame/Root/Normal/AlignBottomRight/Selection/Info", AnchorInfoForSmallX, AnchorInfoForSmallY)
+                
+                XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks", 1)
+                XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks",0)
+                XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksCastle", 1)
+                XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksCastle",1)
+
             elseif Logic.GetStoreHouse(PlayerID) == EntityID then
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/BGBig",1)
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/Storehouse",1)
