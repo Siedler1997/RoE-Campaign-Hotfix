@@ -431,5 +431,7 @@
 	<Entity>B_Beautification_Dragon</Entity>
 	<Entity>U_Dragon</Entity>
 	<Entity>B_Beautification_Cathedral</Entity>
+	<Entity>U_CannonCart</Entity>
+	<Entity>U_MilitaryCannon</Entity>
 </root>
 
