@@ -21,5 +21,6 @@
 	<Technology id="R_SpearMaker"></Technology>
 	<Technology id="R_BarracksSpearmen"></Technology>
 	<Technology id="R_MilitaryCavalry"></Technology>
+	<Technology id="R_MilitaryCannon"></Technology>
 
 </Technologies>

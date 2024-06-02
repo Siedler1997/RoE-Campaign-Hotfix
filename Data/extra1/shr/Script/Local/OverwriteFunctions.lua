@@ -192,10 +192,8 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_Beautification_Vase]             = {5, 2, 1}
             g_TexturePositions.Entities[Entities.B_Beautification_VictoryColumn]    = {1, 6, 1}
 
-            g_TexturePositions.Entities[Entities.U_TrebuchetCart] = {9, 4}
-            g_TexturePositions.Entities[Entities.U_MilitaryTrebuchet] = {9, 1}
-            g_TexturePositions.Entities[Entities.U_CannonCart] = {9, 4}
-            g_TexturePositions.Entities[Entities.U_MilitaryCannon] = {9, 1}
+            g_TexturePositions.Entities[Entities.U_TrebuchetCart] = {3, 3, 2}
+            g_TexturePositions.Entities[Entities.U_MilitaryTrebuchet] = {3, 1, 2}
             g_TexturePositions.Entities[Entities.U_MilitarySword_RedPrince] = {1, 1, 2}
             g_TexturePositions.Entities[Entities.U_MilitaryBow_RedPrince] = {1, 2, 2}
             g_TexturePositions.Entities[Entities.U_Bear]    = {13, 8}
@@ -221,6 +219,8 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.U_MilitarySpear] = {1, 4, 2}
             g_TexturePositions.Entities[Entities.U_Helbardier] = {2, 2, 2}
             g_TexturePositions.Entities[Entities.U_MilitaryCavalry] = {1, 5, 2}
+            g_TexturePositions.Entities[Entities.U_CannonCart] = {3, 2, 2}
+            g_TexturePositions.Entities[Entities.U_MilitaryCannon] = {3, 1, 2}
             g_TexturePositions.Entities[Entities.U_MagicOx] = {7, 3}
             g_TexturePositions.Entities[Entities.U_Dragon] = {7, 3}
             
@@ -244,6 +244,7 @@ function InitLocalOverwrite()
             g_TexturePositions.Technologies[Technologies.R_Beautification_VictoryColumn]    = {1, 6, 1}
             g_TexturePositions.Technologies[Technologies.R_SpearMaker]    = {2, 1, 2}
             g_TexturePositions.Technologies[Technologies.R_BarracksSpearmen]    = {2, 2, 2}
+            g_TexturePositions.Technologies[Technologies.R_MilitaryCannon] = g_TexturePositions.Entities[Entities.U_MilitaryCannon]
             
             
             

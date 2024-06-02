@@ -164,4 +164,8 @@
 	<string id="CastleAndMilitary" MD5Hash="09D2F576D7D11F2C00F4018D9F89EA2E" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Castle and military]]></string>
 	<string id="Abilities_U_MilitaryCavalry" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Cavalier]]></string>
 	<string id="BuyCavalry" MD5Hash="499006B1DC7CF75C0F9DF638C575904A" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Cavalier]]></string>
+	<string id="Abilities_U_CannonCart" MD5Hash="ADCF0A54592D97D3853733CDA1E87551" mod="20070801125300" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Cannon Cart]]></string>
+	<string id="Abilities_U_MilitaryCannon" MD5Hash="2A6A9144EAF0CAE75DDED46B10DFDC73" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Cannon]]></string>
+	<string id="Abilities_U_MilitaryCannon_NoSoldiersAttached" MD5Hash="23DA7BF3E4D182F21D96266019957AFA" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Unmanned Cannon]]></string>
+	<string id="ErectCannon" MD5Hash="71FD008E955D82637A6A67362AEAA055" mod="" WorkInProgress="" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[Erect Cannon]]></string>
 </root>

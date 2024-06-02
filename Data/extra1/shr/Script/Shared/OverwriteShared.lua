@@ -78,6 +78,10 @@ function InitSharedOverwrite()
                 NeedsAndRightsByKnightTitle[KnightTitles.Archduke][TechnologiesTableIndex],
                 Technologies.R_Beautification_VictoryColumn)
                 
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Archduke][TechnologiesTableIndex],
+                Technologies.R_MilitaryCannon)
+                
                 
              CreateTechnologyKnightTitleTable()
             
