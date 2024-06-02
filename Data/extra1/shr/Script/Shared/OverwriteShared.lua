@@ -80,7 +80,7 @@ function InitSharedOverwrite()
                 
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Archduke][TechnologiesTableIndex],
-                Technologies.R_MilitaryCannon)
+                Technologies.R_Cannon)
                 
                 
              CreateTechnologyKnightTitleTable()

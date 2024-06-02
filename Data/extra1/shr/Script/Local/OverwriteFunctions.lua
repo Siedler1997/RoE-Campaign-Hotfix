@@ -244,7 +244,7 @@ function InitLocalOverwrite()
             g_TexturePositions.Technologies[Technologies.R_Beautification_VictoryColumn]    = {1, 6, 1}
             g_TexturePositions.Technologies[Technologies.R_SpearMaker]    = {2, 1, 2}
             g_TexturePositions.Technologies[Technologies.R_BarracksSpearmen]    = {2, 2, 2}
-            g_TexturePositions.Technologies[Technologies.R_MilitaryCannon] = g_TexturePositions.Entities[Entities.U_MilitaryCannon]
+            g_TexturePositions.Technologies[Technologies.R_Cannon] = g_TexturePositions.Entities[Entities.U_MilitaryCannon]
             
             
             
