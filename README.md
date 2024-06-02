@@ -106,7 +106,7 @@ Folgende Änderungen wurden vorgenommen:
 				- Weniger Lebenspunkte (90 < 120)
 				- Weniger Schaden (15 < 20)
 					- Ausnahme: Dreifacher Schaden gegen Ritter (45)
-				- Weniger Angriffscooldown (2,5sec < 3sec)
+				- Weniger Angriffscooldown (2,5 Sek. < 3 Sek.)
 				- Höhere Reichweite (2,5sm > 1,5sm)
 		- Reiter
 			- Inspiriert von den berittenen Schwertkämpfern in DEdK
@@ -120,7 +120,14 @@ Folgende Änderungen wurden vorgenommen:
 				- Weniger Lebenspunkte (900 < 1.000)
 				- Schwächere Lebensregeneration pro 10sec (40 < 50)
 				- Weniger Fackeln/Bomben (1 < 3)
-				- Höherer Angriffscooldown (2sec < 2,5sec)
+				- Höherer Angriffscooldown (2 Sek. < 2,5 Sek.)
+		- Kanone
+			- Funktioniert ähnlich wie ein Katapult
+				- Weniger Lebenspunkte (150 < 250)
+				- Höhere Maximalreichweite (30sm > 24sm)
+				- Höherer Schaden (75 > 50)
+				- Geringere Feuerrate (7,5 Sek. > 5 Sek.)
+			- Verfügbar mit dem Titel 'Erzherzog'
 		- Hellebardiere
 			- Basieren auf den Hellebardieren in DEdK
 			- Haben noch etwas bessere Stats als Streitlanzenträger
