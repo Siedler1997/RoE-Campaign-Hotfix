@@ -2474,6 +2474,16 @@
 			<DefaultAnimID>Military\U_MilitaryPoleArm_Run</DefaultAnimID>
 		</Model>
 
+		<Model id="Vehicles\V_Cannon">
+			<SelectionRadius>200</SelectionRadius>
+			<Effect>SimpleObjectPlayerColor</Effect>
+			<SelectionTexture>Selection_siegemachine</SelectionTexture>
+			<OcclusionReceiver>True</OcclusionReceiver>
+			<AlignToTerrain>true</AlignToTerrain>
+			<AlwaysUpright>false</AlwaysUpright>
+			<DefaultAnimID>V_Cannon_Idle</DefaultAnimID>
+		</Model>
+
 		<Model id="Units\Military\U_MilitaryCavalry">
 			<SelectionRadius>100</SelectionRadius>
 			<!--<Effect>SettlerRimPlayerColorSpecular</Effect>-->
