@@ -9,7 +9,7 @@
         <Class>EGL::CBigSettler</Class>
         <AccessCategory>AccessCategoryAttackableSettler</AccessCategory>
         <PlayerSectorType>PlayerSectorTypeMilitary</PlayerSectorType>
-        <MilMetaFormationMemberType>MilMetaFormationMemberTypeEngine</MilMetaFormationMemberType>
+        <MilMetaFormationMemberType>MilMetaFormationMemberTypeCart</MilMetaFormationMemberType>
         <MaxHealth>150</MaxHealth>
         <HealingSeconds/>
         <HealingPoints>0</HealingPoints>
@@ -26,8 +26,7 @@
         <CanDrown>true</CanDrown>
         <IsSelectable>true</IsSelectable>
 
-        <ShowInMiniMap>1</ShowInMiniMap>
-        <BlockSize>2</BlockSize>
+        <BlockSize>1</BlockSize>
 
         <Familiar>
             <With>SheepPasture</With>
@@ -51,6 +50,7 @@
         <SoundProjectileType>Stone</SoundProjectileType>
 
         <OnScreenIcon>MinimapCatapult</OnScreenIcon>
+		<ShowInMiniMap>0.75</ShowInMiniMap>
     </Logic>
 
     <Behaviors>
@@ -93,6 +93,10 @@
             <Logic classname="EGL::CAttachableWarMachineBehaviorProps">
                 <Class>EGL::CAttachableWarMachineBehavior</Class>
                 <GuardFormationID>GuardingMechant</GuardFormationID>
+				<GuardApproachPos>
+					<X>-200</X>
+					<Y>0</Y>
+				</GuardApproachPos>
             </Logic>
         </Behavior>
 
@@ -113,7 +117,7 @@
                 <IdleWhileDefended>false</IdleWhileDefended>
 
                 <AmmunitionType>G_CatapultAmmunition</AmmunitionType>
-                <AmmunitionLimit>5</AmmunitionLimit>
+                <AmmunitionLimit>10</AmmunitionLimit>
 
                 <CartEntityType>U_CannonCart</CartEntityType>
                 <ConstructionDelay>5000</ConstructionDelay>

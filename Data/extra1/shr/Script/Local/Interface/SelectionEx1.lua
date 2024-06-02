@@ -315,7 +315,8 @@ function GameCallback_GUI_SelectionChanged(_Source)
         elseif (EntityType == Entities.U_CatapultCart
         or EntityType == Entities.U_SiegeTowerCart
         or EntityType == Entities.U_BatteringRamCart
-        or EntityType == Entities.U_TrebuchetCart) then
+        or EntityType == Entities.U_TrebuchetCart
+        or EntityType == Entities.U_CannonCart) then
 
             --SoundToPlay = "ui\\siege_select"
 
@@ -373,7 +374,8 @@ function GameCallback_GUI_SelectionChanged(_Source)
             if (EntityType == Entities.U_MilitaryCatapult
             or EntityType == Entities.U_MilitarySiegeTower
             or EntityType == Entities.U_MilitaryBatteringRam
-            or EntityType == Entities.U_MilitaryTrebuchet) then
+            or EntityType == Entities.U_MilitaryTrebuchet
+            or EntityType == Entities.U_MilitaryCannon) then
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/DialogButtons/SiegeEngine",1)
             end
 

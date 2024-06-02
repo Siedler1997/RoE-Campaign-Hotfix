@@ -194,6 +194,8 @@ function InitLocalOverwrite()
 
             g_TexturePositions.Entities[Entities.U_TrebuchetCart] = {9, 4}
             g_TexturePositions.Entities[Entities.U_MilitaryTrebuchet] = {9, 1}
+            g_TexturePositions.Entities[Entities.U_CannonCart] = {9, 4}
+            g_TexturePositions.Entities[Entities.U_MilitaryCannon] = {9, 1}
             g_TexturePositions.Entities[Entities.U_MilitarySword_RedPrince] = {1, 1, 2}
             g_TexturePositions.Entities[Entities.U_MilitaryBow_RedPrince] = {1, 2, 2}
             g_TexturePositions.Entities[Entities.U_Bear]    = {13, 8}
@@ -302,7 +304,9 @@ function MilitaryFeedback_GetSpeaker(_EntityID)
      or type == Entities.U_BatteringRamCart
      or type == Entities.U_AmmunitionCart
      or type == Entities.U_MilitaryTrebuchet
-     or type == Entities.U_TrebuchetCart then
+     or type == Entities.U_TrebuchetCart
+     or type == Entities.U_MilitaryCannon
+     or type == Entities.U_CannonCart then
 	
 		local leader = Logic.GetGuardianEntityID(_EntityID)
 		
@@ -552,10 +556,12 @@ function InitMultiselection()
         Entities.U_MilitaryBandit_Ranged_SE,
         Entities.U_MilitaryBandit_Ranged_AS,
         Entities.U_MilitaryCatapult,
+        Entities.U_MilitaryCannon,
         Entities.U_MilitarySiegeTower,
         Entities.U_MilitaryBatteringRam,
         Entities.U_MilitaryTrebuchet,
         Entities.U_CatapultCart,
+        Entities.U_CannonCart,
         Entities.U_SiegeTowerCart,
         Entities.U_BatteringRamCart,
         Entities.U_TrebuchetCart,
