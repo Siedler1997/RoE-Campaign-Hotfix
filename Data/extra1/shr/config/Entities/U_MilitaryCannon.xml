@@ -138,14 +138,14 @@
                         </EntityCategoryList>
                         <AttackModeList>
                             <AttackMode>
-                                <BattleTL>TL_BATTLE_CATAPULT</BattleTL>
+                                <BattleTL>TL_BATTLE_CANNON</BattleTL>
                                 <!-- if ApplyDamageModifiers is false, the damage isn't modified by City Reputation and TerritoryBonus -->
                                 <ApplyDamageModifiers>false</ApplyDamageModifiers>
 
-                                <AttackAnim>U_Donkey_Trading_Fight</AttackAnim>
+                                <AttackAnim>V_Cannon_Shoot</AttackAnim>
                                 <MinRange>1000</MinRange>
                                 <MaxRange>3000</MaxRange>
-                                <ProjectileEffect>E_Catapult_Fire_Wall</ProjectileEffect>
+                                <ProjectileEffect>E_Cannon_Fire_Wall</ProjectileEffect>
                                 <MaxHeightDeltaToTarget>2000</MaxHeightDeltaToTarget>
                                 <CanAttackOverWalls>true</CanAttackOverWalls>
                                 <CooldownThousandths>7500</CooldownThousandths>
@@ -180,14 +180,14 @@
                         </EntityCategoryList>
                         <AttackModeList>
                             <AttackMode>
-                                <BattleTL>TL_BATTLE_CATAPULT</BattleTL>
+                                <BattleTL>TL_BATTLE_CANNON</BattleTL>
                                 <!-- if ApplyDamageModifiers is false, the damage isn't modified by City Reputation and TerritoryBonus -->
                                 <ApplyDamageModifiers>false</ApplyDamageModifiers>
 
-                                <AttackAnim>U_Donkey_Trading_Fight</AttackAnim>
+                                <AttackAnim>V_Cannon_Shoot</AttackAnim>
                                 <MinRange>1000</MinRange>
                                 <MaxRange>3000</MaxRange>
-                                <ProjectileEffect>E_Catapult_Fire_Palisade</ProjectileEffect>
+                                <ProjectileEffect>E_Cannon_Fire_Palisade</ProjectileEffect>
                                 <MaxHeightDeltaToTarget>2000</MaxHeightDeltaToTarget>
                                 <CanAttackOverWalls>true</CanAttackOverWalls>
                                 <CooldownThousandths>7500</CooldownThousandths>
@@ -208,6 +208,40 @@
                         </AttackModeList>
                     </TargetCategory>
 
+					<!-- Dragon -->
+					<TargetCategory>
+						<EntityCategoryList>
+							<EntityCategory>Dragon</EntityCategory>
+							<EntityCategory/>
+							<EntityCategory/>
+							<EntityCategory/>
+							<EntityCategory/>
+							<EntityCategory/>
+						</EntityCategoryList>
+
+						<AttackModeList>
+							<AttackMode>
+								<BattleTL>TL_BATTLE_CANNON</BattleTL>
+								<!-- if ApplyDamageModifiers is false, the damage isn't modified by City Reputation and TerritoryBonus -->
+								<ApplyDamageModifiers>false</ApplyDamageModifiers>
+
+								<AttackAnim>V_Cannon_Shoot</AttackAnim>
+								<MinRange>1000</MinRange>
+								<MaxRange>3000</MaxRange>
+								<ProjectileEffect>E_Cannon_Fire_Fly</ProjectileEffect>
+								<MaxHeightDeltaToTarget>2000</MaxHeightDeltaToTarget>
+								<CanAttackOverWalls>true</CanAttackOverWalls>
+								<CooldownThousandths>75000</CooldownThousandths>
+								<ConsumeAmmunition>true</ConsumeAmmunition>
+								<Damage>
+									<DiceCount>0</DiceCount>
+									<FaceCount>0</FaceCount>
+									<BaseValue>150</BaseValue>
+								</Damage>
+							</AttackMode>
+						</AttackModeList>
+					</TargetCategory>
+
                     <!-- And the rest ... -->
                     <TargetCategory>
                         <DisableAutoAttack>true</DisableAutoAttack>
@@ -222,14 +256,14 @@
                         </EntityCategoryList>
                         <AttackModeList>
                             <AttackMode>
-                                <BattleTL>TL_BATTLE_CATAPULT</BattleTL>
+                                <BattleTL>TL_BATTLE_CANNON</BattleTL>
                                 <!-- if ApplyDamageModifiers is false, the damage isn't modified by City Reputation and TerritoryBonus -->
                                 <ApplyDamageModifiers>false</ApplyDamageModifiers>
 
-                                <AttackAnim>U_Donkey_Trading_Fight</AttackAnim>
+                                <AttackAnim>V_Cannon_Shoot</AttackAnim>
                                 <MinRange>1000</MinRange>
                                 <MaxRange>3000</MaxRange>
-                                <ProjectileEffect>E_Catapult_Fire</ProjectileEffect>
+                                <ProjectileEffect>E_Cannon_Fire</ProjectileEffect>
                                 <MaxHeightDeltaToTarget>2000</MaxHeightDeltaToTarget>
                                 <CanAttackOverWalls>true</CanAttackOverWalls>
                                 <CooldownThousandths>7500</CooldownThousandths>
