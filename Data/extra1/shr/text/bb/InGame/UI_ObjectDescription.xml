@@ -127,8 +127,8 @@
 <string id="G_Sign" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- satisfies Decoration Wish]]></string>
 <string id="G_Banner" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- satisfies Decoration Wish]]></string>
 <string id="G_Candle" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- satisfies Decoration Wish]]></string>
-<string id="G_PoorSword" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required by Swordsmen Barracks]]></string>
-<string id="G_Sword" MD5Hash="" mod="20070820081501" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required to recruit Swordsmen Battalions]]></string>
+<string id="G_PoorSword" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required by Swordsmen Barracks and Stables]]></string>
+<string id="G_Sword" MD5Hash="" mod="20070820081501" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required to recruit Swordsmen Battalions and Cavaliers]]></string>
 <string id="G_PoorBow" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required by Bowmen Barracks]]></string>
 <string id="G_Bow" MD5Hash="" mod="20070820081514" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required to recruit Bowmen Battalions]]></string>
 <string id="G_SiegeEnginePart" MD5Hash="" mod="20060117185014" WorkInProgress="true" CharacterGroup="" LipSync="" ThroneRoom="" Comments=""><![CDATA[- required to build Siege Engines]]></string>
