@@ -2533,7 +2533,36 @@
 			<CloseUpModeCulling>True</CloseUpModeCulling>
 		</Model>
 
-
+		<Model id="Buildings\B_BarracksSpearmen_Roof_1">
+			<Effect>Roof</Effect>
+			<OcclusionCaster>True</OcclusionCaster>
+			<CloseUpModeCulling>True</CloseUpModeCulling>
+		</Model>
+		<Model id="Buildings\B_BarracksSpearmen_Roof_2">
+			<Effect>Roof</Effect>
+			<OcclusionCaster>True</OcclusionCaster>
+			<CloseUpModeCulling>True</CloseUpModeCulling>
+		</Model>
+		<Model id="Buildings\B_BarracksSpearmen_Roof_3">
+			<Effect>Roof</Effect>
+			<OcclusionCaster>True</OcclusionCaster>
+			<CloseUpModeCulling>True</CloseUpModeCulling>
+		</Model>
+		<Model id="Buildings\B_BarracksCavalry_Roof_1">
+			<Effect>Roof</Effect>
+			<OcclusionCaster>True</OcclusionCaster>
+			<CloseUpModeCulling>True</CloseUpModeCulling>
+		</Model>
+		<Model id="Buildings\B_BarracksCavalry_Roof_2">
+			<Effect>Roof</Effect>
+			<OcclusionCaster>True</OcclusionCaster>
+			<CloseUpModeCulling>True</CloseUpModeCulling>
+		</Model>
+		<Model id="Buildings\B_BarracksCavalry_Roof_3">
+			<Effect>Roof</Effect>
+			<OcclusionCaster>True</OcclusionCaster>
+			<CloseUpModeCulling>True</CloseUpModeCulling>
+		</Model>
 
 		<Model id="Buildings\B_Spicetrader_Buildingsite_1">
 			<Effect>SimpleObjectMultiply</Effect>
