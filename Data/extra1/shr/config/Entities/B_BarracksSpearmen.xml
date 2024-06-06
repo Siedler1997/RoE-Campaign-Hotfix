@@ -7,9 +7,9 @@
     <Yard_1>Buildings\B_BarracksSwordsmen_Yard_1</Yard_1>
     <Yard_2>Buildings\B_BarracksSwordsmen_Yard_2</Yard_2>
     <Yard_3>Buildings\B_BarracksSwordsmen_Yard_3</Yard_3>
-    <Roof_1>Buildings\B_BarracksSwordsmen_Roof_1</Roof_1>
-    <Roof_2>Buildings\B_BarracksSwordsmen_Roof_2</Roof_2>
-    <Roof_3>Buildings\B_BarracksSwordsmen_Roof_3</Roof_3>
+    <Roof_1>Buildings\B_BarracksSpearmen_Roof_1</Roof_1>
+    <Roof_2>Buildings\B_BarracksSpearmen_Roof_2</Roof_2>
+    <Roof_3>Buildings\B_BarracksSpearmen_Roof_3</Roof_3>
     <Roof_Destroyed>Buildings\B_BarracksSwordsmen_Rubble</Roof_Destroyed>
     <Upgrade_Site>Buildings\B_BarracksSwordsmen_BuildingSite</Upgrade_Site>
     <Floor_1>Buildings\B_BarracksSwordsmen_Floor_1</Floor_1>

@@ -73,7 +73,7 @@ Folgende Änderungen wurden vorgenommen:
 - Militär
 	- Einheiten können mittels Entlassen-Button ... entlassen werden
 	- Schwertkämpfer allgemein
-		- Verursachen etwas weniger Schaden an berittenen Einheiten (Ritter und Reiter)
+		- Verursachen etwas weniger Schaden an berittenen Einheiten (Ritter und Kavaliere)
 	- Bogenschützen allgemein
 		- Fernkampf-Schaden deutlich reduziert (30 -> 20)
 		- Maximale Fernkampf-Reichweite leicht erhöht (24sm -> 25sm)
@@ -108,10 +108,10 @@ Folgende Änderungen wurden vorgenommen:
 					- Ausnahme: Dreifacher Schaden gegen Ritter (45)
 				- Weniger Angriffscooldown (2,5 Sek. < 3 Sek.)
 				- Höhere Reichweite (2,5sm > 1,5sm)
-		- Reiter
+		- Kavaliere
 			- Inspiriert von den berittenen Schwertkämpfern in DEdK
 			- Rekrutierung 
-				- In Schwertkämpferkasernen
+				- In Reitereien
 				- Benötigt 90 Gold + 1 Schwert pro Soldat
 			- Nur einzeln unterwegs
 				- Für Mapper: Ist technisch gesehen KEIN Battalion, sondern eine einzelne Entity
@@ -191,6 +191,10 @@ Folgende Änderungen wurden vorgenommen:
 			- Besitzt eine hohe Sichtweite
 			- Sieht einfach schick aus :)
 		- AS-Zelte mit entsprechenden Workern
+		- Gebäude für neue Militäreinheiten
+			- Lanzenmacher
+			- Lanzenträgerkaserne
+			- Reiterei
 	- NPC-Gebäude
 		- RP-/Khana-Kasernen
 			- Funktionieren unter Spieler-Kontrolle wie normale Kasernen auch
