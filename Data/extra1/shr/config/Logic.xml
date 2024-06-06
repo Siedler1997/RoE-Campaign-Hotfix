@@ -1030,6 +1030,10 @@
 			<Category>SpearMaker</Category>
 			<FirstBuilding>B_SpearMaker</FirstBuilding>
 		</BuildingUpgrade>
+		<BuildingUpgrade>
+			<Category>BarracksCavalry</Category>
+			<FirstBuilding>B_BarracksCavalry</FirstBuilding>
+		</BuildingUpgrade>
         
     </BuildingUpgrades>
 

@@ -119,6 +119,7 @@ function GameCallback_GUI_SelectionChanged(_Source)
                     or EntityType == Entities.B_Barracks_Khana
                     or EntityType == Entities.B_BarracksArchers_Khana
                     or EntityType == Entities.B_BarracksSpearmen
+                    or EntityType == Entities.B_BarracksCavalry
                     --[[or EntityType == Entities.B_NPC_Barracks_ME
                     or EntityType == Entities.B_NPC_Barracks_NE
                     or EntityType == Entities.B_NPC_Barracks_SE
@@ -138,6 +139,9 @@ function GameCallback_GUI_SelectionChanged(_Source)
                         elseif EntityType == Entities.B_BarracksArchers or EntityType == Entities.B_BarracksArchers_Redprince or EntityType == Entities.B_BarracksArchers_Khana then
                             XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksBow", 1)
                             XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksBow",1)
+                        elseif EntityType == Entities.B_BarracksCavalry then
+                            XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksCavalry", 1)
+                            XGUIEng.ShowAllSubWidgets("/InGame/Root/Normal/BuildingButtons/Barracks/BarracksCavalry",1)
                         end
                     else
                         XGUIEng.ShowWidget("/InGame/Root/Normal/BuildingButtons/Barracks", 0)

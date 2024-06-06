@@ -409,6 +409,7 @@
 	<Entity>B_BarracksSpearmen</Entity>
 	<Entity>U_SpearMaker</Entity>
 	<Entity>U_SpearArmourer</Entity>
+	<Entity>B_BarracksCavalry</Entity>
 	<Entity>U_TournamentWorker_AS</Entity>
 	<Entity>B_NPC_Spicetrader</Entity>
 	

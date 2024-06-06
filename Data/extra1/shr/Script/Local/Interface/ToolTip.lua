@@ -19,7 +19,6 @@ function InitTooltips()
     [Entities.B_BannerMaker]            = {Goods.G_Wool, Goods.G_Banner},
     [Entities.B_Barracks]               = {Goods.G_PoorSword, Goods.G_Sword},
     [Entities.B_BarracksArchers]        = {Goods.G_PoorBow, Goods.G_Bow},
-    [Entities.B_BarracksSpearmen]       = {Goods.G_PoorSpear, Goods.G_Spear},
     [Entities.B_Baths]                  = {Goods.G_Water, Goods.G_EntBaths},
     [Entities.B_Blacksmith]             = {Goods.G_Iron, Goods.G_Ornament},
     [Entities.B_BowMaker]               = {Goods.G_Iron, Goods.G_PoorBow},
@@ -38,7 +37,8 @@ function InitTooltips()
     [Entities.B_Theatre]                = {Goods.G_Wool, Goods.G_EntTheatre},
     [Entities.B_Weaver]                 = {Goods.G_Wool, Goods.G_Clothes},
     [Entities.B_BarracksSpearmen]       = {Goods.G_PoorSpear, Goods.G_Spear},
-    [Entities.B_SpearMaker]             = {Goods.G_Iron, Goods.G_PoorSpear}
+    [Entities.B_SpearMaker]             = {Goods.G_Iron, Goods.G_PoorSpear},
+    [Entities.B_BarracksCavalry]        = {Goods.G_PoorSword, Goods.G_Sword}
     }
 end
 

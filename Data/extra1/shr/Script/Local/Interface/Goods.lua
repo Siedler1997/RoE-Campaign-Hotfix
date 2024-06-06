@@ -40,6 +40,7 @@ GUI_Goods.ExceptionBuildingTypes = {
         Entities.B_Barracks_Khana,
         Entities.B_BarracksArchers_Khana,
         Entities.B_BarracksSpearmen,
+        Entities.B_BarracksCavalry
 }
 
 function GUI_Goods.MenusUpdate()

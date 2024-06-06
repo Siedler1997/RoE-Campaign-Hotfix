@@ -162,6 +162,7 @@ function InitLocalOverwrite()
             g_TexturePositions.Entities[Entities.B_Outpost_AS] = {12, 3}
             g_TexturePositions.Entities[Entities.B_SpearMaker] =  g_TexturePositions.Goods[Goods.G_PoorSpear]
             g_TexturePositions.Entities[Entities.B_BarracksSpearmen] =  g_TexturePositions.Goods[Goods.G_Spear]
+            g_TexturePositions.Entities[Entities.B_BarracksCavalry] =  g_TexturePositions.Goods[Goods.G_Sword]
             
             g_TexturePositions.Entities[Entities.U_Geologist] = {8, 1, 1}
             g_TexturePositions.Entities[Entities.U_KnightSaraya] = {5, 4, 1}
@@ -244,6 +245,7 @@ function InitLocalOverwrite()
             g_TexturePositions.Technologies[Technologies.R_Beautification_VictoryColumn]    = {1, 6, 1}
             g_TexturePositions.Technologies[Technologies.R_SpearMaker]    = {2, 1, 2}
             g_TexturePositions.Technologies[Technologies.R_BarracksSpearmen]    = {2, 2, 2}
+            g_TexturePositions.Technologies[Technologies.R_BarracksCavalry]    = {2, 2, 2}
             g_TexturePositions.Technologies[Technologies.R_Cannon] = g_TexturePositions.Entities[Entities.U_MilitaryCannon]
             
             

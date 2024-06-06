@@ -424,7 +424,8 @@ function HouseMenuStopConsumptionUpdate()
     or HouseMenu.Widget.CurrentBuilding == "B_Outpost_AS"
     or HouseMenu.Widget.CurrentBuilding == "B_TradePost"
     or HouseMenu.Widget.CurrentBuilding == "B_Cathedral_Big"
-    or HouseMenu.Widget.CurrentBuilding == "B_BarracksSpearmen" then
+    or HouseMenu.Widget.CurrentBuilding == "B_BarracksSpearmen" 
+    or HouseMenu.Widget.CurrentBuilding == "B_BarracksCavalry"then
         XGUIEng.DisableButton(CurrentWidgetID, 1)
         return
     else

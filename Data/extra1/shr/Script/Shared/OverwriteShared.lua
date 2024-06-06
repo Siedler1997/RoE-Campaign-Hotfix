@@ -57,6 +57,10 @@ function InitSharedOverwrite()
                 NeedsAndRightsByKnightTitle[KnightTitles.Marquees][TechnologiesTableIndex],
                 Technologies.R_Beautification_Shrine)
                 
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Marquees][TechnologiesTableIndex],
+                Technologies.R_BarracksCavalry)
+                
             -- Embellishments Duke
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Duke][TechnologiesTableIndex],
