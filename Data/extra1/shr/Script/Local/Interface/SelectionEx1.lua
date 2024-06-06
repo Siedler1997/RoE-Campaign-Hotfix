@@ -527,6 +527,14 @@ function GameCallback_GUI_SelectionChanged(_Source)
 
                     local AnchorBusinessAndSettlerForBigX, AnchorBusinessAndSettlerForBigY = XGUIEng.GetWidgetLocalPosition("/InGame/Root/Normal/AlignBottomRight/Selection/AnchorBusinessAndSettlerForBig")
                     XGUIEng.SetWidgetLocalPosition("/InGame/Root/Normal/AlignBottomRight/Selection/Settler", AnchorBusinessAndSettlerForBigX, AnchorBusinessAndSettlerForBigY)
+                    
+                    --Hide prosperity for these settlers
+                    if EntityType == Entities.U_Armourer
+                    or EntityType == Entities.U_BowArmourer
+                    or EntityType == Entities.U_SiegeEngineBuilder
+                    or EntityType == Entities.U_SpearArmourer then
+                        XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/Needs/Prosperity", 0)
+                    end
                 end
             else
                 XGUIEng.ShowWidget("/InGame/Root/Normal/AlignBottomRight/Selection/BGSmall",1)
