@@ -36,6 +36,14 @@ function InitSharedOverwrite()
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Mayor][TechnologiesTableIndex],
                 Technologies.R_Cistern)
+
+            -- Spearmen
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Mayor][TechnologiesTableIndex],
+                Technologies.R_SpearMaker)
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Mayor][TechnologiesTableIndex],
+                Technologies.R_BarracksSpearmen)
                 
             -- Embellishments Marquees
             table.insert(
@@ -48,6 +56,10 @@ function InitSharedOverwrite()
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Marquees][TechnologiesTableIndex],
                 Technologies.R_Beautification_Shrine)
+                
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Marquees][TechnologiesTableIndex],
+                Technologies.R_BarracksCavalry)
                 
             -- Embellishments Duke
             table.insert(
@@ -69,6 +81,10 @@ function InitSharedOverwrite()
             table.insert(
                 NeedsAndRightsByKnightTitle[KnightTitles.Archduke][TechnologiesTableIndex],
                 Technologies.R_Beautification_VictoryColumn)
+                
+            table.insert(
+                NeedsAndRightsByKnightTitle[KnightTitles.Archduke][TechnologiesTableIndex],
+                Technologies.R_Cannon)
                 
                 
              CreateTechnologyKnightTitleTable()

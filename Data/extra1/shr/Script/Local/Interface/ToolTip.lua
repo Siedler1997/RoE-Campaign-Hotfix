@@ -35,7 +35,10 @@ function InitTooltips()
     [Entities.B_Tanner]                 = {Goods.G_Carcass, Goods.G_Leather},
     [Entities.B_Tavern]                 = {Goods.G_Honeycomb, Goods.G_Beer},
     [Entities.B_Theatre]                = {Goods.G_Wool, Goods.G_EntTheatre},
-    [Entities.B_Weaver]                 = {Goods.G_Wool, Goods.G_Clothes}
+    [Entities.B_Weaver]                 = {Goods.G_Wool, Goods.G_Clothes},
+    [Entities.B_BarracksSpearmen]       = {Goods.G_PoorSpear, Goods.G_Spear},
+    [Entities.B_SpearMaker]             = {Goods.G_Iron, Goods.G_PoorSpear},
+    [Entities.B_BarracksCavalry]        = {Goods.G_PoorSword, Goods.G_Sword}
     }
 end
 
