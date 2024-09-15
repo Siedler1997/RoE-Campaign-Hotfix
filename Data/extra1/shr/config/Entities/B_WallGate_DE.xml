@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><root>
+    <Display classname="ED::CBuildingProps">
+        <Class>ED::CWallBuilding</Class>
+        <Model>Buildings/B_WallGate_ME</Model>
+        <Banner>Default</Banner>
+        <Anims/>
+        <ConstructionSite>Buildings/B_WallGate_BuildingSite</ConstructionSite>
+        <FireNodeCount>30</FireNodeCount>
+    </Display>
+    <Logic classname="EGL::CWallGateProps">
+        <Class>EGL::CWallGate</Class>
+        <AccessCategory>AccessCategoryBuilding</AccessCategory>
+        <MapFileDontSave>true</MapFileDontSave>
+        <EntityCategories>
+            <EntityCategory>Wall</EntityCategory>
+            <EntityCategory>CityWallGate</EntityCategory>
+        </EntityCategories>
+        <NeedsPlayer>true</NeedsPlayer>
+        <ForceNoPlayer>false</ForceNoPlayer>
+        <Worker>U_WallConstructionWorker</Worker> <!-- construction only -->
+        <MaxWorkers>0</MaxWorkers>                <!-- construction only -->
+        <MaxHealth>1200</MaxHealth>
+
+        <Exploration>0</Exploration>
+        <CanBeKnockedDown>true</CanBeKnockedDown>
+        <FlattenOnBuild>false</FlattenOnBuild>
+	<MayRemoveEntities>true</MayRemoveEntities>
+	<IsHeightLocking>true</IsHeightLocking>
+        <CanBeBuildOnOuterRim>true</CanBeBuildOnOuterRim>
+        <FirstTurretType>B_WallGateTurret_ME</FirstTurretType>
+        <SecondTurretType>B_WallGateTurret_ME</SecondTurretType>
+        <AcceptableTurretTypes>
+            <TurretType>B_WallTurret_ME</TurretType>
+        </AcceptableTurretTypes>
+        <MaxHeightDelta>300</MaxHeightDelta>
+        <WallHeight>100</WallHeight>
+        <IsMountable>false</IsMountable>
+        <OpenGateAnimID>B_WallGate_OpenGate_600</OpenGateAnimID>
+        <OpenGateSubAnimIdx>0</OpenGateSubAnimIdx>
+        <CloseGateAnimID>B_WallGate_CloseGate_600</CloseGateAnimID>
+        <CloseGateSubAnimIdx>0</CloseGateSubAnimIdx>
+
+ <!-- used to determine when to automatically close the gate -->
+        <SearchRadiusForHostiles>1600</SearchRadiusForHostiles>
+        <SearchIntervalForHostilesInSeconds>.5</SearchIntervalForHostilesInSeconds>
+        <SearchRadiusNonHostileMilitaryUnit>400</SearchRadiusNonHostileMilitaryUnit>
+        <SearchIntervalNonHostileMilitaryUnitInSeconds>.1</SearchIntervalNonHostileMilitaryUnitInSeconds>
+
+        <AlarmRepairBuildingTL>TL_WORKER_REPAIR_ALARM</AlarmRepairBuildingTL>
+        <AlarmRepairMaterial>G_Stone</AlarmRepairMaterial>
+        <AlarmRepairProvider>G_Stone_Supplier</AlarmRepairProvider>
+        <MaxFloorFireSize>0</MaxFloorFireSize>
+        <CollapseEffectID>E_WallCollapse</CollapseEffectID>
+        <Cost>
+            <GoodAmount>
+                <GoodType>G_Stone</GoodType>
+                <Amount>16</Amount>
+            </GoodAmount>
+        </Cost>
+
+    <BlockingAreas>
+        <BlockingArea>
+            <Blocked1>
+                <X>-400</X>
+                <Y>-200</Y>
+            </Blocked1>
+            <Blocked2>
+                <X>-249</X>
+                <Y>200</Y>
+            </Blocked2>
+        </BlockingArea>
+        <BlockingArea>
+            <Blocked1>
+                <X>249</X>
+                <Y>-200</Y>
+            </Blocked1>
+            <Blocked2>
+                <X>400</X>
+                <Y>200</Y>
+            </Blocked2>
+        </BlockingArea>
+    </BlockingAreas>
+    <BuildBlockingAreas>
+        <BuildBlockingArea>
+            <Blocked1>
+                <X>-400</X>
+                <Y>-100</Y>
+            </Blocked1>
+            <Blocked2>
+                <X>-200</X>
+                <Y>100</Y>
+            </Blocked2>
+        </BuildBlockingArea>
+        <BuildBlockingArea>
+            <Blocked1>
+                <X>200</X>
+                <Y>-100</Y>
+            </Blocked1>
+            <Blocked2>
+                <X>400</X>
+                <Y>100</Y>
+            </Blocked2>
+        </BuildBlockingArea>
+    </BuildBlockingAreas>
+    <GateAreas>
+        <GateArea>
+            <Blocked1>
+                <X>-300</X>
+                <Y>-200</Y>
+            </Blocked1>
+            <Blocked2>
+                <X>300</X>
+                <Y>200</Y>
+            </Blocked2>
+        </GateArea>
+    </GateAreas>
+
+    <ConstructionInfo>
+        <Time>18</Time>
+
+        <BuilderSlots>
+            <BuilderSlot>
+                <Position>
+                    <X>100</X>
+                    <Y>-200</Y>
+                </Position>
+                <Orientation>0</Orientation>
+            </BuilderSlot>
+        </BuilderSlots>
+        <ConstructionSite>B_BuildingPlot_WallGate</ConstructionSite>
+    </ConstructionInfo>
+
+    <SoundImpactType>Stone</SoundImpactType>
+
+</Logic>
+
+<Behaviors>
+
+    <Behavior>
+        <Logic classname="EGL::CWeaponSlotBehaviorProps">
+            <Class>EGL::CTrapSlotBehavior</Class>
+            <WeaponSlots>
+                <Slot>
+                    <WeaponTypes>
+                        <Type>U_MilitaryTrap</Type>
+                    </WeaponTypes>
+                    <ConstructionTypes>
+                        <Type>U_MilitaryTrap_BuildingSite</Type>
+                    </ConstructionTypes>
+                    <OffsetX>0</OffsetX>
+                    <OffsetY>0</OffsetY>
+                    <!-- Relative to the wall height -->
+                    <OffsetHeight>-100</OffsetHeight>
+                    <DeliverWorkerType>U_WallConstructionWorker</DeliverWorkerType>
+                    <DeliverTL>TL_DELIVER_DEFENSE_WEAPON</DeliverTL>
+                </Slot>
+            </WeaponSlots>
+        </Logic>
+    </Behavior>
+
+    <Behavior>
+        <Logic classname="EGL::CBehaviorProps">
+            <Class>EGL::CBehaviorMultiSubAnims</Class>
+        </Logic>
+        <Display classname="ED::CBehaviorProps">
+            <Class>ED::CDisplayBehaviorBuildingAnimation</Class>
+        </Display>
+    </Behavior>
+
+</Behaviors>
+
+<MapEditor>
+    <TreePosition>constructions\walls</TreePosition>
+    <ShowInTree>false</ShowInTree>
+        <Clime>DarkEvelance</Clime>
+    <Scalable>false</Scalable>
+    <TemplateResistant>true</TemplateResistant>
+</MapEditor>
+</root>

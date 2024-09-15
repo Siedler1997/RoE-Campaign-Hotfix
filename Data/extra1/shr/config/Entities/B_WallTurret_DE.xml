@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><root>
+    <Display classname="ED::CBuildingProps">
+        <Class>ED::CWallBuilding</Class>
+        <Model>Buildings/B_WallTurret_ME</Model>
+        <Anims/>
+        <ConstructionSite>Buildings/B_WallTurret_BuildingSite_ME</ConstructionSite>
+    </Display>
+
+    <Logic classname="EGL::CWallTurretProps">
+        <Class>EGL::CWallTurret</Class>
+        <AccessCategory>AccessCategoryBuilding</AccessCategory>
+        <EntityCategories>
+            <EntityCategory>Wall</EntityCategory>
+            <EntityCategory>Turret</EntityCategory>
+        </EntityCategories>
+        <MapFileDontSave>true</MapFileDontSave>
+        <NeedsPlayer>true</NeedsPlayer>
+        <ForceNoPlayer>false</ForceNoPlayer>
+        <Worker>U_WallConstructionWorker</Worker> <!-- construction only -->
+        <MaxWorkers>0</MaxWorkers>                <!-- construction only -->
+        <MaxHealth>1000</MaxHealth>
+        <ResistsSplashDamage>true</ResistsSplashDamage>
+        <Exploration>0</Exploration>
+        <CanBeKnockedDown>false</CanBeKnockedDown>
+        <FlattenOnBuild>false</FlattenOnBuild>
+        <MayRemoveEntities>true</MayRemoveEntities>
+	    <IsHeightLocking>false</IsHeightLocking>
+        <CanBeBuildOnOuterRim>true</CanBeBuildOnOuterRim>
+        <WallHeight>600</WallHeight>
+        <IsMountable>true</IsMountable>
+        <CanLeaveImmediately>true</CanLeaveImmediately>
+        <MaxFloorFireSize>0</MaxFloorFireSize>
+         <!-- replaced by higher prio -->
+        <ReplacementPriority>20</ReplacementPriority>
+
+        <EndSegmentTerrainType>B_WallEndSegment_ME</EndSegmentTerrainType>
+        <EndSegmentWaterType>B_WallEndSegment02_ME</EndSegmentWaterType>
+        <CollapseTime>3</CollapseTime>
+        <CollapseEffectID>E_ME_TowerCollapse</CollapseEffectID>
+
+
+        <ApproachPos>
+            <X>0</X>
+            <Y>600</Y>
+        </ApproachPos>
+        <ApproachR>0</ApproachR>
+        <DoorPos>
+            <X>0</X>
+            <Y>0</Y>
+        </DoorPos>
+        <BlockingAreas>
+            <BlockingArea>
+                <Blocked1>
+                    <X>-100</X>
+                    <Y>-200</Y>
+                </Blocked1>
+                <Blocked2>
+                    <X>100</X>
+                    <Y>200</Y>
+                </Blocked2>
+            </BlockingArea>
+        </BlockingAreas>
+        <BuildBlockingAreas>
+            <BuildBlockingArea>
+                <Blocked1>
+                    <X>-100</X>
+                    <Y>-200</Y>
+                </Blocked1>
+                <Blocked2>
+                    <X>100</X>
+                    <Y>300</Y>
+                </Blocked2>
+            </BuildBlockingArea>
+        </BuildBlockingAreas>
+
+        <ConstructionInfo>
+            <Time>18</Time>
+            <BuilderSlots>
+                <BuilderSlot>
+                    <Position>
+                        <X>100</X>
+                        <Y>-200</Y>
+                    </Position>
+                    <Orientation>0</Orientation>
+                </BuilderSlot>
+            </BuilderSlots>
+            <ConstructionSite>B_BuildingPlot_WallTurret</ConstructionSite>
+        </ConstructionInfo>
+
+
+    </Logic>
+    <Behaviors>
+        <Behavior>
+            <Logic classname="EGL::CWeaponSlotBehaviorProps">
+                <Class>EGL::CWeaponSlotBehavior</Class>
+                <WeaponSlots>
+                    <Slot>
+                        <WeaponTypes>
+                            <Type>U_MilitaryBallista</Type>
+                        </WeaponTypes>
+                        <ConstructionTypes>
+                            <Type>U_MilitaryBallista_BuildingSite</Type>
+                        </ConstructionTypes>
+                        <OffsetX>0</OffsetX>
+                        <OffsetY>0</OffsetY>
+                        <!-- Relative to the wall height -->
+                        <OffsetHeight>300</OffsetHeight>
+                        <DeliverWorkerType>U_WallConstructionWorker</DeliverWorkerType>
+                        <DeliverTL>TL_DELIVER_DEFENSE_WEAPON</DeliverTL>
+                    </Slot>
+                </WeaponSlots>
+	       </Logic>
+	   </Behavior>
+
+        <!--Behavior>
+            <Logic classname="EGL::CReplaceableBuildingBehaviorProps">
+                <Class>EGL::CReplaceableBuildingBehavior</Class>
+                <ReplacementType>B_WallTower</ReplacementType>
+            </Logic>
+        </Behavior-->
+
+    </Behaviors>
+    <MapEditor>
+        <TreePosition>buildings\camps</TreePosition>
+        <ShowInTree>false</ShowInTree>
+            <Clime>DarkEvelance</Clime>
+        <Scalable>false</Scalable>
+        <TemplateResistant>true</TemplateResistant>
+    </MapEditor>
+</root>

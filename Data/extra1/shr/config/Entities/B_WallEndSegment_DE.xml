@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <Display classname="ED::CBuildingProps">
+        <Class>ED::CWallBuilding</Class>
+		<Model>Buildings/B_WallEndSegment_ME</Model>
+		<Anims></Anims>
+		<ConstructionSite>Buildings/B_WallTurret_BuildingSite_ME</ConstructionSite>
+	</Display>
+	
+    <Logic classname="EGL::CBuildingProps">
+        <Class>EGL::CBuilding</Class>
+		<AccessCategory>AccessCategoryBuilding</AccessCategory> 
+		<DoNotExecute>True</DoNotExecute>
+	    <MapFileDontSave>true</MapFileDontSave>
+		
+        <ForceNoPlayer>false</ForceNoPlayer>
+		
+        <Worker>U_WallConstructionWorker</Worker> <!-- construction only -->
+        <MaxWorkers>0</MaxWorkers>                <!-- construction only -->
+		<FlattenOnBuild>false</FlattenOnBuild>
+	<MayRemoveEntities>true</MayRemoveEntities>
+		<IsHeightLocking>false</IsHeightLocking>
+		<CanBeKnockedDown>false</CanBeKnockedDown>
+		       
+        <ConstructionInfo>
+            <Time>15</Time>
+            <BuilderSlots>
+                <BuilderSlot>
+                    <Position>
+                        <X>100</X>
+                        <Y>-200</Y>
+                    </Position>
+                    <Orientation>0</Orientation>
+                </BuilderSlot>
+            </BuilderSlots>
+            <ConstructionSite>B_BuildingPlot_Wall</ConstructionSite>
+        </ConstructionInfo>
+       <BlockingAreas>
+        <BlockingArea>
+            <Blocked1>
+                <X>0</X>
+                <Y>200</Y>
+            </Blocked1>
+            <Blocked2>
+                <X>1000</X>
+                <Y>-200</Y>
+            </Blocked2>
+        </BlockingArea>
+    </BlockingAreas>
+                
+	</Logic>
+	<MapEditor>
+        <Territory>Rock</Territory>
+        <TreePosition>Rocks</TreePosition>
+        <ShowInTree>false</ShowInTree>
+        <Clime>DarkEvelance</Clime>
+        <Scalable>true</Scalable>
+	</MapEditor>
+</root>

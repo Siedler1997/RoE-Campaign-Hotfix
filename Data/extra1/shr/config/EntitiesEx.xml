@@ -437,5 +437,18 @@
 	<Entity>U_CannonCart_Collapse</Entity>
 	<Entity>U_MilitaryCannon</Entity>
 	<Entity>U_MilitaryCannon_Collapse</Entity>
+
+	<Entity>B_Castle_DE</Entity>
+	<Entity>B_GrainField_DE</Entity>
+	<Entity>B_Marketplace_DE</Entity>
+	<Entity>B_Outpost_DE</Entity>
+	<Entity>B_WallEndSegment_DE</Entity>
+	<Entity>B_WallEndSegment02_DE</Entity>
+	<Entity>B_WallGateTurret_DE</Entity>
+	<Entity>B_WallGate_DE</Entity>
+	<Entity>B_WallSegment_DE</Entity>
+	<Entity>B_WallTurret_DE</Entity>
+	<Entity>B_GuardTower_DE</Entity>
+	<Entity>B_WatchTower_DE</Entity>
 </root>
 

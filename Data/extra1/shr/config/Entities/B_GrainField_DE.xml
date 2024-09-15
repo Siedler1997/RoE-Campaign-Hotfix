@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?><root>
+    <Display classname="ED::CBuildingProps">
+        <Class>ED::CDisplayBuilding</Class>
+        <Model>B_GrainField_ME</Model>
+        <Banner>Default</Banner>
+        <Anim/>
+        <SquareAura>true</SquareAura>
+        <AuraXScale>0.9</AuraXScale>
+        <AuraYScale>0.7</AuraYScale>
+    </Display>
+
+    <Logic classname="EGL::CBuildingProps">
+        <Class>EGL::CBuilding</Class>
+        <Cost>
+            <GoodAmount>
+                <GoodType>G_Wood</GoodType>
+                <Amount>3</Amount>
+            </GoodAmount>
+        </Cost>
+        <RequiresFertileSoilToBuild>true</RequiresFertileSoilToBuild>
+        <CanBeBuildOnOuterRim>true</CanBeBuildOnOuterRim>
+        <CannotBePlacedOnMilitaryUnits>true</CannotBePlacedOnMilitaryUnits>
+        <FlattenOnBuild>true</FlattenOnBuild>
+        <IsHeightLocking>true</IsHeightLocking>
+        <MayRemoveEntities>true</MayRemoveEntities>
+        <AccessCategory>AccessCategoryBuilding</AccessCategory>
+        <NeedsPlayer>true</NeedsPlayer>
+        <ForceNoPlayer>false</ForceNoPlayer>
+        <CanBeKnockedDown>true</CanBeKnockedDown>
+        <MaxHealth>5</MaxHealth>
+        <RepairBuildingTL>TL_WORKER_REPAIR</RepairBuildingTL>
+        <EntityCategories>
+            <EntityCategory>GrainField</EntityCategory>
+            <EntityCategory>AttackableBuilding</EntityCategory>
+            <!--EntityCategory>NonTorchable</EntityCategory-->
+        </EntityCategories>
+
+        <ApproachPos>
+            <X>0</X>
+            <Y>0</Y>
+        </ApproachPos>
+        <ApproachR>0</ApproachR>
+        <DoorPos>
+            <X>0</X>
+            <Y>0</Y>
+        </DoorPos>
+        <BlockingAreas/>
+        <BuildBlockingAreas>
+            <BuildBlockingArea>
+                <Blocked1>
+                    <X>-700</X>
+                    <Y>500</Y>
+                </Blocked1>
+                <Blocked2>
+                    <X>700</X>
+                    <Y>-500</Y>
+                </Blocked2>
+            </BuildBlockingArea>
+        </BuildBlockingAreas>
+        <Exploration>0</Exploration>
+        <AffectsAnimalFleePath>false</AffectsAnimalFleePath>
+
+        <FarmType>B_GrainFarm</FarmType>
+
+        <ResourceIcon>Icon44GrainField</ResourceIcon>
+        <ResourceIconNonCritical>Icon44GrainFieldWinter</ResourceIconNonCritical>
+    </Logic>
+    <Behaviors>
+        <Behavior>
+            <Logic classname="EGL::CStockBehaviorProps">
+                <Class>EGL::CStockOutBehavior</Class>
+                <MaxAmountOnStock>1</MaxAmountOnStock>
+                <AddsToGlobalPlayerStock>false</AddsToGlobalPlayerStock>
+                <GoodTypes>
+                    <GoodType>G_Grain</GoodType>
+                </GoodTypes>
+            </Logic>
+            <Display classname="ED::COutStockBehaviorProps">
+                <Class>ED::COutStockBehavior</Class>
+                <StockModel>goods\G_ME_Grainfield01</StockModel>
+                <StockModel2>goods\G_ME_Grainfield01</StockModel2>
+            </Display>
+        </Behavior>
+        <Behavior>
+            <Logic classname="EGL::CGrowFoodBehaviorProps">
+                <Class>EGL::CGrowFoodBehavior</Class>
+                <GoodType>G_Grain</GoodType>
+                <GrowthRate>0.05</GrowthRate>
+                <TemperatureMinimum>0.0</TemperatureMinimum>
+                <CheckForFertileSoil>true</CheckForFertileSoil>
+                <FertileModel>B_GrainField_ME</FertileModel>
+                <SemiFertileModel>B_GrainField_ME</SemiFertileModel>
+            </Logic>
+        </Behavior>
+    </Behaviors>
+    <MapEditor>
+        <TreePosition>Buildings\Outer Rim</TreePosition>
+        <ShowInTree>true</ShowInTree>
+        <Clime>DarkEvelance</Clime>
+        <Scalable>false</Scalable>
+        <TemplateResistant>true</TemplateResistant>
+    </MapEditor>
+
+</root>

@@ -84,5 +84,35 @@
 		<FirstBuilding>B_WatchTower_AS</FirstBuilding>
 	</BuildingUpgrade>
 
+	<BuildingUpgrade>
+		<Category>GuardTower_DarkEvelance</Category>
+		<FirstBuilding>B_GuardTower_DE</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>WatchTower_DarkEvelance</Category>
+		<FirstBuilding>B_WatchTower_DE</FirstBuilding>
+	</BuildingUpgrade>
+	
+	<BuildingUpgrade>
+		<Category>WallGate_DarkEvelance</Category>
+		<FirstBuilding>B_WallGate_DE</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>WallSegment_DarkEvelance</Category>
+		<FirstBuilding>B_WallSegment_DE</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>WallTurret_DarkEvelance</Category>
+		<FirstBuilding>B_WallTurret_DE</FirstBuilding>
+	</BuildingUpgrade>
+	
+	<BuildingUpgrade>
+		<Category>Outpost_DarkEvelance</Category>
+		<FirstBuilding>B_Outpost_DE</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>GrainField_DarkEvelance</Category>
+		<FirstBuilding>B_GrainField_DE</FirstBuilding>
+	</BuildingUpgrade>
 
 </BuildingUpgrades>

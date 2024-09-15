@@ -172,6 +172,8 @@ function InitLoadScreen(Throneroom, MapType, MapName, Campaign, KnightID)
         Tex = "na"
     elseif ClimateZoneName == "Asia" then
         Tex = "as"        
+    elseif ClimateZoneName == "DarkEvelance" then
+        Tex = "de"    
     end
 
     local remappedKnightId = RemapKnightID(KnightID)

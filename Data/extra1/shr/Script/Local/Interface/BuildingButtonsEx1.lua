@@ -348,6 +348,8 @@ function GUI_BuildingButtons.BuyBattalionClicked(_IsSpecial)
                     EntityType = Entities.U_MilitaryBandit_Melee_NA
                 elseif ClimateZoneName == "Asia" then
                     EntityType = Entities.U_MilitaryBandit_Melee_AS
+                elseif ClimateZoneName == "DarkEvelance" then
+                    EntityType = Entities.U_MilitaryBandit_Melee_ME
                 else
                     EntityType = Entities.U_MilitaryBandit_Melee_ME
                 end
@@ -372,6 +374,8 @@ function GUI_BuildingButtons.BuyBattalionClicked(_IsSpecial)
                     EntityType = Entities.U_MilitaryBandit_Ranged_NA
                 elseif ClimateZoneName == "Asia" then
                     EntityType = Entities.U_MilitaryBandit_Ranged_AS
+                elseif ClimateZoneName == "DarkEvelance" then
+                    EntityType = Entities.U_MilitaryBandit_Ranged_ME
                 else
                     EntityType = Entities.U_MilitaryBandit_Ranged_ME
                 end
@@ -568,6 +572,8 @@ function GUI_BuildingButtons.BuyBattalionUpdate(_IsSpecial)
                     SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Ranged_NA])
                 elseif ClimateZoneName == "Asia" then
                     SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Ranged_AS])
+                elseif ClimateZoneName == "DarkEvelance" then
+                    SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Ranged_ME])
                 else
                     SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Ranged_ME])
                 end
@@ -605,6 +611,8 @@ function GUI_BuildingButtons.BuyBattalionUpdate(_IsSpecial)
                     SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Melee_NA])
                 elseif ClimateZoneName == "Asia" then
                     SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Melee_AS])
+                elseif ClimateZoneName == "DarkEvelance" then
+                    SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Melee_ME])
                 else
                     SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBandit_Melee_ME])
                 end

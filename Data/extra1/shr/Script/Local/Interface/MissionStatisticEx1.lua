@@ -17,6 +17,8 @@ function GUI_MissionStatistic.SetBG()
         Tex = "na"
     elseif ClimateZoneName == "Asia" then
         Tex = "as"
+    elseif ClimateZoneName == "DarkEvelance" then
+        Tex = "de"
     end
 
     local KnightBG = 0

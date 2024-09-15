@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <ShortName>DE</ShortName>
+    <RainTransitionTime>15.0</RainTransitionTime>  <!-- Must be > 0! -->
+    <TreeTexture>R_ME_Trees</TreeTexture>
+    <GrassTexture>R_ME_Trees</GrassTexture>
+    <ClutterColorSet>ME_Set_T_Grass01</ClutterColorSet>
+    <ClutterFarDistance>12000.0</ClutterFarDistance>
+    <ClutterTransitionLength>3700.0</ClutterTransitionLength> 
+    <FoWTexture>Effects/Cloud02</FoWTexture>
+    <FoWColorSet>ME_FOW</FoWColorSet>
+    
+    <RoadTextureSetRoad1>
+        <Diffuse>ME_Mud01</Diffuse>  <!-- BorderTexture -->
+        <Mask>Street02_Mask</Mask>
+        <Normal>X_Earth01_N</Normal>
+    </RoadTextureSetRoad1>
+    <RoadTextureSetRoadBorder1>
+		<Diffuse>ME_Street_Diffuse</Diffuse>
+		<Mask>Street01_Mask</Mask>
+		<Normal>ME_Street_Normal</Normal>
+    </RoadTextureSetRoadBorder1>
+    
+    <RoadTextureSetRoad2>
+		<Diffuse>ME_Street02_Diffuse_Border</Diffuse>
+		<Mask>Street_Dirt02_Mask</Mask>
+		<Normal>X_Earth01_N</Normal>
+	</RoadTextureSetRoad2>
+	<RoadTextureSetRoadBorder2>
+		<Diffuse>ME_Street02_Diffuse</Diffuse>
+		<Mask>Street_Dirt01_Mask</Mask>
+		<Normal>X_earth03_N</Normal>
+    </RoadTextureSetRoadBorder2>
+    
+    <Seasons>
+        <Season>
+            <Name>Winter</Name>
+			<Standard>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</Standard>
+			<CloseUp>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</CloseUp>
+        </Season>
+        <Season>
+            <Name>Spring</Name>
+			<Standard>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</Standard>
+			<CloseUp>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</CloseUp>
+        </Season>
+        <Season>
+            <Name>Summer</Name>
+			<Standard>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</Standard>
+			<CloseUp>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</CloseUp>
+        </Season>
+        <Season>
+            <Name>Fall</Name>
+			<Standard>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</Standard>
+			<CloseUp>
+				<Default>DE_Default</Default>
+				<Rain>DE_Rain</Rain>
+			</CloseUp>
+        </Season>
+    </Seasons>
+</root>

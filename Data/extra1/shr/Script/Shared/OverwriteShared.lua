@@ -140,5 +140,35 @@ function GetPlayerCategoryType(_PlayerID)
 
 end
 
+function GetEntityTypeForClimatezone(_EntityTypeBaseString)
 
+    local MapName = Framework.GetCurrentMapName()
+    local MapType, Campaign = Framework.GetCurrentMapTypeAndCampaignName()
+    local ClimateZoneName = Framework.GetMapClimateZone(MapName, MapType, Campaign)
+    local Suffix = ""
+
+    if ClimateZoneName == "Generic"
+    or ClimateZoneName == "MiddleEurope" then
+        Suffix = "_ME"
+    elseif ClimateZoneName == "NorthEurope" then
+        Suffix = "_NE"
+    elseif ClimateZoneName == "SouthEurope" then
+        Suffix = "_SE"
+    elseif ClimateZoneName == "NorthAfrica" then
+        Suffix = "_NA"
+    elseif ClimateZoneName == "Asia" then
+        Suffix = "_AS"
+    elseif ClimateZoneName == "DarkEvelance" then
+        Suffix = "_DE"
+    end
+
+    local EntityTypeName = _EntityTypeBaseString .. Suffix
+    local EntityType = Entities[EntityTypeName]
+
+    if EntityType == nil then
+        Logic.DEBUG_AddNote("DEBUG: The upgrade category " .. _EntityTypeBaseString .."does not exist for the climate zone " ..ClimateZoneName)
+    end
+
+    return EntityType
+end
 

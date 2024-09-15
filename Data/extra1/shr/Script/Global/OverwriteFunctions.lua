@@ -181,6 +181,8 @@ function SetupNPCPlayerHeadsAndName()
                 Suffix = "_NA"
             elseif ClimateZoneName == "Asia" then
                 Suffix = "_AS"
+            elseif ClimateZoneName == "DarkEvelance" then
+                Suffix = "_ME"
             end
             
             if PlayerCategory == PlayerCategories.BanditsCamp then
@@ -256,6 +258,11 @@ function GetBanditMilitaryTypesForClimateZoneForCurrentMap()
         
         OutlawMeleeType = Entities.U_MilitaryBandit_Melee_AS
         OutlawRangedType = Entities.U_MilitaryBandit_Ranged_AS
+        
+    elseif ClimateZoneName == "Asia" then
+        
+        OutlawMeleeType = Entities.U_MilitaryBandit_Melee_SE
+        OutlawRangedType = Entities.U_MilitaryBandit_Ranged_SE
         
     end
 

@@ -1,0 +1,1492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateConfig>
+
+  <DefaultTemplates>
+    <Template>
+      <Climate>Generic</Climate>
+      <Properties>
+        <Filename>Templates\ME_Default.bin</Filename>
+      </Properties>
+    </Template>
+    <Template>
+      <Climate>SouthEurope</Climate>
+      <Properties>
+        <Filename>Templates\SE_Default.bin</Filename>
+      </Properties>
+    </Template>
+    <Template>
+      <Climate>MiddleEurope</Climate>
+      <Properties>
+        <Filename>Templates\ME_Default.bin</Filename>
+      </Properties>
+    </Template>
+    <Template>
+      <Climate>NorthEurope</Climate>
+      <Properties>
+        <Filename>Templates\NE_Meadow.bin</Filename>
+      </Properties>
+    </Template>
+    <Template>
+      <Climate>NorthAfrica</Climate>
+      <Properties>
+        <Filename>Templates\NA_Default.bin</Filename>
+      </Properties>
+    </Template>
+    <Template>
+      <Climate>Asia</Climate>
+      <Properties>
+        <Filename>Templates\AS_Default.bin</Filename>
+      </Properties>
+    </Template>
+  </DefaultTemplates>
+
+
+  <ClimateTemplateList>
+    <ClimateTemplates>
+      <Climate>NorthEurope</Climate>
+      <Templates>
+
+        <Template>
+          <Name>NE Earth Plain</Name>
+          <Filename>Templates\NE_Earth.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Earth Rocks</Name>
+          <Filename>Templates\NE_Earth_Rocks.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Earth Pebbles</Name>
+          <Filename>Templates\NE_Earth_Pebbles.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Earth Moss</Name>
+          <Filename>Templates\NE_Earth_Moss.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Normal</Name>
+          <Filename>Templates\NE_Meadow.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Normal Flowers</Name>
+          <Filename>Templates\NE_Meadow_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Normal Berries</Name>
+          <Filename>Templates\NE_Meadow_Berries.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Dark</Name>
+          <Filename>Templates\NE_Meadow_Dark.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Dark Flowers</Name>
+          <Filename>Templates\NE_Meadow_Dark_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Dark Berries</Name>
+          <Filename>Templates\NE_Meadow_Dark_Berries.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Meadow Moss Earth</Name>
+          <Filename>Templates\NE_Meadow_Scattered.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Birch Spots</Name>
+          <Filename>Templates\NE_Birch_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Riverside Floodplain</Name>
+          <Filename>Templates\NE_Riverside.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Fir Underwood</Name>
+          <Filename>Templates\NE_Forest_Fir_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Fir Border</Name>
+          <Filename>Templates\NE_Forest_Fir_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Fir Core</Name>
+          <Filename>Templates\NE_Forest_Fir_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Underwood</Name>
+          <Filename>Templates\NE_Forest_Broadleaf_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Normal Border</Name>
+          <Filename>Templates\NE_Forest_Broadleaf_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Normal Core</Name>
+          <Filename>Templates\NE_Forest_Broadleaf_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Bright Border</Name>
+          <Filename>Templates\NE_Forest_Broadleaf_Bright_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Bright Core</Name>
+          <Filename>Templates\NE_Forest_Broadleaf_Bright_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Mixed Border</Name>
+          <Filename>Templates\NE_Forest_Mixed_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Forest Broadleaf Mixed Core</Name>
+          <Filename>Templates\NE_Forest_Mixed_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE SnowMix</Name>
+          <Filename>Templates\NE_SnowMix.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE SnowMix_Earth</Name>
+          <Filename>Templates\NE_SnowMix_Earth.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE SnowMix_Moss</Name>
+          <Filename>Templates\NE_SnowMix_Moss.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Dead Trees</Name>
+          <Filename>Templates\NE_Dead_Trees.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Mountain</Name>
+          <Filename>Templates\NE_Mountain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Riverbed Underwater</Name>
+          <Filename>Templates\NE_Riverbed.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Snow Forest</Name>
+          <Filename>Templates\NE_Snow_Forest.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Highland</Name>
+          <Filename>Templates\NE_Highland.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Highland Spots</Name>
+          <Filename>Templates\NE_Highland_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>NE Swamp</Name>
+          <Filename>Templates\NE_Swamp.bin</Filename>
+        </Template>
+
+      </Templates>
+    </ClimateTemplates>
+
+
+    <ClimateTemplates>
+      <Climate>MiddleEurope</Climate>
+      <Templates>
+
+        <Template>
+          <Name>ME Meadow Bright Flowers</Name>
+          <Filename>Templates\ME_Meadow_Bright_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Bright Plain</Name>
+          <Filename>Templates\ME_Meadow_Bright_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Bright Spots</Name>
+          <Filename>Templates\ME_Meadow_Bright_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Normal Flowers</Name>
+          <Filename>Templates\ME_Meadow_Normal_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Normal Plain</Name>
+          <Filename>Templates\ME_Meadow_Normal_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Normal Spots</Name>
+          <Filename>Templates\ME_Meadow_Normal_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Dark Flowers</Name>
+          <Filename>Templates\ME_Meadow_Dark_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Dark Plain</Name>
+          <Filename>Templates\ME_Meadow_Dark_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Dark Spots</Name>
+          <Filename>Templates\ME_Meadow_Dark_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Floodplain</Name>
+          <Filename>Templates\ME_Meadow_Floodplain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Floodplain Earth</Name>
+          <Filename>Templates\ME_Meadow_Floodplain_Earth.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Birch Spots</Name>
+          <Filename>Templates\ME_Birch_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Bright Spots</Name>
+          <Filename>Templates\ME_Earth_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Bright</Name>
+          <Filename>Templates\ME_Earth.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Dark</Name>
+          <Filename>Templates\ME_EarthDark.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Dark Spots</Name>
+          <Filename>Templates\ME_EarthDark_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Bright Meadow Transition</Name>
+          <Filename>Templates\ME_EarthMeadow_Transition.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Normal Underwood</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Normal Border</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Normal Core</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Bright Underwood</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Bright_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Bright Border</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Bright_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Bright Core</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Bright_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Fir Underwood</Name>
+          <Filename>Templates\ME_Forest_Fir_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Fir Border</Name>
+          <Filename>Templates\ME_Forest_Fir_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Fir Core</Name>
+          <Filename>Templates\ME_Forest_Fir_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Glade Leaves</Name>
+          <Filename>Templates\ME_Forest_GladeLeaves.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Glade</Name>
+          <Filename>Templates\ME_Forest_Glade.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Sand</Name>
+          <Filename>Templates\ME_Sand.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Shrubbery</Name>
+          <Filename>Templates\ME_Shrubbery.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Shrubbery Hill Blocking</Name>
+          <Filename>Templates\ME_Hill_Shrubbery.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Swamp</Name>
+          <Filename>Templates\ME_Swamp.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Swamp Green</Name>
+          <Filename>Templates\ME_Swamp_Green.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Mountain Blocking</Name>
+          <Filename>Templates\ME_Mountain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Riverbed Big Rocks</Name>
+          <Filename>Templates\ME_Riverbed_DeepWater_BigRocks.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Riverbed Small Rocks</Name>
+          <Filename>Templates\ME_Riverbed_DeepWater_SmallRocks.bin</Filename>
+        </Template>
+
+      </Templates>
+    </ClimateTemplates>
+
+
+    <ClimateTemplates>
+      <Climate>SouthEurope</Climate>
+      <Templates>
+
+        <Template>
+          <Name>SE Forest CypressPines Core</Name>
+          <Filename>Templates\SE_Forest_CypressPines_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest CypressPines Border</Name>
+          <Filename>Templates\SE_Forest_CypressPines_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest CypressPines Underwood</Name>
+          <Filename>Templates\SE_Forest_CypressPines_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Pines Underwood</Name>
+          <Filename>Templates\SE_Forest_Pines_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Pines Border</Name>
+          <Filename>Templates\SE_Forest_Pines_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Pines Core</Name>
+          <Filename>Templates\SE_Forest_Pines_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Earth Plain</Name>
+          <Filename>Templates\SE_Earth_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Earth Sandy Grass</Name>
+          <Filename>Templates\SE_Earth_Sandy.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Earth Stony Grass</Name>
+          <Filename>Templates\SE_Earth_Stony.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Earth Stony Rocks</Name>
+          <Filename>Templates\SE_Earth_Stony_Rocks.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Rubble</Name>
+          <Filename>Templates\SE_Rubble.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Sand</Name>
+          <Filename>Templates\SE_Sand.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Sand Rocks</Name>
+          <Filename>Templates\SE_Sand_Rocks.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Sand Wet</Name>
+          <Filename>Templates\SE_Sand_Wet.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Sand Wet Rocks</Name>
+          <Filename>Templates\SE_Sand_Wet_Rocks.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Ash Underwood</Name>
+          <Filename>Templates\SE_Forest_AshOlive_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Ash Border</Name>
+          <Filename>Templates\SE_Forest_Ash_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Ash Core</Name>
+          <Filename>Templates\SE_Forest_Ash_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Cypress Underwood</Name>
+          <Filename>Templates\SE_Forest_Cypress_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Cypress Border</Name>
+          <Filename>Templates\SE_Forest_Cypress_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Cypress Core</Name>
+          <Filename>Templates\SE_Forest_Cypress_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Broadleaf Bright Underwood</Name>
+          <Filename>Templates\SE_Forest_Broadleaf_Bright_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Broadleaf Bright Border</Name>
+          <Filename>Templates\SE_Forest_Broadleaf_Bright_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Broadleaf Bright Core</Name>
+          <Filename>Templates\SE_Forest_Broadleaf_Bright_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Broadleaf Dark Underwood</Name>
+          <Filename>Templates\SE_Forest_Broadleaf_Dark_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Broadleaf Dark Border</Name>
+          <Filename>Templates\SE_Forest_Broadleaf_Dark_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Broadleaf Dark Core</Name>
+          <Filename>Templates\SE_Forest_Broadleaf_Dark_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Olive Underwood</Name>
+          <Filename>Templates\SE_Forest_Olive_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Olive Border</Name>
+          <Filename>Templates\SE_Forest_Olive_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Forest Olive Core</Name>
+          <Filename>Templates\SE_Forest_Olive_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Mountain Blocking</Name>
+          <Filename>Templates\SE_Mountain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Riverbed Underwater</Name>
+          <Filename>Templates\SE_Riverbed.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Bright Core</Name>
+          <Filename>Templates\SE_Meadow_Bright_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Bright Border</Name>
+          <Filename>Templates\SE_Meadow_Bright_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Bright Flowers</Name>
+          <Filename>Templates\SE_Meadow_Bright_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Bright Spots</Name>
+          <Filename>Templates\SE_Meadow_Bright_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Normal Core</Name>
+          <Filename>Templates\SE_Meadow_Normal_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Normal Border</Name>
+          <Filename>Templates\SE_Meadow_Normal_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Normal Flowers</Name>
+          <Filename>Templates\SE_Meadow_Normal_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Dark Core</Name>
+          <Filename>Templates\SE_Meadow_Dark_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Dark Border</Name>
+          <Filename>Templates\SE_Meadow_Dark_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>SE Meadow Dark Flowers</Name>
+          <Filename>Templates\SE_Meadow_Dark_Flowers.bin</Filename>
+        </Template>
+
+      </Templates>
+    </ClimateTemplates>
+
+
+    <ClimateTemplates>
+      <Climate>NorthAfrica</Climate>
+      <Templates>
+
+        <Template>
+          <Name>NA Sand</Name>
+          <Filename>Templates\NA_Sand.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Sand Cracked</Name>
+          <Filename>Templates\NA_Sand_Cracked.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Sand Rubble Mix</Name>
+          <Filename>Templates\NA_Sand_Rubble_Mix.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Dunes</Name>
+          <Filename>Templates\NA_Dunes.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Acacia Underwood</Name>
+          <Filename>Templates\NA_Forest_Underwood.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Acacia Border</Name>
+          <Filename>Templates\NA_Forest_Acacia_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Acacia Core</Name>
+          <Filename>Templates\NA_Forest_Acacia_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Palm Underwood</Name>
+          <Filename>Templates\NA_Forest_Palm_Underwood.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Palm Border</Name>
+          <Filename>Templates\NA_Forest_Palm_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Palm Core</Name>
+          <Filename>Templates\NA_Forest_Palm_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Umbrella Underwood</Name>
+          <Filename>Templates\NA_Forest_Umbrella_Underwood.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Umbrella Border</Name>
+          <Filename>Templates\NA_Forest_Umbrella_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Umbrella Core</Name>
+          <Filename>Templates\NA_Forest_Umbrella_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Riverbed</Name>
+          <Filename>Templates\NA_Riverbed.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Rubble Spots</Name>
+          <Filename>Templates\NA_Rubble_Spots.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Rubble Trees</Name>
+          <Filename>Templates\NA_Rubble_Trees.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Oasis Border</Name>
+          <Filename>Templates\NA_Oasis_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Oasis Core</Name>
+          <Filename>Templates\NA_Oasis_Spots.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Desert Cactus Spots</Name>
+          <Filename>Templates\NA_Desert_Cactus_Spots.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Umbrella Hood Core</Name>
+          <Filename>Templates\NA_Forest_Umbrella_Hood_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Forest Umbrella Hood Border</Name>
+          <Filename>Templates\NA_Forest_Umbrella_Hood_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Dry Core</Name>
+          <Filename>Templates\NA_Grass_Dry_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Dry Border</Name>
+          <Filename>Templates\NA_Grass_Dry_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Dry Rocks</Name>
+          <Filename>Templates\NA_Grass_Dry_Rocks.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Dry Flowers</Name>
+          <Filename>Templates\NA_Grass_Dry_Flowers.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Meadow Core</Name>
+          <Filename>Templates\NA_Meadow_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Meadow Transition</Name>
+          <Filename>Templates\NA_Meadow_Transition.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Meadow Border</Name>
+          <Filename>Templates\NA_Meadow_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Grass Meadow Flowers</Name>
+          <Filename>Templates\NA_Meadow_Flowers.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Red Rock Desert Core</Name>
+          <Filename>Templates\NA_Red_Rock_Desert_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Red Rock Desert Transition</Name>
+          <Filename>Templates\NA_Red_Rock_Desert_Transition.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Red Rock Desert Border</Name>
+          <Filename>Templates\NA_Red_Rock_Desert_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Riverside</Name>
+          <Filename>Templates\NA_Riverside.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Riverbed Dried</Name>
+          <Filename>Templates\NA_Riverbed_Dried.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Sand Cracked Bright</Name>
+          <Filename>Templates\NA_Sand_Cracked_Bright.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Mountain Blocking</Name>
+          <Filename>Templates\NA_Mountain.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Spots</Name>
+          <Filename>Templates\NA_Savanna_Spots.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Core</Name>
+          <Filename>Templates\NA_Savannah_Core.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Transition</Name>
+          <Filename>Templates\NA_Savannah_Transition.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Border</Name>
+          <Filename>Templates\NA_Savannah_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Flowers</Name>
+          <Filename>Templates\NA_Savanna_Flowers.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Cracked Transition</Name>
+          <Filename>Templates\NA_Savannah_Cracked_Transition.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+        <Template>
+          <Name>NA Savannah Cracked Border</Name>
+          <Filename>Templates\NA_Savannah_Cracked_Border.bin</Filename>
+          <Climate>NorthAfrica</Climate>
+        </Template>
+
+      </Templates>
+    </ClimateTemplates>
+
+    <ClimateTemplates>
+      <Climate>Asia</Climate>
+      <Templates>
+
+        <Template>
+          <Name>AS Earth Bright Plain</Name>
+          <Filename>Templates\AS_Earth_Bright_Plain.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Earth Bright Rocks</Name>
+          <Filename>Templates\AS_Earth_Bright_Rocks.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Earth Bright Rocks Banana Bushes</Name>
+          <Filename>Templates\AS_Earth_Bright_Rocks_Banana_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Earth Bright Rocks Palmetto Bushes</Name>
+          <Filename>Templates\AS_Earth_Bright_Rocks_Palmetto_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Earth Dark Plain</Name>
+          <Filename>Templates\AS_Earth_Dark_Plain.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Earth Dark Rocks</Name>
+          <Filename>Templates\AS_Earth_Dark_Rocks.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Earth Dark Rocks Banana Bushes</Name>
+          <Filename>Templates\AS_Earth_Dark_Rocks_Banana_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Earth Dark Rocks Palmetto Bushes</Name>
+          <Filename>Templates\AS_Earth_Dark_Rocks_Palmetto_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Earth Rocks Plain</Name>
+          <Filename>Templates\AS_Earth_Rocks_Plain.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Earth Rocks Rocks</Name>
+          <Filename>Templates\AS_Earth_Rocks_Rocks.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Earth Rocks Rocks Banana Bushes</Name>
+          <Filename>Templates\AS_Earth_Rocks_Rocks_Banana_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Earth Rocks Rocks Palmetto Bushes</Name>
+          <Filename>Templates\AS_Earth_Rocks_Rocks_Palmetto_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+         <Template>
+          <Name>AS Forest Broadleaf Border</Name>
+          <Filename>Templates\AS_Forest_Broadleaf_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>       
+        
+        <Template>
+          <Name>AS Forest Broadleaf Core</Name>
+          <Filename>Templates\AS_Forest_Broadleaf_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>        
+         
+        <Template>
+          <Name>AS Forest Broadleaf Underwood</Name>
+          <Filename>Templates\AS_Forest_Broadleaf_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>         
+
+        <Template>
+          <Name>AS Jungle Mix Anjan Border</Name>
+          <Filename>Templates\AS_Jungle_Mix_Anjan_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+        
+        <Template>
+          <Name>AS Jungle Mix Anjan Core</Name>
+          <Filename>Templates\AS_Jungle_Mix_Anjan_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Anjan Underwood</Name>
+          <Filename>Templates\AS_Jungle_Mix_Anjan_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Banyan Border</Name>
+          <Filename>Templates\AS_Jungle_Mix_Banyan_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Banyan Core</Name>
+          <Filename>Templates\AS_Jungle_Mix_Banyan_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Banyan Underwood</Name>
+          <Filename>Templates\AS_Jungle_Mix_Banyan_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Indrajao Border</Name>
+          <Filename>Templates\AS_Jungle_Mix_Indrajao_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Indrajao Core</Name>
+          <Filename>Templates\AS_Jungle_Mix_Indrajao_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Jungle Mix Indrajao Underwood</Name>
+          <Filename>Templates\AS_Jungle_Mix_Indrajao_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Mix Vinetrees Palms Border</Name>
+          <Filename>Templates\AS_Jungle_Mix_Vinetrees_Palms_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>                
+        
+        <Template>
+          <Name>AS Jungle Mix Vinetrees Palms Core</Name>
+          <Filename>Templates\AS_Jungle_Mix_Vinetrees_Palms_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Mix Vinetrees Palms Underwood</Name>
+          <Filename>Templates\AS_Jungle_Mix_Vinetrees_Palms_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Jungle Palms Border</Name>
+          <Filename>Templates\AS_Jungle_Palms_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Jungle Palms Core</Name>
+          <Filename>Templates\AS_Jungle_Palms_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Palms Underwood</Name>
+          <Filename>Templates\AS_Jungle_Palms_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Vinetrees Dead Mix Border</Name>
+          <Filename>Templates\AS_Jungle_Vinetrees_Dead_Mix_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Vinetrees Dead Mix Core</Name>
+          <Filename>Templates\AS_Jungle_Vinetrees_Dead_Mix_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Jungle Vinetrees Dead Mix Underwood</Name>
+          <Filename>Templates\AS_Jungle_Vinetrees_Dead_Mix_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Vinetrees Green Mix Border</Name>
+          <Filename>Templates\AS_Jungle_Vinetrees_Green_Mix_Border.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Jungle Vinetrees Green Mix Core</Name>
+          <Filename>Templates\AS_Jungle_Vinetrees_Green_Mix_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Jungle Vinetrees Green Mix Underwood</Name>
+          <Filename>Templates\AS_Jungle_Vinetrees_Green_Mix_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>        
+        
+        <Template>
+          <Name>AS Meadow Bright Core</Name>
+          <Filename>Templates\AS_Meadow_Bright_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Meadow Bright Flowers BPW</Name>
+          <Filename>Templates\AS_Meadow_Bright_Flowers_BPW.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Bright Flowers YOR</Name>
+          <Filename>Templates\AS_Meadow_Bright_Flowers_YOR.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Bright Spots</Name>
+          <Filename>Templates\AS_Meadow_Bright_Spots.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Bright Spots Banana</Name>
+          <Filename>Templates\AS_Meadow_Bright_Spots_Banana.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Meadow Bright Spots Palmetto</Name>
+          <Filename>Templates\AS_Meadow_Bright_Spots_Palmetto.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>        
+
+        <Template>
+          <Name>AS Meadow Bright Transition</Name>
+          <Filename>Templates\AS_Meadow_Bright_Transition.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Normal Core</Name>
+          <Filename>Templates\AS_Meadow_Normal_Core.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Meadow Normal Flowers BPW</Name>
+          <Filename>Templates\AS_Meadow_Normal_Flowers_BPW.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Normal Flowers YOR</Name>
+          <Filename>Templates\AS_Meadow_Normal_Flowers_YOR.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Normal Spots</Name>
+          <Filename>Templates\AS_Meadow_Normal_Spots.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Meadow Normal Spots Banana</Name>
+          <Filename>Templates\AS_Meadow_Normal_Spots_Banana.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Meadow Normal Spots Palmetto</Name>
+          <Filename>Templates\AS_Meadow_Normal_Spots_Palmetto.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>        
+
+        <Template>
+          <Name>AS Meadow Normal Transition</Name>
+          <Filename>Templates\AS_Meadow_Normal_Transition.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Mountain Blocking</Name>
+          <Filename>Templates\AS_Mountain_blocking.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Mountain Mix</Name>
+          <Filename>Templates\AS_Mountain_Mix.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+                    
+        <Template>
+          <Name>AS Palms Fan Sand Spots</Name>
+          <Filename>Templates\AS_Palms_Sand_Fan_Spots.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Palms Fan Sand Underwood</Name>
+          <Filename>Templates\AS_Palms_Sand_Fan_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Palms King Sand Spots</Name>
+          <Filename>Templates\AS_Palms_Sand_King_Spots.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Palms King Sand Underwood</Name>
+          <Filename>Templates\AS_Palms_Sand_King_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Palms Mix Sand Spots</Name>
+          <Filename>Templates\AS_Palms_Sand_Mix_Spots.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+
+        <Template>
+          <Name>AS Palms Mix Sand Underwood</Name>
+          <Filename>Templates\AS_Palms_Sand_Mix_Underwood.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>
+        
+        <Template>
+          <Name>AS Riverbed Underwater</Name>
+          <Filename>Templates\AS_Riverbed_Underwater.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>        
+
+        <Template>
+          <Name>AS Sand</Name>
+          <Filename>Templates\AS_Sand.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Sand Rocks</Name>
+          <Filename>Templates\AS_Sand_Rocks.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+
+        <Template>
+          <Name>AS Sand Wet</Name>
+          <Filename>Templates\AS_Sand_Wet.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template> 
+        
+        <Template>
+          <Name>AS Sand Wet Rocks</Name>
+          <Filename>Templates\AS_Sand_Wet_Rocks.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>       
+        
+        <Template>
+          <Name>AS Swamp Bushes</Name>
+          <Filename>Templates\AS_Swamp_Bushes.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>  
+        
+        <Template>
+          <Name>AS Swamp Dead Vinetrees</Name>
+          <Filename>Templates\AS_Swamp_DeadVinetrees.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>  
+        
+        <Template>
+          <Name>AS Swamp Mangroves</Name>
+          <Filename>Templates\AS_Swamp_Mangroves.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>  
+        
+        <Template>
+          <Name>AS Swamp Mixed Trees</Name>
+          <Filename>Templates\AS_Swamp_MixedTrees.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>  
+        
+        <Template>
+          <Name>AS Swamp Rocks Plain</Name>
+          <Filename>Templates\AS_Swamp_Rocks_Plain.bin</Filename>
+          <Climate>Asia</Climate>
+        </Template>                        
+                        
+      </Templates>
+    </ClimateTemplates>
+    <ClimateTemplates>
+      <Climate>DarkEvelance</Climate>
+      <Templates>
+
+        <Template>
+          <Name>ME Meadow Bright Flowers</Name>
+          <Filename>Templates\ME_Meadow_Bright_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Bright Plain</Name>
+          <Filename>Templates\ME_Meadow_Bright_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Bright Spots</Name>
+          <Filename>Templates\ME_Meadow_Bright_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Normal Flowers</Name>
+          <Filename>Templates\ME_Meadow_Normal_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Normal Plain</Name>
+          <Filename>Templates\ME_Meadow_Normal_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Normal Spots</Name>
+          <Filename>Templates\ME_Meadow_Normal_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Dark Flowers</Name>
+          <Filename>Templates\ME_Meadow_Dark_Flowers.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Dark Plain</Name>
+          <Filename>Templates\ME_Meadow_Dark_Plain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Dark Spots</Name>
+          <Filename>Templates\ME_Meadow_Dark_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Floodplain</Name>
+          <Filename>Templates\ME_Meadow_Floodplain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Meadow Floodplain Earth</Name>
+          <Filename>Templates\ME_Meadow_Floodplain_Earth.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Birch Spots</Name>
+          <Filename>Templates\ME_Birch_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Bright Spots</Name>
+          <Filename>Templates\ME_Earth_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Bright</Name>
+          <Filename>Templates\ME_Earth.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Dark</Name>
+          <Filename>Templates\ME_EarthDark.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Dark Spots</Name>
+          <Filename>Templates\ME_EarthDark_Spots.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Earth Bright Meadow Transition</Name>
+          <Filename>Templates\ME_EarthMeadow_Transition.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Normal Underwood</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Normal Border</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Normal Core</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Bright Underwood</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Bright_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Bright Border</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Bright_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Broadleaf Bright Core</Name>
+          <Filename>Templates\ME_Forest_Broadleaf_Bright_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Fir Underwood</Name>
+          <Filename>Templates\ME_Forest_Fir_Underwood.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Fir Border</Name>
+          <Filename>Templates\ME_Forest_Fir_Border.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Fir Core</Name>
+          <Filename>Templates\ME_Forest_Fir_Core.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Glade Leaves</Name>
+          <Filename>Templates\ME_Forest_GladeLeaves.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Forest Glade</Name>
+          <Filename>Templates\ME_Forest_Glade.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Sand</Name>
+          <Filename>Templates\ME_Sand.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Shrubbery</Name>
+          <Filename>Templates\ME_Shrubbery.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Shrubbery Hill Blocking</Name>
+          <Filename>Templates\ME_Hill_Shrubbery.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Swamp</Name>
+          <Filename>Templates\ME_Swamp.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Swamp Green</Name>
+          <Filename>Templates\ME_Swamp_Green.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Mountain Blocking</Name>
+          <Filename>Templates\ME_Mountain.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Riverbed Big Rocks</Name>
+          <Filename>Templates\ME_Riverbed_DeepWater_BigRocks.bin</Filename>
+        </Template>
+
+        <Template>
+          <Name>ME Riverbed Small Rocks</Name>
+          <Filename>Templates\ME_Riverbed_DeepWater_SmallRocks.bin</Filename>
+        </Template>
+
+      </Templates>
+    </ClimateTemplates>
+
+    </ClimateTemplateList>
+
+</TemplateConfig>

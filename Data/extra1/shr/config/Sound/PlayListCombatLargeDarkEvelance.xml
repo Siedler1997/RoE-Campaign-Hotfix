@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PlayList>
+
+	<!-- combat opener -->
+
+	<PlayListEntry>
+		<FileName>music\03_CombatEurope1.mp3</FileName>
+		<Type>loop</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+
+	<!-- combat loops -->
+
+	<PlayListEntry>
+		<FileName>music\43_Extra1_DarkMoor_Combat.mp3</FileName>
+		<Type>loop</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+
+</PlayList>

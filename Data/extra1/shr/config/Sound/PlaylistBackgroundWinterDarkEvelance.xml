@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PlayList>
+
+	<PlayListEntry>
+		<FileName>music\19_Evelance_Summer1.mp3</FileName>
+		<Type>Normal</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+	
+	<PlayListEntry>
+		<FileName>music\19_Evelance_Summer2.mp3</FileName>
+		<Type>Normal</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+
+	<PlayListEntry>
+		<FileName>music\19_Evelance_Summer3.mp3</FileName>
+		<Type>Normal</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+
+	<PlayListEntry>
+		<FileName>music\19_Evelance_Summer4.mp3</FileName>
+		<Type>Normal</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+
+	<PlayListEntry>
+		<FileName>music\19_Evelance_Summer5.mp3</FileName>
+		<Type>Normal</Type>
+		<Chance>10</Chance>
+	</PlayListEntry>
+
+</PlayList>
