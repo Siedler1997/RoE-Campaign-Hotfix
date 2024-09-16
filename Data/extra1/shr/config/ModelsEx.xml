@@ -2500,6 +2500,14 @@
 			<DefaultAnimID>U_Helbardier_Run</DefaultAnimID>
 		</Model>
 
+		<Model id="Units\Military\PU_SoldierBow3">
+			<SelectionRadius>100</SelectionRadius>
+			<!--<Effect>SettlerRimPlayerColorSpecular</Effect>-->
+			<SelectionTexture>Selection_Soldier</SelectionTexture>
+			<OcclusionReceiver>True</OcclusionReceiver>
+			<DefaultAnimID>Military\PU_SoldierBow3_Run1</DefaultAnimID>
+		</Model>
+
 		<Model id="Doodads\D_X_Beautification_Dragon">
 			<CastShadow>True</CastShadow>
 			<ShareShadowRaster>True</ShareShadowRaster>

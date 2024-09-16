@@ -430,6 +430,7 @@
 	<Entity>U_MilitarySpear</Entity>
 	<Entity>U_MilitaryCavalry</Entity>
 	<Entity>U_Helbardier</Entity>
+	<Entity>U_MilitaryCrossbow</Entity>
 	<Entity>B_Beautification_Dragon</Entity>
 	<Entity>U_Dragon</Entity>
 	<Entity>B_Beautification_Cathedral</Entity>

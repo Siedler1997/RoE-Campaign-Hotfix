@@ -215,7 +215,7 @@ function DebugKeyBindings_Init()
 
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad5, "KeyBindings_CreateBattalionOnMousePositionForActiveGUIPlayer(Entities.U_MilitarySword_RedPrince)", 2, true)
     Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad5, "KeyBindings_CreateBattalionOnMousePositionForActiveGUIPlayer(Entities.U_MilitarySword)", 2, true)
-    Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad4, "KeyBindings_CreateBattalionOnMousePositionForActiveGUIPlayer(Entities.U_MilitaryBow)", 2, true)
+    Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad4, "KeyBindings_CreateBattalionOnMousePositionForActiveGUIPlayer(Entities.U_MilitaryCrossbow)", 2, true)
     Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad6, "KeyBindings_CreateBattalionOnMousePositionForActiveGUIPlayer(Entities.U_MilitarySpear)", 2, true)
     Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad7, "KeyBindings_CreateEntityAtMousePositionForActiveGUIPlayer(Entities.U_MilitaryBatteringRam)", 2, true)
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad8, "KeyBindings_CreateEntityAtMousePositionForActiveGUIPlayer(Entities.U_SiegeTowerCart)", 2, true)

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AnimSet>
+    <Categories>
+        <Category classname="EGL::CAnimCategory">
+            <Name>Walk</Name>
+            <Animation>Military\PU_SoldierBow3_Walk</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>Run</Name>
+            <Animation>Military\PU_SoldierBow3_Run1</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>AttackRun</Name>
+            <Animation>Military\PU_SoldierBow3_Run1</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>Stand</Name>
+            <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>Cheer</Name>
+            <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>Jubilate</Name>
+            <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>Dead</Name>
+            <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+        </Category>
+        
+
+		<!--********************************** STANDTOARMS **********************************-->
+		
+        <Category classname="EGL::CAnimCategory">
+            <Name>StandToArms</Name>
+            <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+        </Category>
+        <Category classname="EGL::CAnimCategory">
+            <Name>JumpToArms</Name>
+            <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+        </Category>
+		
+		
+		<!--********************************** STANDTOARMSIDLE **********************************-->
+		
+		
+        <Category classname="EGL::CAnimCategory">
+            <Name>StandToArmsIdle</Name>
+    	    <RandomAnims>
+    		    <RandomAnim>
+    			    <Animation>Military\PU_SoldierBow3_Idle1</Animation>
+    			    <Rank>1</Rank>
+    		    </RandomAnim>
+    	    </RandomAnims>
+        </Category>
+
+		
+		<!--********************************** IDLE **********************************-->
+
+
+        <Category classname="EGL::CAnimCategory">
+            <Name>Idle</Name>
+    	    <RandomAnims>
+				<RandomAnim>
+					<Animation>Military\PU_SoldierBow3_Idle1</Animation>
+					<Rank>20</Rank>
+				</RandomAnim>
+				<RandomAnim>
+					<Animation>Military\PU_SoldierBow3_Idle2</Animation>
+					<Rank>1</Rank>
+				</RandomAnim>
+				<RandomAnim>
+					<Animation>Military\PU_SoldierBow3_Idle3</Animation>
+					<Rank>1</Rank>
+				</RandomAnim>
+				<RandomAnim>
+					<Animation>Military\PU_SoldierBow3_Idle4</Animation>
+					<Rank>1</Rank>
+				</RandomAnim>
+				<RandomAnim>
+					<Animation>Military\PU_SoldierBow3_Idle5</Animation>
+					<Rank>1</Rank>
+				</RandomAnim>
+				<RandomAnim>
+					<Animation>Military\PU_SoldierBow3_Idle6</Animation>
+					<Rank>1</Rank>
+				</RandomAnim>
+    	    </RandomAnims>
+        </Category>
+
+
+		<!--********************************** HEIST **********************************-->		
+		
+		
+		<Category classname="EGL::CAnimCategory">
+			<Name>HeistRunFat</Name>
+			<Animation>Military\PU_SoldierBow3_Idle1</Animation>
+		</Category>		
+		
+		<Category classname="EGL::CAnimCategory">
+			<Name>HeistRunSexy</Name>
+			<Animation>Military\PU_SoldierBow3_Idle1</Animation>
+		</Category>		
+		
+		
+		<!--********************************** ATTACK **********************************-->
+		
+		
+        <Category classname="EGL::CAnimCategory">
+            <Name>Attack</Name>
+    	    <RandomAnims>
+    		    <RandomAnim>
+    			    <Animation>Military\PU_SoldierBow3_Hit</Animation>
+    			    <Rank>1</Rank>
+    		    </RandomAnim>
+    	    </RandomAnims>
+        </Category>
+        
+        <Category classname="EGL::CAnimCategory">
+            <Name>Shoot</Name>
+    	    <RandomAnims>
+    		    <RandomAnim>
+    			    <Animation>Military\PU_SoldierBow3_Attack1</Animation>
+    			    <Rank>1</Rank>
+    		    </RandomAnim>
+    	    </RandomAnims>
+        </Category>
+		
+		
+		<!--********************************** DIE **********************************-->		
+		
+		
+        <Category classname="EGL::CAnimCategory">
+            <Name>Die</Name>
+    	    <RandomAnims>
+    		    <RandomAnim>
+    			    <Animation>Military\PU_SoldierBow3_Dying1</Animation>
+    			    <Rank>1</Rank>
+    		    </RandomAnim>
+    	    </RandomAnims>
+        </Category>
+        
+        
+		<!--********************************** BATTLEIDLE **********************************-->
+		
+		
+        <Category classname="EGL::CAnimCategory">
+            <Name>BattleIdle</Name>
+    	    <RandomAnims>
+    		    <RandomAnim>
+    			    <Animation>Military\PU_SoldierBow3_IdleAttack1</Animation>
+    			    <Rank>1</Rank>
+    		    </RandomAnim>
+    	    </RandomAnims>
+        </Category>
+        
+    </Categories>
+</AnimSet>
