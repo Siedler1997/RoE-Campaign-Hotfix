@@ -2640,9 +2640,9 @@
 						 <IconMaterial>
 							 <Texture>iconsbig3.png</Texture>
 							 <TextureCoordinatesMinU>64.</TextureCoordinatesMinU>
-							 <TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+							 <TextureCoordinatesMinV>192.</TextureCoordinatesMinV>
 							 <TextureCoordinatesMxU>128.</TextureCoordinatesMxU>
-							 <TextureCoordinatesMxV>64.</TextureCoordinatesMxV>
+							 <TextureCoordinatesMxV>256.</TextureCoordinatesMxV>
 							 <TextureFixedSizeX>0.</TextureFixedSizeX>
 							 <TextureFixedSizeY>0.</TextureFixedSizeY>
 							 <Color>
