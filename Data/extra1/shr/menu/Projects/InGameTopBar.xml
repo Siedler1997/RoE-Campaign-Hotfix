@@ -295,453 +295,6 @@
           <Name>AlignTopLeft</Name>
           <SubWidgets>
            <WidgetList>
-			   <Widget classname="EGUIX::CContainerWidget">
-				   <IsShown>true</IsShown>
-				   <UpdateManualFlag>false</UpdateManualFlag>
-				   <EventHandling>true</EventHandling>
-				   <ZPriority>100.</ZPriority>
-				   <ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
-				   <ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
-				   <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
-				   <TabIndex>0</TabIndex>
-				   <Rectangle>
-					   <X>0.</X>
-					   <Y>0.</Y>
-					   <W>140.</W>
-					   <H>200.</H>
-					   <KeepAspectRatio>true</KeepAspectRatio>
-					   <CirclePointTest>false</CirclePointTest>
-					   <FixedTextureSetSize>false</FixedTextureSetSize>
-					   <AlignmentX>0</AlignmentX>
-					   <AlignmentY>0</AlignmentY>
-					   <AnchorX>0</AnchorX>
-					   <AnchorY>0</AnchorY>
-				   </Rectangle>
-				   <OnPushToStack>
-					   <LuaCommand></LuaCommand>
-				   </OnPushToStack>
-				   <OnMouseOver>
-					   <LuaCommand></LuaCommand>
-				   </OnMouseOver>
-				   <OnMouseOut>
-					   <LuaCommand></LuaCommand>
-				   </OnMouseOut>
-				   <OnRightClick>
-					   <LuaCommand></LuaCommand>
-				   </OnRightClick>
-				   <OnLeftClick>
-					   <LuaCommand></LuaCommand>
-				   </OnLeftClick>
-				   <OnKeyPress>
-					   <LuaCommand></LuaCommand>
-				   </OnKeyPress>
-				   <OnFocus>
-					   <LuaCommand></LuaCommand>
-				   </OnFocus>
-				   <OnBlur>
-					   <LuaCommand></LuaCommand>
-				   </OnBlur>
-				   <UpdateFunction>
-					   <LuaCommand></LuaCommand>
-				   </UpdateFunction>
-				   <UpdateFunctionTurnBased>
-					   <LuaCommand></LuaCommand>
-				   </UpdateFunctionTurnBased>
-				   <UpdateFunctionSecondBased>
-					   <LuaCommand></LuaCommand>
-				   </UpdateFunctionSecondBased>
-				   <ToolTipHelper>
-					   <ToolTipEnabledFlag>true</ToolTipEnabledFlag>
-					   <ControlTargetVisibility>true</ControlTargetVisibility>
-					   <ToolTipUpdateFunction>
-						   <LuaCommand></LuaCommand>
-					   </ToolTipUpdateFunction>
-					   <RawString></RawString>
-					   <StringTableKey></StringTableKey>
-					   <TargetWidget01></TargetWidget01>
-					   <TargetWidget02></TargetWidget02>
-					   <TargetWidget03></TargetWidget03>
-					   <TargetWidget04></TargetWidget04>
-					   <TargetWidget05></TargetWidget05>
-				   </ToolTipHelper>
-				   <Group></Group>
-				   <MotherID>/InGame/Root/Normal/AlignTopLeft</MotherID>
-				   <Name>MenuBar</Name>
-				   <SubWidgets>
-					   <WidgetList>
-						   <Widget classname="EGUIX::CTextButtonWidget">
-							   <IsShown>true</IsShown>
-							   <UpdateManualFlag>false</UpdateManualFlag>
-							   <EventHandling>true</EventHandling>
-							   <ZPriority>100.</ZPriority>
-							   <ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
-							   <ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
-							   <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
-							   <TabIndex>0</TabIndex>
-							   <Rectangle>
-								   <X>2.</X>
-								   <Y>47.</Y>
-								   <W>135.</W>
-								   <H>47.</H>
-								   <KeepAspectRatio>true</KeepAspectRatio>
-								   <CirclePointTest>false</CirclePointTest>
-								   <FixedTextureSetSize>false</FixedTextureSetSize>
-								   <AlignmentX>0</AlignmentX>
-								   <AlignmentY>0</AlignmentY>
-								   <AnchorX>0</AnchorX>
-								   <AnchorY>0</AnchorY>
-							   </Rectangle>
-							   <OnPushToStack>
-								   <LuaCommand></LuaCommand>
-							   </OnPushToStack>
-							   <OnMouseOver>
-								   <LuaCommand></LuaCommand>
-							   </OnMouseOver>
-							   <OnMouseOut>
-								   <LuaCommand></LuaCommand>
-							   </OnMouseOut>
-							   <OnRightClick>
-								   <LuaCommand></LuaCommand>
-							   </OnRightClick>
-							   <OnLeftClick>
-								   <LuaCommand></LuaCommand>
-							   </OnLeftClick>
-							   <OnKeyPress>
-								   <LuaCommand></LuaCommand>
-							   </OnKeyPress>
-							   <OnFocus>
-								   <LuaCommand></LuaCommand>
-							   </OnFocus>
-							   <OnBlur>
-								   <LuaCommand></LuaCommand>
-							   </OnBlur>
-							   <UpdateFunction>
-								   <LuaCommand></LuaCommand>
-							   </UpdateFunction>
-							   <UpdateFunctionTurnBased>
-								   <LuaCommand>GUI_Chat.OpenChatMenuUpdate()</LuaCommand>
-							   </UpdateFunctionTurnBased>
-							   <UpdateFunctionSecondBased>
-								   <LuaCommand></LuaCommand>
-							   </UpdateFunctionSecondBased>
-							   <ToolTipHelper>
-								   <ToolTipEnabledFlag>true</ToolTipEnabledFlag>
-								   <ControlTargetVisibility>true</ControlTargetVisibility>
-								   <ToolTipUpdateFunction>
-									   <LuaCommand></LuaCommand>
-								   </ToolTipUpdateFunction>
-								   <RawString></RawString>
-								   <StringTableKey></StringTableKey>
-								   <TargetWidget01></TargetWidget01>
-								   <TargetWidget02></TargetWidget02>
-								   <TargetWidget03></TargetWidget03>
-								   <TargetWidget04></TargetWidget04>
-								   <TargetWidget05></TargetWidget05>
-							   </ToolTipHelper>
-							   <Group></Group>
-							   <MotherID>/InGame/Root/Normal/AlignTopLeft/MenuBar</MotherID>
-							   <Name>ChatMenuButton</Name>
-							   <FullScreenBackground>false</FullScreenBackground>
-							   <AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
-							   <BackgroundMaterial>
-								   <Texture></Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>705.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>135.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>752.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>0.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>0</Alpha>
-								   </Color>
-							   </BackgroundMaterial>
-							   <ActionFunction>
-								   <LuaCommand>GUI_Chat.DisplayChatLog()</LuaCommand>
-							   </ActionFunction>
-							   <GenerateMaterialsFromNormal>false</GenerateMaterialsFromNormal>
-							   <ShortCutKey></ShortCutKey>
-							   <ShortCutKeyStringTableKey></ShortCutKeyStringTableKey>
-							   <AllowRightMouseButton>false</AllowRightMouseButton>
-							   <AllowDoubleClick>false</AllowDoubleClick>
-							   <Disabled>false</Disabled>
-							   <Highlighted>false</Highlighted>
-							   <MaterialBaseNormal classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>705.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>752.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialBaseNormal>
-							   <MaterialDisabled classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>897.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>944.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialDisabled>
-							   <MaterialHighlight classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>833.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>880.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialHighlight>
-							   <MaterialMouseOver classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>833.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>880.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialMouseOver>
-							   <MaterialPressed classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>769.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>816.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialPressed>
-							   <StringFrameDistance>0.</StringFrameDistance>
-							   <RawString>{center}Chat</RawString>
-							   <StringTableKey>UI_Texts/Chat_center</StringTableKey>
-							   <FontColor>
-								   <Red>51</Red>
-								   <Green>51</Green>
-								   <Blue>121</Blue>
-								   <Alpha>255</Alpha>
-							   </FontColor>
-							   <FontName>menu\fonts\humanistika11.xml</FontName>
-						   </Widget>
-						   <Widget classname="EGUIX::CTextButtonWidget">
-							   <IsShown>true</IsShown>
-							   <UpdateManualFlag>false</UpdateManualFlag>
-							   <EventHandling>true</EventHandling>
-							   <ZPriority>100.</ZPriority>
-							   <ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
-							   <ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
-							   <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
-							   <TabIndex>0</TabIndex>
-							   <Rectangle>
-								   <X>2.</X>
-								   <Y>2.</Y>
-								   <W>135.</W>
-								   <H>47.</H>
-								   <KeepAspectRatio>true</KeepAspectRatio>
-								   <CirclePointTest>false</CirclePointTest>
-								   <FixedTextureSetSize>false</FixedTextureSetSize>
-								   <AlignmentX>0</AlignmentX>
-								   <AlignmentY>0</AlignmentY>
-								   <AnchorX>0</AnchorX>
-								   <AnchorY>0</AnchorY>
-							   </Rectangle>
-							   <OnPushToStack>
-								   <LuaCommand></LuaCommand>
-							   </OnPushToStack>
-							   <OnMouseOver>
-								   <LuaCommand></LuaCommand>
-							   </OnMouseOver>
-							   <OnMouseOut>
-								   <LuaCommand></LuaCommand>
-							   </OnMouseOut>
-							   <OnRightClick>
-								   <LuaCommand></LuaCommand>
-							   </OnRightClick>
-							   <OnLeftClick>
-								   <LuaCommand></LuaCommand>
-							   </OnLeftClick>
-							   <OnKeyPress>
-								   <LuaCommand></LuaCommand>
-							   </OnKeyPress>
-							   <OnFocus>
-								   <LuaCommand></LuaCommand>
-							   </OnFocus>
-							   <OnBlur>
-								   <LuaCommand></LuaCommand>
-							   </OnBlur>
-							   <UpdateFunction>
-								   <LuaCommand></LuaCommand>
-							   </UpdateFunction>
-							   <UpdateFunctionTurnBased>
-								   <LuaCommand></LuaCommand>
-							   </UpdateFunctionTurnBased>
-							   <UpdateFunctionSecondBased>
-								   <LuaCommand></LuaCommand>
-							   </UpdateFunctionSecondBased>
-							   <ToolTipHelper>
-								   <ToolTipEnabledFlag>true</ToolTipEnabledFlag>
-								   <ControlTargetVisibility>true</ControlTargetVisibility>
-								   <ToolTipUpdateFunction>
-									   <LuaCommand></LuaCommand>
-								   </ToolTipUpdateFunction>
-								   <RawString></RawString>
-								   <StringTableKey></StringTableKey>
-								   <TargetWidget01></TargetWidget01>
-								   <TargetWidget02></TargetWidget02>
-								   <TargetWidget03></TargetWidget03>
-								   <TargetWidget04></TargetWidget04>
-								   <TargetWidget05></TargetWidget05>
-							   </ToolTipHelper>
-							   <Group></Group>
-							   <MotherID>/InGame/Root/Normal/AlignTopLeft/MenuBar</MotherID>
-							   <Name>MainMenuButton</Name>
-							   <FullScreenBackground>false</FullScreenBackground>
-							   <AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
-							   <BackgroundMaterial>
-								   <Texture></Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>705.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>135.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>752.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>0.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>0</Alpha>
-								   </Color>
-							   </BackgroundMaterial>
-							   <ActionFunction>
-								   <LuaCommand>GUI_Window.Toggle("MainMenu")</LuaCommand>
-							   </ActionFunction>
-							   <GenerateMaterialsFromNormal>false</GenerateMaterialsFromNormal>
-							   <ShortCutKey></ShortCutKey>
-							   <ShortCutKeyStringTableKey></ShortCutKeyStringTableKey>
-							   <AllowRightMouseButton>false</AllowRightMouseButton>
-							   <AllowDoubleClick>false</AllowDoubleClick>
-							   <Disabled>false</Disabled>
-							   <Highlighted>false</Highlighted>
-							   <MaterialBaseNormal classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>705.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>752.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialBaseNormal>
-							   <MaterialDisabled classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>897.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>944.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialDisabled>
-							   <MaterialHighlight classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>833.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>880.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialHighlight>
-							   <MaterialMouseOver classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>833.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>880.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialMouseOver>
-							   <MaterialPressed classname="EGUIX::CMaterial">
-								   <Texture>buttons.png</Texture>
-								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
-								   <TextureCoordinatesMinV>769.</TextureCoordinatesMinV>
-								   <TextureCoordinatesMxU>257.</TextureCoordinatesMxU>
-								   <TextureCoordinatesMxV>816.</TextureCoordinatesMxV>
-								   <TextureFixedSizeX>50.</TextureFixedSizeX>
-								   <TextureFixedSizeY>0.</TextureFixedSizeY>
-								   <Color>
-									   <Red>255</Red>
-									   <Green>255</Green>
-									   <Blue>255</Blue>
-									   <Alpha>255</Alpha>
-								   </Color>
-							   </MaterialPressed>
-							   <StringFrameDistance>0.</StringFrameDistance>
-							   <RawString>{center}Menu</RawString>
-							   <StringTableKey>UI_Texts/Menu_center</StringTableKey>
-							   <FontColor>
-								   <Red>51</Red>
-								   <Green>51</Green>
-								   <Blue>121</Blue>
-								   <Alpha>255</Alpha>
-							   </FontColor>
-							   <FontName>menu\fonts\humanistika11.xml</FontName>
-						   </Widget>
-						</WidgetList>
-				   </SubWidgets>
-			   </Widget>
             <Widget classname="EGUIX::CContainerWidget">
              <IsShown>true</IsShown>
              <UpdateManualFlag>false</UpdateManualFlag>
@@ -752,7 +305,7 @@
              <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
              <TabIndex>0</TabIndex>
              <Rectangle>
-              <X>140.</X>
+              <X>0.</X>
               <Y>0.</Y>
               <W>1600.</W>
               <H>600.</H>
@@ -19960,7 +19513,7 @@
                     <X>1119.</X>
                     <Y>0.</Y>
                     <W>290.</W>
-                    <H>250.</H>
+                    <H>310.</H>
                     <KeepAspectRatio>true</KeepAspectRatio>
                     <CirclePointTest>false</CirclePointTest>
                     <FixedTextureSetSize>false</FixedTextureSetSize>
@@ -20021,6 +19574,390 @@
                    <Name>Military</Name>
                    <SubWidgets>
                     <WidgetList>
+						<Widget classname="EGUIX::CContainerWidget">
+							<IsShown>true</IsShown>
+							<UpdateManualFlag>false</UpdateManualFlag>
+							<EventHandling>true</EventHandling>
+							<ZPriority>100.</ZPriority>
+							<ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
+							<ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
+							<PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
+							<TabIndex>0</TabIndex>
+							<Rectangle>
+								<X>110.</X>
+								<Y>20.</Y>
+								<W>180.</W>
+								<H>120.</H>
+								<KeepAspectRatio>true</KeepAspectRatio>
+								<CirclePointTest>false</CirclePointTest>
+								<FixedTextureSetSize>false</FixedTextureSetSize>
+								<AlignmentX>0</AlignmentX>
+								<AlignmentY>0</AlignmentY>
+								<AnchorX>0</AnchorX>
+								<AnchorY>0</AnchorY>
+							</Rectangle>
+							<OnPushToStack>
+								<LuaCommand></LuaCommand>
+							</OnPushToStack>
+							<OnMouseOver>
+								<LuaCommand></LuaCommand>
+							</OnMouseOver>
+							<OnMouseOut>
+								<LuaCommand></LuaCommand>
+							</OnMouseOut>
+							<OnRightClick>
+								<LuaCommand></LuaCommand>
+							</OnRightClick>
+							<OnLeftClick>
+								<LuaCommand></LuaCommand>
+							</OnLeftClick>
+							<OnKeyPress>
+								<LuaCommand></LuaCommand>
+							</OnKeyPress>
+							<OnFocus>
+								<LuaCommand></LuaCommand>
+							</OnFocus>
+							<OnBlur>
+								<LuaCommand></LuaCommand>
+							</OnBlur>
+							<UpdateFunction>
+								<LuaCommand></LuaCommand>
+							</UpdateFunction>
+							<UpdateFunctionTurnBased>
+								<LuaCommand></LuaCommand>
+							</UpdateFunctionTurnBased>
+							<UpdateFunctionSecondBased>
+								<LuaCommand></LuaCommand>
+							</UpdateFunctionSecondBased>
+							<ToolTipHelper>
+								<ToolTipEnabledFlag>true</ToolTipEnabledFlag>
+								<ControlTargetVisibility>true</ControlTargetVisibility>
+								<ToolTipUpdateFunction>
+									<LuaCommand></LuaCommand>
+								</ToolTipUpdateFunction>
+								<RawString></RawString>
+								<StringTableKey></StringTableKey>
+								<TargetWidget01></TargetWidget01>
+								<TargetWidget02></TargetWidget02>
+								<TargetWidget03></TargetWidget03>
+								<TargetWidget04></TargetWidget04>
+								<TargetWidget05></TargetWidget05>
+							</ToolTipHelper>
+							<Group></Group>
+							<MotherID>/InGame/Root/Normal/AlignTopLeft/TopBar/Windows/Military</MotherID>
+							<Name>G_PoorSpear</Name>
+							<SubWidgets>
+								<WidgetList>
+									<Widget classname="EGUIX::CStaticTextWidget">
+										<IsShown>true</IsShown>
+										<UpdateManualFlag>false</UpdateManualFlag>
+										<EventHandling>false</EventHandling>
+										<ZPriority>100.</ZPriority>
+										<ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
+										<ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
+										<PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
+										<TabIndex>0</TabIndex>
+										<Rectangle>
+											<X>66.</X>
+											<Y>59.</Y>
+											<W>63.</W>
+											<H>25.</H>
+											<KeepAspectRatio>true</KeepAspectRatio>
+											<CirclePointTest>false</CirclePointTest>
+											<FixedTextureSetSize>false</FixedTextureSetSize>
+											<AlignmentX>0</AlignmentX>
+											<AlignmentY>0</AlignmentY>
+											<AnchorX>0</AnchorX>
+											<AnchorY>0</AnchorY>
+										</Rectangle>
+										<OnPushToStack>
+											<LuaCommand></LuaCommand>
+										</OnPushToStack>
+										<OnMouseOver>
+											<LuaCommand></LuaCommand>
+										</OnMouseOver>
+										<OnMouseOut>
+											<LuaCommand></LuaCommand>
+										</OnMouseOut>
+										<OnRightClick>
+											<LuaCommand></LuaCommand>
+										</OnRightClick>
+										<OnLeftClick>
+											<LuaCommand></LuaCommand>
+										</OnLeftClick>
+										<OnKeyPress>
+											<LuaCommand></LuaCommand>
+										</OnKeyPress>
+										<OnFocus>
+											<LuaCommand></LuaCommand>
+										</OnFocus>
+										<OnBlur>
+											<LuaCommand></LuaCommand>
+										</OnBlur>
+										<UpdateFunction>
+											<LuaCommand></LuaCommand>
+										</UpdateFunction>
+										<UpdateFunctionTurnBased>
+											<LuaCommand>GUI_Goods.GetNumberOfGoodsInPlayerOutstocks()</LuaCommand>
+										</UpdateFunctionTurnBased>
+										<UpdateFunctionSecondBased>
+											<LuaCommand></LuaCommand>
+										</UpdateFunctionSecondBased>
+										<ToolTipHelper>
+											<ToolTipEnabledFlag>true</ToolTipEnabledFlag>
+											<ControlTargetVisibility>true</ControlTargetVisibility>
+											<ToolTipUpdateFunction>
+												<LuaCommand></LuaCommand>
+											</ToolTipUpdateFunction>
+											<RawString></RawString>
+											<StringTableKey></StringTableKey>
+											<TargetWidget01></TargetWidget01>
+											<TargetWidget02></TargetWidget02>
+											<TargetWidget03></TargetWidget03>
+											<TargetWidget04></TargetWidget04>
+											<TargetWidget05></TargetWidget05>
+										</ToolTipHelper>
+										<Group></Group>
+										<MotherID>/InGame/Root/Normal/AlignTopLeft/TopBar/Windows/Military/G_PoorSpear</MotherID>
+										<Name>Amount</Name>
+										<FullScreenBackground>false</FullScreenBackground>
+										<AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
+										<BackgroundMaterial>
+											<Texture></Texture>
+											<TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>1.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>1.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</BackgroundMaterial>
+										<LineDistanceFactor>0.</LineDistanceFactor>
+										<LinkedSlider></LinkedSlider>
+										<StringFrameDistance>0.</StringFrameDistance>
+										<RawString>{center}123</RawString>
+										<StringTableKey></StringTableKey>
+										<ClipTextAtWidgetBounds>false</ClipTextAtWidgetBounds>
+										<ForceMultiLine>true</ForceMultiLine>
+										<AllowScriptCommands>true</AllowScriptCommands>
+										<FontColor>
+											<Red>51</Red>
+											<Green>51</Green>
+											<Blue>121</Blue>
+											<Alpha>255</Alpha>
+										</FontColor>
+										<FontName>menu\fonts\humanistika12.xml</FontName>
+									</Widget>
+									<Widget classname="EGUIX::CGfxButtonWidget">
+										<IsShown>true</IsShown>
+										<UpdateManualFlag>false</UpdateManualFlag>
+										<EventHandling>true</EventHandling>
+										<ZPriority>100.</ZPriority>
+										<ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
+										<ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
+										<PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
+										<TabIndex>0</TabIndex>
+										<Rectangle>
+											<X>38.</X>
+											<Y>53.</Y>
+											<W>44.</W>
+											<H>44.</H>
+											<KeepAspectRatio>true</KeepAspectRatio>
+											<CirclePointTest>false</CirclePointTest>
+											<FixedTextureSetSize>false</FixedTextureSetSize>
+											<AlignmentX>0</AlignmentX>
+											<AlignmentY>0</AlignmentY>
+											<AnchorX>0</AnchorX>
+											<AnchorY>0</AnchorY>
+										</Rectangle>
+										<OnPushToStack>
+											<LuaCommand></LuaCommand>
+										</OnPushToStack>
+										<OnMouseOver>
+											<LuaCommand></LuaCommand>
+										</OnMouseOver>
+										<OnMouseOut>
+											<LuaCommand></LuaCommand>
+										</OnMouseOut>
+										<OnRightClick>
+											<LuaCommand></LuaCommand>
+										</OnRightClick>
+										<OnLeftClick>
+											<LuaCommand></LuaCommand>
+										</OnLeftClick>
+										<OnKeyPress>
+											<LuaCommand></LuaCommand>
+										</OnKeyPress>
+										<OnFocus>
+											<LuaCommand></LuaCommand>
+										</OnFocus>
+										<OnBlur>
+											<LuaCommand></LuaCommand>
+										</OnBlur>
+										<UpdateFunction>
+											<LuaCommand></LuaCommand>
+										</UpdateFunction>
+										<UpdateFunctionTurnBased>
+											<LuaCommand></LuaCommand>
+										</UpdateFunctionTurnBased>
+										<UpdateFunctionSecondBased>
+											<LuaCommand></LuaCommand>
+										</UpdateFunctionSecondBased>
+										<ToolTipHelper>
+											<ToolTipEnabledFlag>true</ToolTipEnabledFlag>
+											<ControlTargetVisibility>true</ControlTargetVisibility>
+											<ToolTipUpdateFunction>
+												<LuaCommand>GUI_Goods.ResourceMouseOver()</LuaCommand>
+											</ToolTipUpdateFunction>
+											<RawString></RawString>
+											<StringTableKey></StringTableKey>
+											<TargetWidget01>/InGame/Root/Normal/TooltipNormal</TargetWidget01>
+											<TargetWidget02></TargetWidget02>
+											<TargetWidget03></TargetWidget03>
+											<TargetWidget04></TargetWidget04>
+											<TargetWidget05></TargetWidget05>
+										</ToolTipHelper>
+										<Group></Group>
+										<MotherID>/InGame/Root/Normal/AlignTopLeft/TopBar/Windows/Military/G_PoorSpear</MotherID>
+										<Name>Icon</Name>
+										<FullScreenBackground>false</FullScreenBackground>
+										<AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
+										<BackgroundMaterial>
+											<Texture></Texture>
+											<TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>44.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>44.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</BackgroundMaterial>
+										<ActionFunction>
+											<LuaCommand></LuaCommand>
+										</ActionFunction>
+										<GenerateMaterialsFromNormal>false</GenerateMaterialsFromNormal>
+										<ShortCutKey></ShortCutKey>
+										<ShortCutKeyStringTableKey></ShortCutKeyStringTableKey>
+										<AllowRightMouseButton>false</AllowRightMouseButton>
+										<AllowDoubleClick>false</AllowDoubleClick>
+										<Disabled>false</Disabled>
+										<Highlighted>false</Highlighted>
+										<MaterialBaseNormal classname="EGUIX::CMaterial">
+											<Texture></Texture>
+											<TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>44.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>44.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</MaterialBaseNormal>
+										<MaterialDisabled classname="EGUIX::CMaterial">
+											<Texture></Texture>
+											<TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>44.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>44.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</MaterialDisabled>
+										<MaterialHighlight classname="EGUIX::CMaterial">
+											<Texture></Texture>
+											<TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>572.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>616.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</MaterialHighlight>
+										<MaterialMouseOver classname="EGUIX::CMaterial">
+											<Texture></Texture>
+											<TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>616.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>660.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</MaterialMouseOver>
+										<MaterialPressed classname="EGUIX::CMaterial">
+											<Texture></Texture>
+											<TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>660.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>704.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>0</Alpha>
+											</Color>
+										</MaterialPressed>
+										<IconMaterial>
+											<Texture>icons3.png</Texture>
+											<TextureCoordinatesMinU>44.</TextureCoordinatesMinU>
+											<TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+											<TextureCoordinatesMxU>88.</TextureCoordinatesMxU>
+											<TextureCoordinatesMxV>44.</TextureCoordinatesMxV>
+											<TextureFixedSizeX>0.</TextureFixedSizeX>
+											<TextureFixedSizeY>0.</TextureFixedSizeY>
+											<Color>
+												<Red>255</Red>
+												<Green>255</Green>
+												<Blue>255</Blue>
+												<Alpha>255</Alpha>
+											</Color>
+										</IconMaterial>
+										<IconOffsetWhilePressed>0</IconOffsetWhilePressed>
+										<IconColorWhileDisabled>
+											<Red>255</Red>
+											<Green>255</Green>
+											<Blue>255</Blue>
+											<Alpha>255</Alpha>
+										</IconColorWhileDisabled>
+										<PulseHighlightDuration>0.</PulseHighlightDuration>
+										<PulseHighlightMinAlpha>0.25</PulseHighlightMinAlpha>
+										<PulseMouseoverDuration>0.</PulseMouseoverDuration>
+										<PulseMouseoverMinAlpha>0.25</PulseMouseoverMinAlpha>
+										<ShowHighlightedAsPressed>false</ShowHighlightedAsPressed>
+									</Widget>
+								</WidgetList>
+							</SubWidgets>
+						</Widget>
                      <Widget classname="EGUIX::CContainerWidget">
                       <IsShown>true</IsShown>
                       <UpdateManualFlag>false</UpdateManualFlag>
@@ -20032,7 +19969,7 @@
                       <TabIndex>0</TabIndex>
                       <Rectangle>
                        <X>110.</X>
-                       <Y>65.</Y>
+                       <Y>110.</Y>
                        <W>180.</W>
                        <H>120.</H>
                        <KeepAspectRatio>true</KeepAspectRatio>
@@ -20681,6 +20618,208 @@
                          <PulseMouseoverMinAlpha>0.25</PulseMouseoverMinAlpha>
                          <ShowHighlightedAsPressed>false</ShowHighlightedAsPressed>
                         </Widget>
+						   <Widget classname="EGUIX::CGfxButtonWidget">
+							   <IsShown>true</IsShown>
+							   <UpdateManualFlag>false</UpdateManualFlag>
+							   <EventHandling>true</EventHandling>
+							   <ZPriority>100.</ZPriority>
+							   <ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
+							   <ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
+							   <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
+							   <TabIndex>0</TabIndex>
+							   <Rectangle>
+								   <X>38.</X>
+								   <Y>188.</Y>
+								   <W>44.</W>
+								   <H>44.</H>
+								   <KeepAspectRatio>true</KeepAspectRatio>
+								   <CirclePointTest>false</CirclePointTest>
+								   <FixedTextureSetSize>false</FixedTextureSetSize>
+								   <AlignmentX>0</AlignmentX>
+								   <AlignmentY>0</AlignmentY>
+								   <AnchorX>0</AnchorX>
+								   <AnchorY>0</AnchorY>
+							   </Rectangle>
+							   <OnPushToStack>
+								   <LuaCommand></LuaCommand>
+							   </OnPushToStack>
+							   <OnMouseOver>
+								   <LuaCommand></LuaCommand>
+							   </OnMouseOver>
+							   <OnMouseOut>
+								   <LuaCommand></LuaCommand>
+							   </OnMouseOut>
+							   <OnRightClick>
+								   <LuaCommand></LuaCommand>
+							   </OnRightClick>
+							   <OnLeftClick>
+								   <LuaCommand></LuaCommand>
+							   </OnLeftClick>
+							   <OnKeyPress>
+								   <LuaCommand></LuaCommand>
+							   </OnKeyPress>
+							   <OnFocus>
+								   <LuaCommand></LuaCommand>
+							   </OnFocus>
+							   <OnBlur>
+								   <LuaCommand></LuaCommand>
+							   </OnBlur>
+							   <UpdateFunction>
+								   <LuaCommand></LuaCommand>
+							   </UpdateFunction>
+							   <UpdateFunctionTurnBased>
+								   <LuaCommand></LuaCommand>
+							   </UpdateFunctionTurnBased>
+							   <UpdateFunctionSecondBased>
+								   <LuaCommand></LuaCommand>
+							   </UpdateFunctionSecondBased>
+							   <ToolTipHelper>
+								   <ToolTipEnabledFlag>true</ToolTipEnabledFlag>
+								   <ControlTargetVisibility>true</ControlTargetVisibility>
+								   <ToolTipUpdateFunction>
+									   <LuaCommand>GUI_Goods.ResourceMouseOver()</LuaCommand>
+								   </ToolTipUpdateFunction>
+								   <RawString></RawString>
+								   <StringTableKey></StringTableKey>
+								   <TargetWidget01>/InGame/Root/Normal/TooltipNormal</TargetWidget01>
+								   <TargetWidget02></TargetWidget02>
+								   <TargetWidget03></TargetWidget03>
+								   <TargetWidget04></TargetWidget04>
+								   <TargetWidget05></TargetWidget05>
+							   </ToolTipHelper>
+							   <Group></Group>
+							   <MotherID>/InGame/Root/Normal/AlignTopLeft/TopBar/Windows/Military/G_Iron</MotherID>
+							   <Name>Icon4</Name>
+							   <FullScreenBackground>false</FullScreenBackground>
+							   <AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
+							   <BackgroundMaterial>
+								   <Texture></Texture>
+								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>1.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>1.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>0</Alpha>
+								   </Color>
+							   </BackgroundMaterial>
+							   <ActionFunction>
+								   <LuaCommand></LuaCommand>
+							   </ActionFunction>
+							   <GenerateMaterialsFromNormal>false</GenerateMaterialsFromNormal>
+							   <ShortCutKey></ShortCutKey>
+							   <ShortCutKeyStringTableKey></ShortCutKeyStringTableKey>
+							   <AllowRightMouseButton>false</AllowRightMouseButton>
+							   <AllowDoubleClick>false</AllowDoubleClick>
+							   <Disabled>false</Disabled>
+							   <Highlighted>false</Highlighted>
+							   <MaterialBaseNormal classname="EGUIX::CMaterial">
+								   <Texture>icons.png</Texture>
+								   <TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>660.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>704.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>255</Alpha>
+								   </Color>
+							   </MaterialBaseNormal>
+							   <MaterialDisabled classname="EGUIX::CMaterial">
+								   <Texture></Texture>
+								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>1.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>1.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>120</Red>
+									   <Green>120</Green>
+									   <Blue>120</Blue>
+									   <Alpha>150</Alpha>
+								   </Color>
+							   </MaterialDisabled>
+							   <MaterialHighlight classname="EGUIX::CMaterial">
+								   <Texture>icons.png</Texture>
+								   <TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>572.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>616.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>255</Alpha>
+								   </Color>
+							   </MaterialHighlight>
+							   <MaterialMouseOver classname="EGUIX::CMaterial">
+								   <Texture>icons.png</Texture>
+								   <TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>616.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>660.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>0</Alpha>
+								   </Color>
+							   </MaterialMouseOver>
+							   <MaterialPressed classname="EGUIX::CMaterial">
+								   <Texture>icons.png</Texture>
+								   <TextureCoordinatesMinU>308.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>660.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>352.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>704.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>255</Alpha>
+								   </Color>
+							   </MaterialPressed>
+							   <IconMaterial>
+								   <Texture>icons.png</Texture>
+								   <TextureCoordinatesMinU>44.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>132.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>88.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>176.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>255</Alpha>
+								   </Color>
+							   </IconMaterial>
+							   <IconOffsetWhilePressed>0</IconOffsetWhilePressed>
+							   <IconColorWhileDisabled>
+								   <Red>255</Red>
+								   <Green>255</Green>
+								   <Blue>255</Blue>
+								   <Alpha>255</Alpha>
+							   </IconColorWhileDisabled>
+							   <PulseHighlightDuration>0.</PulseHighlightDuration>
+							   <PulseHighlightMinAlpha>0.25</PulseHighlightMinAlpha>
+							   <PulseMouseoverDuration>0.</PulseMouseoverDuration>
+							   <PulseMouseoverMinAlpha>0.25</PulseMouseoverMinAlpha>
+							   <ShowHighlightedAsPressed>false</ShowHighlightedAsPressed>
+						   </Widget>
                         <Widget classname="EGUIX::CGfxButtonWidget">
                          <IsShown>true</IsShown>
                          <UpdateManualFlag>false</UpdateManualFlag>
@@ -21400,6 +21539,111 @@
                          </FontColor>
                          <FontName>menu\fonts\humanistika12.xml</FontName>
                         </Widget>
+						   <Widget classname="EGUIX::CStaticTextWidget">
+							   <IsShown>true</IsShown>
+							   <UpdateManualFlag>false</UpdateManualFlag>
+							   <EventHandling>true</EventHandling>
+							   <ZPriority>100.</ZPriority>
+							   <ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
+							   <ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
+							   <PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
+							   <TabIndex>0</TabIndex>
+							   <Rectangle>
+								   <X>66.</X>
+								   <Y>194.</Y>
+								   <W>63.</W>
+								   <H>25.</H>
+								   <KeepAspectRatio>true</KeepAspectRatio>
+								   <CirclePointTest>false</CirclePointTest>
+								   <FixedTextureSetSize>false</FixedTextureSetSize>
+								   <AlignmentX>0</AlignmentX>
+								   <AlignmentY>0</AlignmentY>
+								   <AnchorX>0</AnchorX>
+								   <AnchorY>0</AnchorY>
+							   </Rectangle>
+							   <OnPushToStack>
+								   <LuaCommand></LuaCommand>
+							   </OnPushToStack>
+							   <OnMouseOver>
+								   <LuaCommand></LuaCommand>
+							   </OnMouseOver>
+							   <OnMouseOut>
+								   <LuaCommand></LuaCommand>
+							   </OnMouseOut>
+							   <OnRightClick>
+								   <LuaCommand></LuaCommand>
+							   </OnRightClick>
+							   <OnLeftClick>
+								   <LuaCommand></LuaCommand>
+							   </OnLeftClick>
+							   <OnKeyPress>
+								   <LuaCommand></LuaCommand>
+							   </OnKeyPress>
+							   <OnFocus>
+								   <LuaCommand></LuaCommand>
+							   </OnFocus>
+							   <OnBlur>
+								   <LuaCommand></LuaCommand>
+							   </OnBlur>
+							   <UpdateFunction>
+								   <LuaCommand></LuaCommand>
+							   </UpdateFunction>
+							   <UpdateFunctionTurnBased>
+								   <LuaCommand>GUI_Goods.GetNumberOfGoodsInPlayerOutstocks()</LuaCommand>
+							   </UpdateFunctionTurnBased>
+							   <UpdateFunctionSecondBased>
+								   <LuaCommand></LuaCommand>
+							   </UpdateFunctionSecondBased>
+							   <ToolTipHelper>
+								   <ToolTipEnabledFlag>true</ToolTipEnabledFlag>
+								   <ControlTargetVisibility>true</ControlTargetVisibility>
+								   <ToolTipUpdateFunction>
+									   <LuaCommand></LuaCommand>
+								   </ToolTipUpdateFunction>
+								   <RawString></RawString>
+								   <StringTableKey></StringTableKey>
+								   <TargetWidget01></TargetWidget01>
+								   <TargetWidget02></TargetWidget02>
+								   <TargetWidget03></TargetWidget03>
+								   <TargetWidget04></TargetWidget04>
+								   <TargetWidget05></TargetWidget05>
+							   </ToolTipHelper>
+							   <Group></Group>
+							   <MotherID>/InGame/Root/Normal/AlignTopLeft/TopBar/Windows/Military/G_Iron</MotherID>
+							   <Name>Amount4</Name>
+							   <FullScreenBackground>false</FullScreenBackground>
+							   <AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
+							   <BackgroundMaterial>
+								   <Texture></Texture>
+								   <TextureCoordinatesMinU>0.</TextureCoordinatesMinU>
+								   <TextureCoordinatesMinV>0.</TextureCoordinatesMinV>
+								   <TextureCoordinatesMxU>1.</TextureCoordinatesMxU>
+								   <TextureCoordinatesMxV>1.</TextureCoordinatesMxV>
+								   <TextureFixedSizeX>0.</TextureFixedSizeX>
+								   <TextureFixedSizeY>0.</TextureFixedSizeY>
+								   <Color>
+									   <Red>255</Red>
+									   <Green>255</Green>
+									   <Blue>255</Blue>
+									   <Alpha>0</Alpha>
+								   </Color>
+							   </BackgroundMaterial>
+							   <LineDistanceFactor>0.</LineDistanceFactor>
+							   <LinkedSlider></LinkedSlider>
+							   <StringFrameDistance>0.</StringFrameDistance>
+							   <RawString>{center}123</RawString>
+							   <StringTableKey></StringTableKey>
+							   <ClipTextAtWidgetBounds>false</ClipTextAtWidgetBounds>
+							   <ForceMultiLine>true</ForceMultiLine>
+							   <AllowScriptCommands>true</AllowScriptCommands>
+							   <FontColor>
+								   <Red>51</Red>
+								   <Green>51</Green>
+								   <Blue>121</Blue>
+								   <Alpha>255</Alpha>
+							   </FontColor>
+							   <FontName>menu\fonts\humanistika12.xml</FontName>
+						   </Widget>
                        </WidgetList>
                       </SubWidgets>
                      </Widget>
@@ -21414,7 +21658,7 @@
                       <TabIndex>0</TabIndex>
                       <Rectangle>
                        <X>110.</X>
-                       <Y>20.</Y>
+                       <Y>65.</Y>
                        <W>180.</W>
                        <H>120.</H>
                        <KeepAspectRatio>true</KeepAspectRatio>
@@ -21798,7 +22042,7 @@
                       <TabIndex>0</TabIndex>
                       <Rectangle>
                        <X>110.</X>
-                       <Y>110.</Y>
+                       <Y>155.</Y>
                        <W>180.</W>
                        <H>120.</H>
                        <KeepAspectRatio>true</KeepAspectRatio>
@@ -22184,7 +22428,7 @@
                        <X>0.</X>
                        <Y>0.</Y>
                        <W>290.</W>
-                       <H>250.</H>
+                       <H>290.</H>
                        <KeepAspectRatio>true</KeepAspectRatio>
                        <CirclePointTest>false</CirclePointTest>
                        <FixedTextureSetSize>false</FixedTextureSetSize>
@@ -22256,7 +22500,7 @@
                          <TabIndex>0</TabIndex>
                          <Rectangle>
                           <X>123.</X>
-                          <Y>88.</Y>
+                          <Y>87.</Y>
                           <W>24.</W>
                           <H>10.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
@@ -22346,7 +22590,7 @@
                          <TabIndex>0</TabIndex>
                          <Rectangle>
                           <X>123.</X>
-                          <Y>133.</Y>
+                          <Y>132.</Y>
                           <W>24.</W>
                           <H>10.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
@@ -22436,7 +22680,7 @@
                          <TabIndex>0</TabIndex>
                          <Rectangle>
                           <X>30.</X>
-                          <Y>19.</Y>
+                          <Y>18.</Y>
                           <W>230.</W>
                           <H>27.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
@@ -22526,7 +22770,7 @@
                          <TabIndex>0</TabIndex>
                          <Rectangle>
                           <X>123.</X>
-                          <Y>178.</Y>
+                          <Y>177.</Y>
                           <W>24.</W>
                           <H>10.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
@@ -22605,6 +22849,96 @@
                           </Color>
                          </BackgroundMaterial>
                         </Widget>
+						<Widget classname="EGUIX::CStaticWidget">
+							<IsShown>true</IsShown>
+							<UpdateManualFlag>false</UpdateManualFlag>
+							<EventHandling>true</EventHandling>
+							<ZPriority>100.</ZPriority>
+							<ForceToHandleMouseEventsFlag>false</ForceToHandleMouseEventsFlag>
+							<ForceToHandleKeyboardEventsFlag>false</ForceToHandleKeyboardEventsFlag>
+							<PassOnMouseEventsFlag>false</PassOnMouseEventsFlag>
+							<TabIndex>0</TabIndex>
+							<Rectangle>
+								<X>123.</X>
+								<Y>222.</Y>
+								<W>24.</W>
+								<H>10.</H>
+								<KeepAspectRatio>true</KeepAspectRatio>
+								<CirclePointTest>false</CirclePointTest>
+								<FixedTextureSetSize>true</FixedTextureSetSize>
+								<AlignmentX>0</AlignmentX>
+								<AlignmentY>0</AlignmentY>
+								<AnchorX>0</AnchorX>
+								<AnchorY>0</AnchorY>
+							</Rectangle>
+							<OnPushToStack>
+								<LuaCommand></LuaCommand>
+							</OnPushToStack>
+							<OnMouseOver>
+								<LuaCommand></LuaCommand>
+							</OnMouseOver>
+							<OnMouseOut>
+								<LuaCommand></LuaCommand>
+							</OnMouseOut>
+							<OnRightClick>
+								<LuaCommand></LuaCommand>
+							</OnRightClick>
+							<OnLeftClick>
+								<LuaCommand></LuaCommand>
+							</OnLeftClick>
+							<OnKeyPress>
+								<LuaCommand></LuaCommand>
+							</OnKeyPress>
+							<OnFocus>
+								<LuaCommand></LuaCommand>
+							</OnFocus>
+							<OnBlur>
+								<LuaCommand></LuaCommand>
+							</OnBlur>
+							<UpdateFunction>
+								<LuaCommand></LuaCommand>
+							</UpdateFunction>
+							<UpdateFunctionTurnBased>
+								<LuaCommand></LuaCommand>
+							</UpdateFunctionTurnBased>
+							<UpdateFunctionSecondBased>
+								<LuaCommand></LuaCommand>
+							</UpdateFunctionSecondBased>
+							<ToolTipHelper>
+								<ToolTipEnabledFlag>true</ToolTipEnabledFlag>
+								<ControlTargetVisibility>true</ControlTargetVisibility>
+								<ToolTipUpdateFunction>
+									<LuaCommand></LuaCommand>
+								</ToolTipUpdateFunction>
+								<RawString></RawString>
+								<StringTableKey></StringTableKey>
+								<TargetWidget01></TargetWidget01>
+								<TargetWidget02></TargetWidget02>
+								<TargetWidget03></TargetWidget03>
+								<TargetWidget04></TargetWidget04>
+								<TargetWidget05></TargetWidget05>
+							</ToolTipHelper>
+							<Group></Group>
+							<MotherID>/InGame/Root/Normal/AlignTopLeft/TopBar/Windows/Military/BGContainer</MotherID>
+							<Name>Arrow4</Name>
+							<FullScreenBackground>false</FullScreenBackground>
+							<AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
+							<BackgroundMaterial>
+								<Texture>frames.png</Texture>
+								<TextureCoordinatesMinU>566.</TextureCoordinatesMinU>
+								<TextureCoordinatesMinV>376.</TextureCoordinatesMinV>
+								<TextureCoordinatesMxU>590.</TextureCoordinatesMxU>
+								<TextureCoordinatesMxV>386.</TextureCoordinatesMxV>
+								<TextureFixedSizeX>0.</TextureFixedSizeX>
+								<TextureFixedSizeY>0.</TextureFixedSizeY>
+								<Color>
+									<Red>255</Red>
+									<Green>255</Green>
+									<Blue>255</Blue>
+									<Alpha>255</Alpha>
+								</Color>
+							</BackgroundMaterial>
+						</Widget>
                         <Widget classname="EGUIX::CStaticWidget">
                          <IsShown>true</IsShown>
                          <UpdateManualFlag>false</UpdateManualFlag>
@@ -22616,7 +22950,7 @@
                          <TabIndex>0</TabIndex>
                          <Rectangle>
                           <X>15.</X>
-                          <Y>154.</Y>
+                          <Y>199.</Y>
                           <W>228.</W>
                           <H>28.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
@@ -22706,9 +23040,9 @@
                          <TabIndex>0</TabIndex>
                          <Rectangle>
                           <X>29.</X>
-                          <Y>26.</Y>
+                          <Y>28.</Y>
                           <W>208.</W>
-                          <H>200.</H>
+                          <H>226.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
                           <CirclePointTest>false</CirclePointTest>
                           <FixedTextureSetSize>true</FixedTextureSetSize>
@@ -22798,7 +23132,7 @@
                           <X>4.</X>
                           <Y>35.</Y>
                           <W>256.</W>
-                          <H>200.</H>
+                          <H>245.</H>
                           <KeepAspectRatio>true</KeepAspectRatio>
                           <CirclePointTest>false</CirclePointTest>
                           <FixedTextureSetSize>true</FixedTextureSetSize>
@@ -49383,14 +49717,14 @@
                 </FontColor>
                 <FontName>menu\fonts\default</FontName>
                </Widget>
-			  </WidgetList>
+              </WidgetList>
              </SubWidgets>
             </Widget>
            </WidgetList>
           </SubWidgets>
          </Widget>
          <Widget classname="EGUIX::CContainerWidget">
-          <IsShown>false</IsShown>
+          <IsShown>true</IsShown>
           <UpdateManualFlag>false</UpdateManualFlag>
           <EventHandling>true</EventHandling>
           <ZPriority>100.</ZPriority>

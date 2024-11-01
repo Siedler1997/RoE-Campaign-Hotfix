@@ -17,6 +17,11 @@
 	<Technology id="R_RefillStoneMine"></Technology>
 	<Technology id="R_RefillIronMine"></Technology>
 	<Technology id="R_RefillCistern"></Technology>
+	<Technology id="R_TradePost"></Technology>
+	<Technology id="R_SpearMaker"></Technology>
+	<Technology id="R_BarracksSpearmen"></Technology>
+	<Technology id="R_BarracksCavalry"></Technology>
+	<Technology id="R_Cannon"></Technology>
 	<Technology id="R_SpecialEdition2"></Technology>
 	<Technology id="R_Fence"></Technology>
 	<Technology id="R_NPC_Cloister_Wall"></Technology>

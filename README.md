@@ -72,6 +72,8 @@ Folgende Änderungen wurden vorgenommen:
 		- Alle "neuen" Ritte haben (provisorische) Ladebildschirm-Bilder
 - Militär
 	- Einheiten können mittels Entlassen-Button ... entlassen werden
+	- Schwertkämpfer allgemein
+		- Verursachen etwas weniger Schaden an berittenen Einheiten (Ritter und Kavaliere)
 	- Bogenschützen allgemein
 		- Fernkampf-Schaden deutlich reduziert (30 -> 20)
 		- Maximale Fernkampf-Reichweite leicht erhöht (24sm -> 25sm)
@@ -91,24 +93,41 @@ Folgende Änderungen wurden vorgenommen:
 		- Können in Kasernen wieder aufgefüllt werden
 		- Haben ein anderes Audio-Feedback 
 			- Zurzeit noch das von Banditen...
-		- Haben etwas andere Statuswerte ggü. konventionellen Einheiten
-			- RP
-				- Weniger Lebenspunkte (-5)
-				- Höhere Bewegungsgeschwindigkeit (480 < 490)
-			- Khana
-				- Weniger Lebenspunkte (-10)
-				- Höhere Bewegungsgeschwindigkeit (480 < 500)
-				- Höherer Schaden gegen anderen Einheiten (20 < 22)
 		- RP-Einheiten haben eine eigene Button-Textur
 		- Khana-Einheiten haben keine Overhead-Namen mehr
 	- "Neue" Einheiten
 		- Lanzenträger
 			- Inspiriert von den Streitlanzenträgern in DEdK
+			- Rekrutierung
+				- In Lanzenträgerkasernen
+				- Benötigt 15 Gold + 1 Lanze pro Soldat
 			- Statuswerte (im Vergleich zu Schwertkämpfern)
-				- Höhere Lebenspunkte (180 > 120)
-				- Weniger Schaden (15 < 20)
-				- Etwas höhere Reichweite (2sm > 1,5sm)
 				- Langsamere Bewegungsgeschwindigkeit (420 < 480)
+				- Weniger Lebenspunkte (90 < 120)
+				- Weniger Schaden (15 < 20)
+					- Ausnahme: Dreifacher Schaden gegen Ritter (45)
+				- Weniger Angriffscooldown (2,5 Sek. < 3 Sek.)
+				- Höhere Reichweite (2,5sm > 1,5sm)
+		- Kavaliere
+			- Inspiriert von den berittenen Schwertkämpfern in DEdK
+			- Rekrutierung 
+				- In Reitereien
+				- Benötigt 90 Gold + 1 Schwert pro Soldat
+			- Nur einzeln unterwegs
+				- Für Mapper: Ist technisch gesehen KEIN Battalion, sondern eine einzelne Entity
+			- Haben keine besonderen Fähigkeiten
+			- Statuswerte ähnlich, aber idR. etwas schlechter als bei Rittern
+				- Weniger Lebenspunkte (900 < 1.000)
+				- Schwächere Lebensregeneration pro 10sec (40 < 50)
+				- Weniger Fackeln/Bomben (1 < 3)
+				- Höherer Angriffscooldown (2 Sek. < 2,5 Sek.)
+		- Kanone
+			- Funktioniert ähnlich wie ein Katapult
+				- Weniger Lebenspunkte (150 < 250)
+				- Höhere Maximalreichweite (30sm > 24sm)
+				- Höherer Schaden (75 > 50)
+				- Geringere Feuerrate (7,5 Sek. > 5 Sek.)
+			- Verfügbar mit dem Titel 'Erzherzog'
 		- Hellebardiere
 			- Basieren auf den Hellebardieren in DEdK
 			- Haben noch etwas bessere Stats als Streitlanzenträger
@@ -163,6 +182,10 @@ Folgende Änderungen wurden vorgenommen:
 		- Lagerhaus
 			- Lagerkapazität der 3. und 4. Ausbaustufe erhöht
 			- Eigenes Icon auf der Minimap
+			- Menü etwas umsortiert
+				- Militärische Güter (z.B. Schwerter) liegen nun unter dem 3. Tab "Burg und Militär"
+					- Belagerungsmaschinenbauteile sind hier nun ebenfalls verkaufbar
+				- Luxusgüter unter dem 3. Tab sind nun korrekt angeordnet
 		- Marktplatz: Generische Ritter-Statue bei Khana, Praphat und Kastellanen
 	- "Neue" Gebäude
 		- Wachturm
@@ -173,6 +196,10 @@ Folgende Änderungen wurden vorgenommen:
 			- Besitzt eine hohe Sichtweite
 			- Sieht einfach schick aus :)
 		- AS-Zelte mit entsprechenden Workern
+		- Gebäude für neue Militäreinheiten
+			- Lanzenmacher
+			- Lanzenträgerkaserne
+			- Reiterei
 	- NPC-Gebäude
 		- RP-/Khana-Kasernen
 			- Funktionieren unter Spieler-Kontrolle wie normale Kasernen auch
@@ -183,6 +210,8 @@ Folgende Änderungen wurden vorgenommen:
 		- Hauptspiel-Marktplätze haben ein Mouseover
 	- Bienenstöcke haben weniger Lebenspunkte (10 -> 5)
 	- Handelsposten-Baubutton hat einen etwas verständlicheren Tooltip
+	- Kasernen und Belagerungswaffenschmieden werden nicht mehr als potentielle reiche Stadtgebäude aufgelistet
+	- Arbeiter in Kasernen holen ihre Waffen nun einzeln
 - Hauptmenü
 	- AddOn nutzt weitgehend Hauptspiel-Hintergrund und Soundtrack
 	- Hintergrund ist tageszeitabhängig
@@ -210,6 +239,12 @@ Folgende Änderungen wurden vorgenommen:
 		- Maximale Anzahl an Steuereintreibern erhöht (6 -> 8)
 	- Bei Minimap-Benachrichtigung wird der auslösende Spieler erst entfernt, um Verwirrung zu vermeiden
 	- Neun "neue" Spielerfarben
+	- Produktionsmenü gefixt/erweitert
+		- Asiatische Burgen/Außenposten
+			- Haben die richtigen Icons
+			- Können nicht mehr stillgelegt werden bzw. Waren reservieren
+		- Springen zur Kirche funktioniert nun
+		- Handelsposten werden ebenfalls hier angezeigt
 	- Profil-Menü
 		- Buttons haben nun alle einen Hover-Effekt
 		- Speichern der Profileinstellungen funktioniert nun zuverlässig
@@ -220,7 +255,9 @@ Folgende Änderungen wurden vorgenommen:
 			- Wirkt sich auf das gewählte Wappen und ALLE Maps aus
 			- Hat keinen Einfluss auf den Multiplayer
 	- Kampfmusik nach Klimazonen getrennt (als verschiedene Playlists)
-	- Baumenü: BeautificationMenu verschönert
+	- Baumenü
+		- BeautificationMenu verschönert
+		- Tooltips leicht verbreitert
 	- Unterschiedliche Festival-Musik, je nachdem, ob der Anlass eine Heldenbeförderung oder ein normales Fest ist
 	- Niederlagen-Kamerarotation deutlich verlangsamt
 	- Sieg und Niederlage haben jeweils eine Art "Jingle"

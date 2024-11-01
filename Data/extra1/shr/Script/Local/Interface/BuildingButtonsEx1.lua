@@ -388,6 +388,132 @@ function GUI_BuildingButtons.ContinueWallUpdate()
 end
 --------------------------------------------------------------------------------
 -- Barracks
+function GUI_BuildingButtons.BuyBattalionClicked2(_unitType)
+    local PlayerID  = GUI.GetPlayerID()
+    local BarrackID = GUI.GetSelectedEntity()
+
+    if GUI_BuildingButtons.GetLimitReached(_unitType) and EnableRights == true then
+        Message(XGUIEng.GetStringTableText("Feedback_TextLines/TextLine_EntityLimitReached"))
+        return
+    end
+
+    local Costs = {Logic.GetUnitCost(BarrackID, _unitType)}
+
+    local CanBuyBoolean, CanNotBuyString = AreCostsAffordable(Costs)
+
+    local CanProduce = Logic.CanProduceUnits(BarrackID, _unitType)
+
+    if CanBuyBoolean == true and CanProduce == false then
+        CanBuyBoolean = false
+        CanNotBuyString = XGUIEng.GetStringTableText("Feedback_TextLines/TextLine_NotEnoughRoomToBuyMilitary")
+    end
+
+    local CurrentSoldierCount = Logic.GetCurrentSoldierCount(PlayerID)
+    local CurrentSoldierLimit = Logic.GetCurrentSoldierLimit(PlayerID)
+
+    local SoldierSize
+    if _unitType == Entities.U_Thief or _unitType == Entities.U_MilitaryCavalry then
+        SoldierSize = 1
+    else
+        SoldierSize = Logic.GetBattalionSize(BarrackID)
+    end
+
+    if (CurrentSoldierCount + 3) > CurrentSoldierLimit then
+        CanBuyBoolean = false
+        CanNotBuyString = XGUIEng.GetStringTableText("Feedback_TextLines/TextLine_SoldierLimitReached")
+    end
+
+    if CanBuyBoolean == true then
+        Sound.FXPlay2DSound("ui\\menu_click")
+        if _unitType == Entities.U_Thief then
+            GUI.BuyThief(PlayerID)
+        else
+            GUI.ProduceUnits(BarrackID, _unitType)
+            StartKnightVoiceForPermanentSpecialAbility(Entities.U_KnightChivalry)
+        end
+    else
+        Message(CanNotBuyString)
+    end
+end
+
+function GUI_BuildingButtons.BuyBattalionMouseOver2(_unitType, _technologyType)
+    local CurrentWidgetID = XGUIEng.GetCurrentWidgetID()
+    local CurrentWidgetName = XGUIEng.GetWidgetNameByID(CurrentWidgetID)
+    local BarrackID = GUI.GetSelectedEntity()
+    local EntityLimitString = GUI_BuildingButtons.GetLimitString(_unitType)
+    local TechnologyType = _technologyType
+    local Costs = {Logic.GetUnitCost(BarrackID, _unitType)}   
+
+    local TooltipStringDisabled
+    
+    if XGUIEng.IsButtonDisabled(CurrentWidgetID) == 1 and _unitType == Entities.U_Thief then
+        if GUI_BuildingButtons.GetLimitReached(Entities.U_Thief) then
+            --GUI.AddNote("Entity limit reached")
+            TooltipStringDisabled = "EntityLimitReached"
+            TechnologyType = nil
+        else
+            --GUI.AddNote("Technology locked")
+            TooltipStringDisabled = CurrentWidgetName
+        end
+    end
+    
+    --Workaround for cavalry because costs are multiplied by BattalionSize in barracks entity definition
+    --[[
+    if _unitType == Entities.U_MilitaryCavalry then
+        for i = 2, #Costs, 2 do
+            Costs[i] = Costs[i] / 6
+        end
+    end
+    --]]
+    GUI_Tooltip.TooltipBuy(Costs, CurrentWidgetName, TooltipStringDisabled, TechnologyType, nil, nil, EntityLimitString)
+end
+
+
+function GUI_BuildingButtons.BuyBattalionUpdate2(_unitType, _barrackType, _technologyType)
+    local PlayerID = GUI.GetPlayerID()
+    local CurrentWidgetID = XGUIEng.GetCurrentWidgetID()
+    local BarrackID = GUI.GetSelectedEntity()
+    local BarrackEntityType = Logic.GetEntityType(BarrackID)
+    local TechnologyState = Logic.TechnologyGetState(PlayerID, _technologyType)
+
+    if Logic.IsConstructionComplete(BarrackID) == 0 then
+        XGUIEng.ShowWidget(CurrentWidgetID,0)
+    else
+        if _barrackType == BarrackEntityType or Logic.IsEntityInCategory(BarrackID, EntityCategories.Headquarters) == 1 then
+            XGUIEng.ShowWidget(CurrentWidgetID,1)
+        else
+            -- These are a bit special...
+            if (_barrackType == Entities.B_Barracks and (BarrackEntityType == Entities.B_Barracks_RedPrince or BarrackEntityType == Entities.B_Barracks_Khana))
+             or (_barrackType == Entities.B_BarracksArchers and (Entities.B_BarracksArchers_Redprince or BarrackEntityType == Entities.B_BarracksArchers_Khana)) then
+                XGUIEng.ShowWidget(CurrentWidgetID,1)
+            else
+                XGUIEng.ShowWidget(CurrentWidgetID,0)
+            end
+        end
+        
+        --Check entity limit (especially thieves)
+        if GUI_BuildingButtons.GetLimitReached(_unitType) then
+            XGUIEng.DisableButton(CurrentWidgetID, 1)
+            return
+        end        
+        
+        --Don't check tech when ignoring rights (per cheat)
+        if EnableRights == nil or EnableRights == false then
+            XGUIEng.DisableButton(CurrentWidgetID,0)
+            return
+        end
+
+        if TechnologyState == TechnologyStates.Locked then
+            XGUIEng.ShowWidget(CurrentWidgetID,0)
+        end
+
+        if TechnologyState == TechnologyStates.Researched then
+            XGUIEng.DisableButton(CurrentWidgetID,0)
+        else
+            XGUIEng.DisableButton(CurrentWidgetID,1)
+        end
+    end
+end
 
 function GUI_BuildingButtons.BuyBattalionClicked(_IsSpecial)
 
@@ -475,6 +601,8 @@ function GUI_BuildingButtons.BuyBattalionClicked(_IsSpecial)
         else
             EntityType = Entities.U_MilitaryBow
         end
+    elseif BarrackEntityType == Entities.B_BarracksSpearmen then
+            EntityType = Entities.U_MilitarySpear
     elseif Logic.IsEntityInCategory(BarrackID, EntityCategories.Headquarters) == 1 then
         EntityType = Entities.U_Thief
     else
@@ -527,7 +655,6 @@ function GUI_BuildingButtons.BuyBattalionClicked(_IsSpecial)
     end
 end
 
-
 function GUI_BuildingButtons.BuyBattalionMouseOver(_IsSpecial)
     local PlayerID  = GUI.GetPlayerID()
     local CurrentWidgetID = XGUIEng.GetCurrentWidgetID()
@@ -565,6 +692,10 @@ function GUI_BuildingButtons.BuyBattalionMouseOver(_IsSpecial)
         end
         TooltipString = "BuyBowmen"
         TechnologyType = Technologies.R_BarracksArchers
+    elseif BarrackEntityType == Entities.B_BarracksSpearmen then
+        EntityType = Entities.U_MilitarySpear
+        TooltipString = "BuySpearmen"
+        TechnologyType = Technologies.R_BarracksSpearmen
     elseif BarrackEntityType == Entities.B_StoreHouse then
         EntityType = Entities.U_AmmunitionCart
         TooltipString = "BuyAmmunitionCart"
@@ -668,6 +799,12 @@ function GUI_BuildingButtons.BuyBattalionUpdate(_IsSpecial)
         else
             SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitaryBow])
         end
+    elseif BarrackEntityType == Entities.B_BarracksSpearmen then
+        if _IsSpecial == true then
+            doShow = 0
+        else
+            SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_MilitarySpear])
+        end
     elseif Logic.IsEntityInCategory(BarrackID, EntityCategories.Headquarters) == 1 then
         SetIcon(CurrentWidgetID, g_TexturePositions.Entities[Entities.U_Thief])
         if _IsSpecial == true then
@@ -707,13 +844,7 @@ function GUI_BuildingButtons.BuyBattalionUpdate(_IsSpecial)
     or BarrackEntityType == Entities.B_BarracksArchers_Redprince
     or BarrackEntityType == Entities.B_Barracks_Khana
     or BarrackEntityType == Entities.B_BarracksArchers_Khana
-    --[[
-    or BarrackEntityType == Entities.B_NPC_Barracks_ME
-    or BarrackEntityType == Entities.B_NPC_Barracks_NE
-    or BarrackEntityType == Entities.B_NPC_Barracks_SE
-    or BarrackEntityType == Entities.B_NPC_Barracks_NA
-    or BarrackEntityType == Entities.B_NPC_Barracks_AS
-    --]]
+    or BarrackEntityType == Entities.B_BarracksSpearmen
     or Logic.IsEntityInCategory(BarrackID, EntityCategories.Headquarters) == 1 then
         XGUIEng.ShowWidget(CurrentWidgetID,doShow)
     else
@@ -752,6 +883,7 @@ function GUI_BuildingButtons.BuyBattalionUpdate(_IsSpecial)
     else
         XGUIEng.DisableButton(CurrentWidgetID,0)
     end
+    XGUIEng.ShowWidget(CurrentWidgetID,0)
 end
 
 function GUI_BuildingButtons.UpgradeClicked()
