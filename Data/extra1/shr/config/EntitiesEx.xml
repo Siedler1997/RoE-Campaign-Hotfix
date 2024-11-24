@@ -446,7 +446,12 @@
 	<Entity>B_Beautification_Flowerpot_Square</Entity>
 	<Entity>B_Beautification_ExecutionerPlace</Entity>
 	<Entity>B_Beautification_Lantern</Entity>
-	<Entity>B_Beautification_WoodBench</Entity>
+	<Entity>B_Beautification_WoodBench1</Entity>
+	<Entity>B_Beautification_WoodBench2</Entity>
+	<Entity>B_Beautification_WoodBench3</Entity>
+	<Entity>B_Beautification_WoodBench4</Entity>
+	<Entity>B_Beautification_WoodBench5</Entity>
+	<Entity>B_Beautification_WoodBench6</Entity>
 	<Entity>B_Beautification_Plaza_ME</Entity>
 	<Entity>B_Beautification_Plaza_NE</Entity>
 	<Entity>B_Beautification_Plaza_SE</Entity>

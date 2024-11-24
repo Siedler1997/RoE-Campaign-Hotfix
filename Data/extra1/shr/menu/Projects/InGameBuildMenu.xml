@@ -20994,7 +20994,7 @@
 												 </ToolTipHelper>
 												 <Group>Construction</Group>
 												 <MotherID>/InGame/Root/Normal/AlignBottomRight/BuildMenu/SubMenus/SpecialEdition/Buttons</MotherID>
-												 <Name>B_Beautification_WoodBench</Name>
+												 <Name>B_Beautification_WoodBench1</Name>
 												 <FullScreenBackground>false</FullScreenBackground>
 												 <AlwaysUseLinearSampling>false</AlwaysUseLinearSampling>
 												 <BackgroundMaterial>
@@ -21013,7 +21013,7 @@
 													 </Color>
 												 </BackgroundMaterial>
 												 <ActionFunction>
-													 <LuaCommand>GUI_Construction.BuildClicked(UpgradeCategories.Beautification_WoodBench)</LuaCommand>
+													 <LuaCommand>GUI_Construction.BuildClicked(UpgradeCategories.Beautification_WoodBench1)</LuaCommand>
 												 </ActionFunction>
 												 <GenerateMaterialsFromNormal>false</GenerateMaterialsFromNormal>
 												 <ShortCutKey></ShortCutKey>

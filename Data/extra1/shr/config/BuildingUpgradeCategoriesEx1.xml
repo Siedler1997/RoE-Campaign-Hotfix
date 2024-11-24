@@ -115,10 +115,32 @@
 		<Category>Beautification_Lantern</Category>
 		<FirstBuilding>B_Beautification_Lantern</FirstBuilding>
 	</BuildingUpgrade>
+	
 	<BuildingUpgrade>
-		<Category>Beautification_WoodBench</Category>
-		<FirstBuilding>B_Beautification_WoodBench</FirstBuilding>
+		<Category>Beautification_WoodBench1</Category>
+		<FirstBuilding>B_Beautification_WoodBench1</FirstBuilding>
 	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_WoodBench2</Category>
+		<FirstBuilding>B_Beautification_WoodBench2</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_WoodBench3</Category>
+		<FirstBuilding>B_Beautification_WoodBench3</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_WoodBench4</Category>
+		<FirstBuilding>B_Beautification_WoodBench4</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_WoodBench5</Category>
+		<FirstBuilding>B_Beautification_WoodBench5</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_WoodBench6</Category>
+		<FirstBuilding>B_Beautification_WoodBench6</FirstBuilding>
+	</BuildingUpgrade>
+	
 	<BuildingUpgrade>
 		<Category>Beautification_U_KnightChivalry</Category>
 		<FirstBuilding>B_Beautification_Knight_Chivalry</FirstBuilding>

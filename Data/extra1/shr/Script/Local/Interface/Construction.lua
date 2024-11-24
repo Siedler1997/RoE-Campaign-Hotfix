@@ -29,6 +29,14 @@ GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Brazier] = 
     --UpgradeCategories.Beautification_Brazier2,
     UpgradeCategories.Beautification_Brazier3
 }
+GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_WoodBench1] = {
+    UpgradeCategories.Beautification_WoodBench1,
+    UpgradeCategories.Beautification_WoodBench2,
+    UpgradeCategories.Beautification_WoodBench3,
+    UpgradeCategories.Beautification_WoodBench4,
+    UpgradeCategories.Beautification_WoodBench5,
+    UpgradeCategories.Beautification_WoodBench6
+}
 
 --[[ Type_Road = 1,
 Type_Building = 2,
