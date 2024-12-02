@@ -37,6 +37,14 @@ GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_WoodBench1]
     UpgradeCategories.Beautification_WoodBench5,
     UpgradeCategories.Beautification_WoodBench6
 }
+GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Cart1] = {
+    UpgradeCategories.Beautification_Cart1,
+    UpgradeCategories.Beautification_Cart2,
+    UpgradeCategories.Beautification_Cart3,
+    UpgradeCategories.Beautification_Cart4,
+    UpgradeCategories.Beautification_Cart5,
+    UpgradeCategories.Beautification_Cart6
+}
 
 --[[ Type_Road = 1,
 Type_Building = 2,

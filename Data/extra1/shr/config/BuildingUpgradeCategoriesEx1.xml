@@ -140,6 +140,31 @@
 		<Category>Beautification_WoodBench6</Category>
 		<FirstBuilding>B_Beautification_WoodBench6</FirstBuilding>
 	</BuildingUpgrade>
+
+	<BuildingUpgrade>
+		<Category>Beautification_Cart1</Category>
+		<FirstBuilding>B_Beautification_Cart1</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Cart2</Category>
+		<FirstBuilding>B_Beautification_Cart2</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Cart3</Category>
+		<FirstBuilding>B_Beautification_Cart3</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Cart4</Category>
+		<FirstBuilding>B_Beautification_Cart4</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Cart5</Category>
+		<FirstBuilding>B_Beautification_Cart5</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Cart6</Category>
+		<FirstBuilding>B_Beautification_Cart6</FirstBuilding>
+	</BuildingUpgrade>
 	
 	<BuildingUpgrade>
 		<Category>Beautification_U_KnightChivalry</Category>

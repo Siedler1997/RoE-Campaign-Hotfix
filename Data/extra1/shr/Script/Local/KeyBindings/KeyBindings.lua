@@ -225,7 +225,7 @@ function DebugKeyBindings_Init()
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad8, "GUI_Construction.BuildWallClicked(UpgradeCategories.FenceSegment)", 2, true)
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad9, "GUI_Construction.BuildWallClicked(UpgradeCategories.WallSegment_NPC_Asia)", 2, true)
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad9, "GUI_Construction.BuildClicked(UpgradeCategories.Beautification_Standarte)", 2, true)
-    Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad9, "KeyBindings_CreateEntityAtMousePositionForActiveGUIPlayer(Entities.U_Dragon)", 2, true)
+    Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad9, "KeyBindings_CreateEntityAtMousePositionForActiveGUIPlayer(Entities.B_Beautification_Perch)", 2, true)
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad9, "KeyBindings_CreateEntityAtMousePositionForActiveGUIPlayer(Entities.B_Beautification_Dragon)", 2, true)
     --Input.KeyBindDown(Keys.ModifierControl + Keys.NumPad9, "KeyBindings_CreateEntityAtMousePositionForActiveGUIPlayer(Entities.U_Dragon)", 2, true)
     
