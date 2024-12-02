@@ -88,7 +88,7 @@
 		</Display>
 	</Behavior>
 	<MapEditor>
-		<TreePosition>Buildings/Beautyfication</TreePosition>
+		<TreePosition>Buildings\Beautyfication</TreePosition>
 		<ShowInTree>true</ShowInTree>
 		<Clime>SouthEurope</Clime>
 		<Scalable>false</Scalable>

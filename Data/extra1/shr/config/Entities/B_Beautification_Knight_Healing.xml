@@ -84,7 +84,7 @@
 		</Display>
 	</Behavior>
 	<MapEditor>
-		<TreePosition>Buildings/Beautyfication</TreePosition>
+		<TreePosition>Buildings\Beautyfication</TreePosition>
 		<ShowInTree>true</ShowInTree>
 		<Clime>Generic</Clime>
 		<Scalable>false</Scalable>
