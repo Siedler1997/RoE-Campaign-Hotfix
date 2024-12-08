@@ -165,6 +165,68 @@
 		<Category>Beautification_Cart6</Category>
 		<FirstBuilding>B_Beautification_Cart6</FirstBuilding>
 	</BuildingUpgrade>
+
+	<BuildingUpgrade>
+		<Category>Beautification_Misc1</Category>
+		<FirstBuilding>B_Beautification_Misc1</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc2</Category>
+		<FirstBuilding>B_Beautification_Misc2</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc3</Category>
+		<FirstBuilding>B_Beautification_Misc3</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc4</Category>
+		<FirstBuilding>B_Beautification_Misc4</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc5</Category>
+		<FirstBuilding>B_Beautification_Misc5</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc6</Category>
+		<FirstBuilding>B_Beautification_Misc6</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc7</Category>
+		<FirstBuilding>B_Beautification_Misc7</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Misc8</Category>
+		<FirstBuilding>B_Beautification_Misc8</FirstBuilding>
+	</BuildingUpgrade>
+
+	<BuildingUpgrade>
+		<Category>Beautification_Military1</Category>
+		<FirstBuilding>B_Beautification_Military1</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Military2</Category>
+		<FirstBuilding>B_Beautification_Military2</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Military3</Category>
+		<FirstBuilding>B_Beautification_Military3</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Military4</Category>
+		<FirstBuilding>B_Beautification_Military4</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Military5</Category>
+		<FirstBuilding>B_Beautification_Military5</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Military6</Category>
+		<FirstBuilding>B_Beautification_Military6</FirstBuilding>
+	</BuildingUpgrade>
+	<BuildingUpgrade>
+		<Category>Beautification_Military7</Category>
+		<FirstBuilding>B_Beautification_Military7</FirstBuilding>
+	</BuildingUpgrade>
 	
 	<BuildingUpgrade>
 		<Category>Beautification_U_KnightChivalry</Category>

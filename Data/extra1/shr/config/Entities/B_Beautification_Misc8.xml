@@ -2,7 +2,7 @@
 <root>
 	<Display classname="ED::CBuildingProps">
 		<Class>ED::CDisplayBuilding</Class>
-		<Model>Doodads\D_X_Barrels</Model>
+		<Model>D_SE_FishGallow02</Model>
 		<FireNodeCount>15</FireNodeCount>
 	</Display>
 
@@ -21,29 +21,29 @@
 		<AccessCategory>AccessCategoryBuilding</AccessCategory>
 		<ApproachPos>
 			<X>0</X>
-			<Y>-100</Y>
+			<Y>-75</Y>
 		</ApproachPos>
 		<BlockingAreas>
 			<BlockingArea>
 				<Blocked1>
-					<X>-75</X>
-					<Y>75</Y>
+					<X>-175</X>
+					<Y>50</Y>
 				</Blocked1>
 				<Blocked2>
-					<X>75</X>
-					<Y>-75</Y>
+					<X>175</X>
+					<Y>-50</Y>
 				</Blocked2>
 			</BlockingArea>
 		</BlockingAreas>
 		<BuildBlockingAreas>
 			<BuildBlockingArea>
 				<Blocked1>
-					<X>-100</X>
-					<Y>100</Y>
+					<X>-200</X>
+					<Y>75</Y>
 				</Blocked1>
 				<Blocked2>
-					<X>100</X>
-					<Y>-100</Y>
+					<X>200</X>
+					<Y>-75</Y>
 				</Blocked2>
 			</BuildBlockingArea>
 		</BuildBlockingAreas>

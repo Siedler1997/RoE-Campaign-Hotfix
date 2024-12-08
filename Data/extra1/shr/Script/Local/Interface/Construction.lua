@@ -45,6 +45,25 @@ GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Cart1] = {
     UpgradeCategories.Beautification_Cart5,
     UpgradeCategories.Beautification_Cart6
 }
+GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Misc1] = {
+    UpgradeCategories.Beautification_Misc1,
+    UpgradeCategories.Beautification_Misc2,
+    UpgradeCategories.Beautification_Misc3,
+    UpgradeCategories.Beautification_Misc4,
+    UpgradeCategories.Beautification_Misc5,
+    UpgradeCategories.Beautification_Misc6,
+    UpgradeCategories.Beautification_Misc7,
+    UpgradeCategories.Beautification_Misc8
+}
+GUI_Construction.BuildingsWithSkins[UpgradeCategories.Beautification_Military1] = {
+    UpgradeCategories.Beautification_Military1,
+    UpgradeCategories.Beautification_Military2,
+    UpgradeCategories.Beautification_Military3,
+    UpgradeCategories.Beautification_Military4,
+    UpgradeCategories.Beautification_Military5,
+    UpgradeCategories.Beautification_Military6,
+    UpgradeCategories.Beautification_Military7
+}
 
 --[[ Type_Road = 1,
 Type_Building = 2,

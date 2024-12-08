@@ -2,7 +2,7 @@
 <root>
 	<Display classname="ED::CBuildingProps">
 		<Class>ED::CDisplayBuilding</Class>
-		<Model>Doodads\D_X_Barrels</Model>
+		<Model>Doodads\D_X_TargetDummy</Model>
 		<FireNodeCount>15</FireNodeCount>
 	</Display>
 
@@ -21,34 +21,34 @@
 		<AccessCategory>AccessCategoryBuilding</AccessCategory>
 		<ApproachPos>
 			<X>0</X>
-			<Y>-100</Y>
+			<Y>-150</Y>
 		</ApproachPos>
 		<BlockingAreas>
 			<BlockingArea>
 				<Blocked1>
-					<X>-75</X>
-					<Y>75</Y>
+					<X>-125</X>
+					<Y>125</Y>
 				</Blocked1>
 				<Blocked2>
-					<X>75</X>
-					<Y>-75</Y>
+					<X>125</X>
+					<Y>-125</Y>
 				</Blocked2>
 			</BlockingArea>
 		</BlockingAreas>
 		<BuildBlockingAreas>
 			<BuildBlockingArea>
 				<Blocked1>
-					<X>-100</X>
-					<Y>100</Y>
+					<X>-125</X>
+					<Y>125</Y>
 				</Blocked1>
 				<Blocked2>
-					<X>100</X>
-					<Y>-100</Y>
+					<X>125</X>
+					<Y>-175</Y>
 				</Blocked2>
 			</BuildBlockingArea>
 		</BuildBlockingAreas>
 		<ConstructionInfo>
-			<Time>10</Time>
+			<Time>20</Time>
 			<TaskListConstruction>TL_CONSTRUCT_BUILDING</TaskListConstruction>
 			<ConstructionSite>B_BuildingPlot_2x2</ConstructionSite>
 		</ConstructionInfo>
